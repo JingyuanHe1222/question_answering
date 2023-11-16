@@ -1,15 +1,14 @@
 import os
 import numpy as np
 import pickle as pkl
+from tqdm import tqdm
+import copy
 
 import torch
-from tqdm import tqdm
-from torch.optim import AdamW
 from torch.utils.data import DataLoader, Dataset
-from sklearn.metrics import accuracy_score
-from transformers import AutoTokenizer
 
 from transformers import T5Config, T5ForConditionalGeneration, T5Tokenizer
+
 
 class CustomData(Dataset):
   '''
@@ -104,30 +103,43 @@ def prepare_features(data, cache_path, tokenizer, max_len_inp=100000,max_len_out
 
 
 class FeatureData(Dataset):
-  '''
+    '''
     Dataset for the preprocessed features
-  '''
-  def __init__(self, feat_path):
-    self.feat_path = feat_path
+    '''
+    def __init__(self, feat_path, split, split_point):
+        self.feat_path = feat_path
+        # load features
+        feats = pkl.load(open(self.feat_path, 'rb' )) # load the features and extract
+        if split == 'train':
+            self.inputs = feats['input'][:-split_point]
+            self.questions = feats['question'][:-split_point]
+        elif split == 'test':
+            self.inputs = feats['input'][-split_point:]
+            self.questions = feats['question'][-split_point:]
 
-    # load features
-    feats = pkl.load(open(self.feat_path, 'rb' )) # load the features and extract
-    self.inputs = feats['input']
-    self.questions = feats['question']
-    print("length of dataset: ", len(self.questions))
+        print(f"length of feature {split} set: ", len(self.questions))
 
     def __len__(self):
-      return len(self.questions)
+        return len(self.questions)
 
-    def __getitem__(self, idx):
-      # retrieve context here -> less mem storage overhead
-      return self.inputs[idx], self.questions[idx]
+    def __getitem__(self, index):
+        # retrieve context here -> less mem storage overhead
+        input_ids = self.inputs[index]['input_ids'].squeeze()
+        target_ids = self.questions[index]['input_ids'].squeeze()
+        input_mask = self.inputs[index]['attention_mask'].squeeze()
+        target_mask = self.questions[index]['attention_mask'].squeeze()
+        labels = copy.deepcopy(target_ids)
+        labels[labels == 0] = -100
+        return {'input_ids': input_ids, 'input_mask': input_mask, 
+                'target_ids': target_ids, 'target_mask': target_mask, 
+                'labels': labels}
 
 
-def get_dataloaders(feats, batch_size, split_point=425):
+
+def get_dataloaders(feats_train, feats_test, batch_size):
   # split here
-  dataloader_train = DataLoader(feats[:-split_point], batch_size=batch_size)
-  dataloader_test = DataLoader(feats[-split_point:], batch_size=batch_size)
+  dataloader_train = DataLoader(feats_train, batch_size=batch_size)
+  dataloader_test = DataLoader(feats_test, batch_size=batch_size)
   print(f"Loaded train feature data with {len(dataloader_train)} batches")
   print(f"Loaded test feature data with {len(dataloader_test)} batches")
   return dataloader_train, dataloader_test
@@ -147,35 +159,3 @@ def get_model(checkpoint: str, device: str, tokenizer: T5Tokenizer) -> T5ForCond
     model = model.to(device)
     return model
 
-# usage
-'''
-# specify device
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-# checkpoint -> pretrained model
-checkpoint = 't5-base'
-
-# load tokenizer and model
-processer = get_tokenizer(checkpoint)
-model = get_model(checkpoint, device, processer)
-
-"""### Data processing pipeline for fine-tuning
-1. check if feature file exists
-2. exists: load dataset from FeatureData
-3. doesn't exist: load raw dataset from CustomData, call prepare_features, then do 2.  
-"""
-
-# define data_path for raw input and feature_path for feature input
-data_path = '/content/drive/MyDrive/NLP/NLP Project Ideas/Question_Answer_Dataset_v1.2'
-feature_cache_path = '/content/drive/MyDrive/NLP/NLP Project Ideas/Question_Answer_Dataset_v1.2/features'
-
-raw_dataset = CustomData(data_path)
-
-"""#### Possible Improvement: divide context passage into sentences for sake of max_len of tokenizer?"""
-
-prepare_features(raw_dataset, feature_cache_path, processer, max_len_inp=100000,max_len_out=96)
-
-feature_dataset = FeatureData(feature_cache_path)
-
-# default split point: 425 -> samples after the split point will be in the test set
-dataloader_train, dataloader_test = get_dataloaders(feature_dataset, batch_size=128)
-'''
