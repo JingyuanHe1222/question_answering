@@ -1,0 +1,4 @@
+__MACOSX/
+.ipynb_checkpoints/
+Question_Answer_Dataset_v1.2/
+__pycache__/
