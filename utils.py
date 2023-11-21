@@ -34,7 +34,8 @@ class CustomData(Dataset):
       device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
       self.model = model.to(device)
       self.tok = tokenzier
-
+      model.eval()
+        
       # get question answer pairs
       for div in ['S08', 'S09', 'S10']:
         skip = True
