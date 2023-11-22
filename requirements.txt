@@ -1,3 +1,5 @@
 datasets
 transformers
 sentencepiece
+sentence_transformers
+nltk

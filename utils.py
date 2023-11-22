@@ -232,7 +232,7 @@ def load_json_data(json_file):
 
 
 # tokenize the text features
-def prepare_features_q(data, cache_path, tokenizer, max_len_inp=512,max_len_out=96):
+def prepare_features_q(data, cache_path, tokenizer, max_len_inp=512,max_len_out=512):
   '''
     tokenize the text features and embed them by the inputed tokenizer
     the features are dump to the cache_path via pickle to avoid re-computation next imte
@@ -260,12 +260,12 @@ def prepare_features_q(data, cache_path, tokenizer, max_len_inp=512,max_len_out=
 
   all_features = {}
   all_features['input'] = inputs
-  all_features['question'] = targets
+  all_features['target'] = targets
   pkl.dump(all_features, open(cache_path, 'wb')) # dump the features somewhere
     
     
 # tokenize the text features
-def prepare_features_a(data, cache_path, tokenizer, max_len_inp=512,max_len_out=96):
+def prepare_features_a(data, cache_path, tokenizer, max_len_inp=512,max_len_out=512):
 
   inputs = []
   targets = []
@@ -291,7 +291,7 @@ def prepare_features_a(data, cache_path, tokenizer, max_len_inp=512,max_len_out=
 
   all_features = {}
   all_features['input'] = inputs
-  all_features['question'] = targets
+  all_features['target'] = targets
   pkl.dump(all_features, open(cache_path, 'wb')) # dump the features somewhere
 
 
@@ -305,10 +305,10 @@ class FeatureData(Dataset):
         feats = pkl.load(open(self.feat_path, 'rb' )) # load the features and extract
         if split == 'train':
             self.inputs = feats['input'][:-split_point]
-            self.questions = feats['question'][:-split_point]
+            self.questions = feats['target'][:-split_point]
         elif split == 'test':
             self.inputs = feats['input'][-split_point:]
-            self.questions = feats['question'][-split_point:]
+            self.questions = feats['target'][-split_point:]
 
         print(f"length of feature {split} set: ", len(self.questions))
 
