@@ -2,7 +2,7 @@
 Question Generation and Answering System for 11-611 CMU 
 
 ## install dependencies
-- In EC2 with Pytorch eep Learning AMI (Otherwise create your python or conda environment): 
+- in EC2 with Pytorch eep Learning AMI (Otherwise create your python or conda environment): 
 
 		source activate pytorch
   
@@ -10,6 +10,16 @@ Question Generation and Answering System for 11-611 CMU
   
 		pip install -r requirements.txt
   		unzip Question_Answer_Dataset_v1.2.zip
+        
+## usage
+- fine-tune answer generation model
+    - put the hyperparameters in a config file and run the training process
+    
+			python answer_generation.py path_to_your_config/config.yaml  
+            
+    - model and log status will be saved automatically
+    - the lat checkpoint model will be reloaded to resume training upon interruption
+    
   
 
 ## file structure
