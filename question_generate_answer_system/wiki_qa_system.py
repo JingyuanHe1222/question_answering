@@ -103,9 +103,9 @@ class WikiQASystem:
                 question=question, tokenizer=self.tokenizer, model=self.model
             )
 
-        def get_answer(model, tokenizer, question, article):
+        def get_answer(model, tokenizer, question):
             return self._answer_from_article(
-                question=question, tokenizer=self.tokenizer, model=self.model
+                question=question, tokenizer=tokenizer, model=model
             )
 
         # primary: BERT
@@ -117,14 +117,12 @@ class WikiQASystem:
                 self.model,
                 self.tokenizer,
                 question,
-                self.article,
             )
             future_backup = executor.submit(
                 get_answer,
                 self.backup_model,
                 self.backup_tokenizer,
                 question,
-                self.article,
             )
 
             primary_answer = future_primary.result()
