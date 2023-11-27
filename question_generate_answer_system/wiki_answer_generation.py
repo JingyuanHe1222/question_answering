@@ -4,11 +4,12 @@ import concurrent.futures
 from pathlib import Path
 from transformers import BertTokenizer, BertForQuestionAnswering
 from transformers import AutoModelForQuestionAnswering, AutoTokenizer
+import re
 
 import wikipediaapi
 
 
-class WikiQASystem:
+class WikiAnswerGeneration:
     def __init__(
         self,
         article_filename,
@@ -124,7 +125,6 @@ class WikiQASystem:
                 self.backup_tokenizer,
                 question,
             )
-
             primary_answer = future_primary.result()
             if primary_answer == "[CLS]":
                 print(
@@ -164,4 +164,9 @@ class WikiQASystem:
         return best_answer
 
     def _preprocess_question(self, question):
-        return question.strip()
+        question = question.strip()
+        # Remove leading and trailing characters that are not letters
+        question = re.sub(r"^[^a-zA-Z]*|[^a-zA-Z]*$", "", question)
+        # Append a question mark
+        question += "?"
+        return question

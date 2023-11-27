@@ -5,3 +5,4 @@ __pycache__/
 *.zip
 roberta*
 t5*
+/.DS_Store
