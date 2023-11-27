@@ -3,3 +3,5 @@ __MACOSX/
 Question_Answer_Dataset_v1.2/
 __pycache__/
 *.zip
+roberta*
+t5*

@@ -1,16 +1,16 @@
 
 # models 
-base_model: 't5-base'
+base_model: 'potsawee/t5-large-generation-squad-QuestionAnswer'
 encoder: 'sentence-transformers/sentence-t5-base'
 optim: 'Adam'
-scheduler: 'linear'
+scheduler: 'cosine'
 log_file: 'train.log'
 
 # dataset split
 test_points: 425 
 
 # hyperparameters
-n_epochs: 10
-lr: 0.00001
-eps: 0.00005
-batch_size: 2
+n_epochs: 18
+lr: 0.000005
+eps: 0.000005
+batch_size: 1

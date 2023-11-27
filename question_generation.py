@@ -2,15 +2,13 @@ import os
 import numpy as np
 import pickle as pkl
 from tqdm import tqdm
-import argparse
-import yaml
 
 # pytorch
 import torch
 from torch.utils.data import DataLoader, Dataset
 
 # model config
-from transformers import AutoModelForQuestionAnswering, AutoTokenizer, pipeline, RobertaModel, T5Config, T5ForConditionalGeneration, T5Tokenizer, T5Model, AutoModelWithLMHead, pipeline
+from transformers import AutoModelForQuestionAnswering, AutoTokenizer, pipeline, RobertaModel, T5Config, T5ForConditionalGeneration, T5Tokenizer, T5Model
 from sentence_transformers import SentenceTransformer
 
 # model optim
@@ -111,14 +109,12 @@ def train(model, dataloader_train, n_epochs, model_dir, log_file):
             outputs = model(
                 input_ids=batch['input_ids'].to(device),
                 attention_mask=batch['input_mask'].to(device),
-#                 decoder_input_ids=batch['target_ids'].to(device),
-#                 decoder_attention_mask=batch['target_mask'].to(device), 
-                start_positions = batch['start'].to(device), 
-                end_positions = batch['end'].to(device)
+                decoder_input_ids=batch['target_ids'].to(device),
+                decoder_attention_mask=batch['target_mask'].to(device), 
+                labels = batch['labels'].to(device)
             )
 
             loss = outputs[0]
-#             print(loss)
 
             model.optimizer.zero_grad() # clear loss
             loss.backward()
@@ -128,7 +124,7 @@ def train(model, dataloader_train, n_epochs, model_dir, log_file):
                 model.scheduler.step()  # update learning rate schedule 
 
             # log losses
-            loss /= len(dataloader_train)
+            loss /= len(dataloader_train) # already average across batch in nn.CrossEntropy
             losses += loss.item()
             
         # output stats
@@ -141,7 +137,7 @@ def train(model, dataloader_train, n_epochs, model_dir, log_file):
             __save_model(model_dir, model, model_type='best') # save best model        
         
         
-
+        
 def test(model, dataloader_test, model_dir, log_file):
     
     model, e = __load_experiment(model_dir, model, model_type='latest')
@@ -154,10 +150,9 @@ def test(model, dataloader_test, model_dir, log_file):
         outputs = model(
             input_ids=batch['input_ids'].to(device),
             attention_mask=batch['input_mask'].to(device),
-#             decoder_input_ids=batch['target_ids'].to(device),
-#             decoder_attention_mask=batch['target_mask'].to(device),
-            start_positions = batch['start'].to(device), 
-            end_positions = batch['end'].to(device)
+            decoder_input_ids=batch['target_ids'].to(device),
+            decoder_attention_mask=batch['target_mask'].to(device),
+            labels = batch['labels'].to(device)
         )
 
         loss = outputs[0]
@@ -183,7 +178,6 @@ if __name__ == "__main__":
         config = yaml.safe_load(cf_file.read())
         
     # ---------------- Hyper-Parameters --------------------
-    print("---------------- Hyper-Parameters --------------------")
     # models 
     base_model = config['base_model']
     encoder = config['encoder'] 
@@ -199,7 +193,7 @@ if __name__ == "__main__":
     log_file = config['log_file'] # log_file
     
     # -------------------- Model -----------------------
-    print("---------------- Model --------------------")
+    
     # load tokenizer and model
     processer = get_tokenizer(base_model)
     model = get_model(base_model, device, processer)
@@ -208,7 +202,7 @@ if __name__ == "__main__":
     encoder_model = SentenceTransformer(encoder)
 
     # -------------------- Dataset -----------------------
-    print("---------------- Dataset --------------------")
+    
     # define data_path for raw input and feature_path for feature input
     data_path = 'Question_Answer_Dataset_v1.2'
     feature_cache_path = 'Question_Answer_Dataset_v1.2/features_answers'
@@ -220,16 +214,16 @@ if __name__ == "__main__":
         raw_dataset = CustomData(data_path, encoder_model, k=1)
         print("computing features...")
         # tokenize
-        prepare_features_a(raw_dataset, feature_cache_path, processer, max_len_inp=512,max_len_out=512)
+        prepare_features_q(raw_dataset, feature_cache_path, processer, max_len_inp=512,max_len_out=512)
     else:
         print("features exists")
         
     # feature dataset
-    train_dataset = FeatureData_A(feature_cache_path, 'train', test_points)
-    test_dataset = FeatureData_A(feature_cache_path, 'test', test_points) 
+    train_dataset = FeatureData(feature_cache_path, 'train', test_points)
+    test_dataset = FeatureData(feature_cache_path, 'test', test_points) 
     
     # ---------------- Setup --------------------
-    print("---------------- Setup --------------------")
+
     # dataloaders
     dataloader_train, dataloader_test = get_dataloaders(train_dataset, test_dataset, batch_size=batch_size)
 
@@ -238,16 +232,13 @@ if __name__ == "__main__":
 
     # learning rate scheduler
     model.scheduler = get_scheduler(model, scheduler, len(dataloader_train), n_epochs)
-    
-    name = base_model.split('/')[-1] # only the last name
 
     # model state_dict
-    model_dir = f"{name}_e{n_epochs}_lr{lr}_eps{weight_decay}_{optim}_{scheduler}_batch{batch_size}"
+    model_dir = f"{checkpoint}_e{n_epochs}_lr{lr}_eps{weight_decay}_{optim}_{scheduler}_batch{batch_size}"
     if not os.path.isdir(model_dir):
         os.mkdir(model_dir)
         
     # -----------------Train and Test-----------------
-    print("---------------- Train and Test --------------------")
     train(model, dataloader_train, n_epochs, model_dir, log_file)
     
     test(model, dataloader_test, model_dir, log_file)
