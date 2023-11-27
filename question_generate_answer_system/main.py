@@ -1,5 +1,5 @@
 import sys
-from wiki_answer_generation import WikiAnswerGeneration
+from wiki_answer_generator import WikiAnswerGenerator
 
 
 def main():
@@ -18,10 +18,9 @@ def main():
     with open(questions_filename, "r") as file:
         questions = file.readlines()
 
-    wiki_qa_system = WikiAnswerGeneration(article_filename, use_backup_model=True)
-
+    answer_generator = WikiAnswerGenerator(article_filename, use_backup_model=True)
     for question in questions:
-        answer = wiki_qa_system.generate_answer(question)
+        answer = answer_generator.generate_answer(question)
         print(f"Q: {question}")
         print(f"A: {answer}\n\n")
 

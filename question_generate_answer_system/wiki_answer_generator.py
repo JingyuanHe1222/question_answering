@@ -1,7 +1,6 @@
 import torch
-import os
 import concurrent.futures
-from pathlib import Path
+from qa_generator import QAGeneratorWithCache
 from transformers import BertTokenizer, BertForQuestionAnswering
 from transformers import AutoModelForQuestionAnswering, AutoTokenizer
 import re
@@ -9,27 +8,22 @@ import re
 import wikipediaapi
 
 
-class WikiAnswerGeneration:
+class WikiAnswerGenerator(QAGeneratorWithCache):
     def __init__(
         self,
         article_filename,
         model_name="deepset/bert-base-cased-squad2",
-        model_cache_dir="model_cache",
         use_backup_model=False,
     ):
+        super().__init__(model_name)
         self.wiki_wiki = wikipediaapi.Wikipedia(
             language="en",
             extract_format=wikipediaapi.ExtractFormat.WIKI,
             user_agent="11411_nlp_team",
         )
-        self.model_cache_dir = model_cache_dir
-        Path(self.model_cache_dir).mkdir(parents=True, exist_ok=True)
 
-        self.article = self._download_article_from_wikipedia(article_filename)
-        # print(self.article)
-        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-        print("Device: ", self.device)
-        self.tokenizer, self.model = self._build_tokenizer_and_model(
+        self.article = self._load_article(article_filename)
+        self.tokenizer, self.model = self._load_tokenizer_and_model(
             model_name=model_name,
             tokenizer_source=BertTokenizer,
             model_source=BertForQuestionAnswering,
@@ -38,18 +32,8 @@ class WikiAnswerGeneration:
         if use_backup_model:
             self._init_backup()
 
-    def _build_tokenizer_and_model(self, model_name, tokenizer_source, model_source):
-        tokenizer_path = os.path.join(self.model_cache_dir, model_name)
-        model_path = os.path.join(self.model_cache_dir, model_name)
-        tokenizer = tokenizer_source.from_pretrained(
-            tokenizer_path if os.path.exists(tokenizer_path) else model_name,
-            cache_dir=self.model_cache_dir,
-        )
-        model = model_source.from_pretrained(
-            model_path if os.path.exists(model_path) else model_name,
-            cache_dir=self.model_cache_dir,
-        ).to(self.device)
-        return tokenizer, model
+    def _load_article(self, article_filename):
+        return self._download_article_from_wikipedia(article_filename)
 
     def _init_backup(
         self,
@@ -61,7 +45,7 @@ class WikiAnswerGeneration:
             self.backup_tokenizer = None
             self.backup_model = None
             return
-        self.backup_tokenizer, self.backup_model = self._build_tokenizer_and_model(
+        self.backup_tokenizer, self.backup_model = self._load_tokenizer_and_model(
             model_name=backup_model_name,
             tokenizer_source=backup_tokenizer_source,
             model_source=backup_model_source,
