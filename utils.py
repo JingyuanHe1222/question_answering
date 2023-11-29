@@ -78,7 +78,7 @@ class CustomData(Dataset):
                         for context in self.context[row[0]]:
                             output = self.model.encode(context)
                             c_embed.append(output)
-                            self.context_embed[row[0]] = np.vstack(c_embed)
+                        self.context_embed[row[0]] = np.vstack(c_embed)
 
                     # get top-1 similar context
                     qa_input = row[0] + " " + row[1]
@@ -91,7 +91,7 @@ class CustomData(Dataset):
 #                     print("qa_embed size: ", encoded_qa.shape)
                     
                     scores = c_embed.dot(encoded_qa)
-                    k_nn = scores.argsort()[-k:]
+                    k_nn = scores.argsort()[-k:][::-1]
                     k_nn = list(k_nn)
                     # the text of the closest neighbor
                     nn_context = " ".join([top_context for top_context in np.array(self.context[row[0]])[k_nn]])
