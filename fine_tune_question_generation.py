@@ -232,7 +232,11 @@ if __name__ == "__main__":
 
     # learning rate scheduler
     model.scheduler = get_scheduler(model, scheduler, len(dataloader_train), n_epochs)
-
+    
+    # checkpoint -> pretrained model (using T5-base in this case)
+    checkpoint = 't5-base'
+    name = checkpoint.split('/')[-1]
+    
     # model state_dict
     model_dir = f"{checkpoint}_e{n_epochs}_lr{lr}_eps{weight_decay}_{optim}_{scheduler}_batch{batch_size}"
     if not os.path.isdir(model_dir):
@@ -244,5 +248,26 @@ if __name__ == "__main__":
     test(model, dataloader_test, model_dir, log_file)
     
     
+    # -----------load trained model -----------------
     
+    # load latest model with weights computed during training
+    model, current_epoch = __load_experiment(model_dir, model, model_type='latest')
     
+    # evaluate the model
+    model.eval()
+    
+    # context to feed into model
+    context = r"""Giraffes can inhabit savannas, grasslands, or open woodlands. They prefer areas enriched with acacia growth. They drink large quantities of water and, as a result, they can spend long periods of time in dry, arid areas. When searching for more food they will venture into areas with denser foliage.""".replace('\n', ' ')
+    
+    inputs = processer(context, return_tensors='pt')
+    input_ids = inputs['input_ids'].to(device)
+    
+    # generate questions with context 
+    outputs = model.generate(input_ids, max_new_tokens=512)
+    
+    # decode output (note that question and answer to that question is generated)
+    question_answer = processer.decode(outputs[0], skip_special_tokens=False)
+    print(question_answer)
+    question_answer = question_answer.replace(processer.pad_token, "").replace(processer.eos_token, "")
+    print(question_answer)
+    print(question_answer.split(processer.sep_token))
