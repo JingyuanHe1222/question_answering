@@ -11,14 +11,14 @@ class WikiAnswerGenerator(QAGeneratorWithCache):
     def __init__(
         self,
         article_filename,
-        model_name="deepset/bert-base-cased-squad2",
-        use_backup_model=False,
+        model_name="deepset/roberta-base-squad2",
+        use_backup_model=True,
     ):
         super().__init__(article_filename, model_name)
         self.tokenizer, self.model = self._load_tokenizer_and_model(
             model_name=model_name,
-            tokenizer_source=BertTokenizer,
-            model_source=BertForQuestionAnswering,
+            tokenizer_source=AutoTokenizer,
+            model_source=AutoModelForQuestionAnswering,
         )
         self.yes_no_pattern = re.compile(
             r"^(is|are|can|do|does|did|will|would|should|has|have|had|am|were|was)\b"
@@ -29,9 +29,9 @@ class WikiAnswerGenerator(QAGeneratorWithCache):
 
     def _init_backup(
         self,
-        backup_model_name="deepset/roberta-base-squad2",
-        backup_tokenizer_source=AutoTokenizer,
-        backup_model_source=AutoModelForQuestionAnswering,
+        backup_model_name="deepset/bert-base-cased-squad2",
+        backup_tokenizer_source=BertTokenizer,
+        backup_model_source=BertForQuestionAnswering,
     ):
         if not self.use_backup_model:
             self.backup_tokenizer = None

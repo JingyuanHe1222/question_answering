@@ -1,7 +1,8 @@
 import sys
-from answer_generator import WikiAnswerGenerator
-from question_generator import SimpleYesQuestionGenerator
+from wiki_answer_generator import WikiAnswerGenerator
+from simple_yes_question_generator import SimpleYesQuestionGenerator
 from qa_utils import QuestionAnswerWriter
+from t5_question_generator import T5QuestionGenerator
 
 
 def main():
@@ -15,23 +16,23 @@ def main():
 
     article_filename = sys.argv[1]
     questions_filename = sys.argv[2]
-
     qa_writer = QuestionAnswerWriter(question_filename=questions_filename)
 
-    question_generator = SimpleYesQuestionGenerator(
-        article_filename, questions_to_generate=20
-    )
-    questions = question_generator.generate_questions()
-    for question in questions:
-        print(question)
+    question_generator = T5QuestionGenerator(article_filename)
 
-    with open(questions_filename, "r") as file:
-        questions = file.readlines()
+    # question_generator = SimpleYesQuestionGenerator(
+    #     article_filename, questions_to_generate=20
+    # )
 
-    answer_generator = WikiAnswerGenerator(article_filename, use_backup_model=True)
+    generated_questions = question_generator.generate_questions()
+
+    qa_writer.start_new_session(mode=QuestionAnswerWriter.QUESTION)
+    qa_writer.write_questions_to_file(generated_questions)
+
+    answer_generator = WikiAnswerGenerator(article_filename)
 
     qa_writer.start_new_session(mode=QuestionAnswerWriter.QUESTION_AND_ANSWER)
-    for question in questions:
+    for question in generated_questions:
         answer = answer_generator.generate_answer(question)
         qa_writer.write_question_answer_pair_to_file(question, answer)
 

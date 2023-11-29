@@ -67,6 +67,12 @@ class QuestionAnswerWriter:
         if os.path.exists(file_to_remove):
             os.remove(file_to_remove)
 
+    def write_questions_to_file(self, questions):
+        for question in questions:
+            question = question.strip()
+            with open(self.question_filename, "a") as file:
+                file.write(f"Q: {question}\n")
+
     def write_question_answer_pair_to_file(self, question, answer):
         question = question.strip()
         answer = answer.strip()
