@@ -1,5 +1,7 @@
 import sys
-from wiki_answer_generator import WikiAnswerGenerator
+from answer_generator import WikiAnswerGenerator
+from question_generator import SimpleYesQuestionGenerator
+from qa_utils import QuestionAnswerWriter
 
 
 def main():
@@ -13,16 +15,25 @@ def main():
 
     article_filename = sys.argv[1]
     questions_filename = sys.argv[2]
-    # with open(article_filename, 'r') as file:
-    #     article_content = file.read()
+
+    qa_writer = QuestionAnswerWriter(question_filename=questions_filename)
+
+    question_generator = SimpleYesQuestionGenerator(
+        article_filename, questions_to_generate=20
+    )
+    questions = question_generator.generate_questions()
+    for question in questions:
+        print(question)
+
     with open(questions_filename, "r") as file:
         questions = file.readlines()
 
     answer_generator = WikiAnswerGenerator(article_filename, use_backup_model=True)
+
+    qa_writer.start_new_session(mode=QuestionAnswerWriter.QUESTION_AND_ANSWER)
     for question in questions:
         answer = answer_generator.generate_answer(question)
-        print(f"Q: {question}")
-        print(f"A: {answer}\n\n")
+        qa_writer.write_question_answer_pair_to_file(question, answer)
 
 
 if __name__ == "__main__":

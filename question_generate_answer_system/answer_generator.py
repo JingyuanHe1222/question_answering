@@ -4,8 +4,7 @@ from qa_generator import QAGeneratorWithCache
 from transformers import BertTokenizer, BertForQuestionAnswering
 from transformers import AutoModelForQuestionAnswering, AutoTokenizer
 import re
-
-import wikipediaapi
+import qa_utils
 
 
 class WikiAnswerGenerator(QAGeneratorWithCache):
@@ -15,25 +14,18 @@ class WikiAnswerGenerator(QAGeneratorWithCache):
         model_name="deepset/bert-base-cased-squad2",
         use_backup_model=False,
     ):
-        super().__init__(model_name)
-        self.wiki_wiki = wikipediaapi.Wikipedia(
-            language="en",
-            extract_format=wikipediaapi.ExtractFormat.WIKI,
-            user_agent="11411_nlp_team",
-        )
-
-        self.article = self._load_article(article_filename)
+        super().__init__(article_filename, model_name)
         self.tokenizer, self.model = self._load_tokenizer_and_model(
             model_name=model_name,
             tokenizer_source=BertTokenizer,
             model_source=BertForQuestionAnswering,
         )
+        self.yes_no_pattern = re.compile(
+            r"^(is|are|can|do|does|did|will|would|should|has|have|had|am|were|was)\b"
+        )
         self.use_backup_model = use_backup_model
         if use_backup_model:
             self._init_backup()
-
-    def _load_article(self, article_filename):
-        return self._download_article_from_wikipedia(article_filename)
 
     def _init_backup(
         self,
@@ -51,30 +43,11 @@ class WikiAnswerGenerator(QAGeneratorWithCache):
             model_source=backup_model_source,
         )
 
-    def _download_article_from_wikipedia(self, article_name):
-        return self.wiki_wiki.page(article_name).text
-
-    def _split_into_paragraphs(self, text, max_length=400):
-        """
-        Splits the text into paragraphs and returns a list of paragraphs.
-        Each paragraph's token length is limited to max_length.
-        """
-        paragraphs = [p for p in text.split("\n") if p]
-        short_paragraphs = []
-        for paragraph in paragraphs:
-            tokens = self.tokenizer.tokenize(paragraph)
-            start_token = 0
-            while start_token < len(tokens):
-                end_token = min(start_token + max_length, len(tokens))
-                short_paragraph = tokens[start_token:end_token]
-                short_paragraphs.append(
-                    self.tokenizer.convert_tokens_to_string(short_paragraph)
-                )
-                start_token = end_token
-        return short_paragraphs
-
     def generate_answer(self, question):
         question = self._preprocess_question(question)
+        if self._is_boolean_question(question):
+            print("encountered yes/no question")
+            # return "Yes"
         if self.use_backup_model:
             return self._answer_from_article_parallel(question)
         else:
@@ -119,7 +92,7 @@ class WikiAnswerGenerator(QAGeneratorWithCache):
                 return primary_answer
 
     def _answer_from_article(self, question, tokenizer, model):
-        paragraphs = self._split_into_paragraphs(self.article)
+        paragraphs = qa_utils.split_into_paragraphs(self._load_article(), tokenizer)
         # Iterate through each paragraph to find the best answer
         max_score = -float("inf")
         best_answer = ""
@@ -154,3 +127,6 @@ class WikiAnswerGenerator(QAGeneratorWithCache):
         # Append a question mark
         question += "?"
         return question
+
+    def _is_boolean_question(self, question):
+        return bool(self.yes_no_pattern.match(question.strip().lower()))

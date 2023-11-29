@@ -1,0 +1,14 @@
+Q: Did vibraphones exist in 1930?
+A: [CLS]
+Q: Are xylophone bars made of rosewood?
+A: [CLS]
+Q: Is the xylophone a precursor to the vibraphone?
+A: [CLS]
+Q: Were ancient mallets made of copper?
+A: [CLS]
+Q: Where did the xylophone originate?
+A: [CLS]
+Q: Can a xylophone be 3 octaves?
+A: [CLS]
+Q: Can a short bar follow a long bar?
+A: [CLS]
