@@ -2,7 +2,7 @@
 Question Generation and Answering System for 11-611 CMU 
 
 ## install dependencies
-- in EC2 with Pytorch eep Learning AMI (Otherwise create your python or conda environment): 
+- in EC2 with Pytorch deep Learning AMI (Otherwise create your python or conda environment): 
 
 		source activate pytorch
   
@@ -12,15 +12,14 @@ Question Generation and Answering System for 11-611 CMU
   		unzip Question_Answer_Dataset_v1.2.zip
         
 ## usage
-- fine-tune answer generation model
-    - put the hyperparameters in a config file and run the training process
+- fine-tune generation model
+    - put the hyperparameters in a config file and run the training process for type "question" or type "answer"
     
-			python answer_generation.py path_to_your_config/config.yaml  
+			python fine_tune_{type}_generation.py path_to_your_config/config.yaml  
             
     - model and log status will be saved automatically
-    - the lat checkpoint model will be reloaded to resume training upon interruption
+    - the last checkpoint model will be reloaded to resume training upon interruption
     
-  
 
 ## file structure
 - utils.py
@@ -32,10 +31,14 @@ Question Generation and Answering System for 11-611 CMU
   - dataloaders
     - load the tokenized inputs 
   - get T5 family models and tokenizer
-  - get T5 family models and tokenizer
+ 
+- fine_tune_question_generation.py, fine_tune_answer_generation.py
+  - pipeline for fine-tuning model in command line or shell script 
+    
 - Question_Generation_Playground.ipynb 
   - compute the raw data and its question generation feature if it doesn't exist yet and save the features 
-  - full training pipeline for question generation
-- Answer_Q_Playground.ipynb
+  - training pipeline stage for question generation
+    
+- Answer_G_Playground.ipynb
   - compute the raw data and its answer generation feature if it doesn't exist yet and save the features 
-  - training pipeline for answer generation
+  - training pipeline stage for answer generation
