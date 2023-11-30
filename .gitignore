@@ -5,4 +5,5 @@ __pycache__/
 *.zip
 roberta*
 t5*
+!question_generate_answer_system/question_generators/t5_question_generator.py
 /.DS_Store
