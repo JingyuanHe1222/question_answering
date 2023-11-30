@@ -1,8 +1,8 @@
 import sys
-from wiki_answer_generator import WikiAnswerGenerator
-from simple_yes_question_generator import SimpleYesQuestionGenerator
+from answer_generators.wiki_answer_generator import WikiAnswerGenerator
+from question_generators.simple_yes_question_generator import SimpleYesQuestionGenerator
 from qa_utils import QuestionAnswerWriter
-from t5_question_generator import T5QuestionGenerator
+from question_generators.t5_question_generator import T5QuestionGenerator
 
 
 def main():

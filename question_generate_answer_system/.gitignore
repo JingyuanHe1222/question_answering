@@ -1,3 +1,9 @@
 .model-cache/
 __pycache__/
 .venv/
+answer_generators/__pycache__
+question_generators/__pycache__
+todos
+.DS_Store
+*.txt
+!requirements.txt

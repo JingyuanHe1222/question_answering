@@ -3,6 +3,7 @@ import wikipediaapi
 from functools import lru_cache
 import nltk
 from nltk.tokenize import sent_tokenize
+import re
 
 nltk.download("punkt")
 
@@ -46,6 +47,28 @@ def download_article_from_wikipedia(article_name):
         user_agent="11411_nlp_team",
     )
     return wiki_wiki.page(article_name).text
+
+
+def split_article_to_sentences_nltk(article):
+    """
+    Split the article into sentences
+    """
+    # split the context into sentences
+    curr_context = article.split("Related Wikipedia Articles")[0]
+    curr_context = curr_context.replace("\n", " ")
+    list_context = nltk.tokenize.sent_tokenize(curr_context)
+    print("context is: ")
+    print(list_context)
+    return list_context
+
+
+YES_NO_PATTERN = re.compile(
+    r"^(is|are|can|do|does|did|will|would|should|has|have|had|am|were|was)\b"
+)
+
+
+def is_boolean_question(question):
+    return bool(YES_NO_PATTERN.match(question.strip().lower()))
 
 
 class QuestionAnswerWriter:
