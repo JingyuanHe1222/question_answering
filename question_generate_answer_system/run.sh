@@ -21,7 +21,7 @@ fi
 source $VENV_NAME/bin/activate
 
 echo "Installing required Python packages..."
-pip3 install -r requirements.txt
+pip3 install -q -r requirements.txt
 
 echo "Running main.py..."
 python3 main.py "$ARTICLE_FILENAME" "$QUESTIONS_FILENAME"

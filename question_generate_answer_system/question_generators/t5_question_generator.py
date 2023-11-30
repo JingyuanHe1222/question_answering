@@ -9,7 +9,7 @@ class T5QuestionGenerator(QAGeneratorWithCache):
         self,
         article_filename,
         model_name="potsawee/t5-large-generation-squad-QuestionAnswer",
-        local_model_path="/Users/vincentyuan/Desktop/NLPNotes/question_answering/question_generate_answer_system/.model-cache/latest_model.pt",
+        local_model_path="./.model-cache/latest_model.pt",
         questions_to_generate=10,
     ):
         super().__init__(article_filename, model_name)
