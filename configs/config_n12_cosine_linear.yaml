@@ -3,14 +3,14 @@
 base_model: 't5-base'
 encoder: 'sentence-transformers/sentence-t5-base'
 optim: 'Adam'
-scheduler: 'linear'
+scheduler: 'cosine'
 log_file: 'train.log'
 
 # dataset split
 test_points: 425 
 
 # hyperparameters
-n_epochs: 10
+n_epochs: 12
 lr: 0.00001
 eps: 0.00005
 batch_size: 2

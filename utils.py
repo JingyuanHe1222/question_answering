@@ -12,7 +12,7 @@ import torch
 from torch.utils.data import DataLoader, Dataset
 from datasets import load_dataset
 
-from transformers import T5Config, T5ForConditionalGeneration, T5Tokenizer, T5Model, AutoModelForQuestionAnswering, AutoTokenizer, pipeline, RobertaModel
+from transformers import T5Config, T5ForConditionalGeneration, T5Tokenizer, T5Model, AutoModelForQuestionAnswering, AutoTokenizer, pipeline, RobertaModel, AutoModelForSeq2SeqLM
 
 
 # prepare data -> retrieve the top k context sentences (join with space)
@@ -280,8 +280,11 @@ def get_dataloaders(feats_train, feats_test, batch_size):
 
 
 
-def get_model(checkpoint: str, device: str, tokenizer):
-    model = AutoModelForQuestionAnswering.from_pretrained(checkpoint)
+def get_model(checkpoint: str, device: str, task):
+    if task == "answer":
+        model = AutoModelForQuestionAnswering.from_pretrained(checkpoint)
+    else:
+        model = AutoModelForSeq2SeqLM.from_pretrained(checkpoint)
     return model.to(device)
 
 def get_tokenizer(checkpoint: str):

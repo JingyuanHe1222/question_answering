@@ -202,7 +202,7 @@ if __name__ == "__main__":
     print("---------------- Model --------------------")
     # load tokenizer and model
     processer = get_tokenizer(base_model)
-    model = get_model(base_model, device, processer)
+    model = get_model(base_model, device, "answer")
     
     # IR encoder -> T-5 sentence dense embeddings
     encoder_model = SentenceTransformer(encoder)

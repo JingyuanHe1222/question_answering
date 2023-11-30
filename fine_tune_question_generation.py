@@ -2,6 +2,8 @@ import os
 import numpy as np
 import pickle as pkl
 from tqdm import tqdm
+import argparse
+import yaml
 
 # pytorch
 import torch
@@ -196,7 +198,7 @@ if __name__ == "__main__":
     
     # load tokenizer and model
     processer = get_tokenizer(base_model)
-    model = get_model(base_model, device, processer)
+    model = get_model(base_model, device, "question")
     
     # IR encoder -> T-5 sentence dense embeddings
     encoder_model = SentenceTransformer(encoder)
