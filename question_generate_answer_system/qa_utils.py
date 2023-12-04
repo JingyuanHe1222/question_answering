@@ -40,13 +40,34 @@ def split_into_paragraphs(text, tokenizer, max_length=400):
 
 
 @lru_cache(maxsize=None)
-def download_article_from_wikipedia(article_name):
+def download_article_from_wikipedia(article_name, save_locally=True):
     wiki_wiki = wikipediaapi.Wikipedia(
         language="en",
         extract_format=wikipediaapi.ExtractFormat.WIKI,
         user_agent="11411_nlp_team",
     )
-    return wiki_wiki.page(article_name).text
+    article_content = wiki_wiki.page(article_name).text
+    if save_locally:
+        if not article_content:
+            raise RuntimeError("Article not found or empty.")
+        # Save the text to a file
+        file_name = f"{article_name.replace(' ', '_')}.txt"
+        with open(file_name, "w", encoding="utf-8") as file:
+            file.write(article_content)
+    return article_content
+
+
+def read_article_file(article_filename):
+    """
+    I choose to not implement any exception handling here. Failure to read the
+    input article should stop the execution of the program.
+    """
+    # Check if the file name contains a path
+    if not os.path.isabs(article_filename):
+        # If not, assume the file is in the current directory
+        article_filename = os.path.join(os.getcwd(), article_filename)
+    with open(article_filename, "r") as file:
+        return file.read()
 
 
 def split_article_to_sentences_nltk(article):
@@ -57,8 +78,6 @@ def split_article_to_sentences_nltk(article):
     curr_context = article.split("Related Wikipedia Articles")[0]
     curr_context = curr_context.replace("\n", " ")
     list_context = nltk.tokenize.sent_tokenize(curr_context)
-    print("context is: ")
-    print(list_context)
     return list_context
 
 
