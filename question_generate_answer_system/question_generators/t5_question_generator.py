@@ -20,7 +20,7 @@ class T5QuestionGenerator(QAGeneratorWithCache):
         )
         if local_model_path:
             checkpoint = torch.load(
-                local_model_path, map_location=torch.device(self.model.device)
+                local_model_path, map_location=torch.device(self.device)
             )
             self.model.load_state_dict(checkpoint["weights"])
             print("successfully loaded checkpoint")
@@ -35,29 +35,7 @@ class T5QuestionGenerator(QAGeneratorWithCache):
             input_text = sentence
             inputs = self.tokenizer.encode(
                 input_text, return_tensors="pt", max_length=512, truncation=True
-            )
-            outputs = self.model.generate(
-                inputs, max_length=64, num_beams=4, early_stopping=True
-            )
-            question = self.tokenizer.decode(outputs[0], skip_special_tokens=True)
-            question = self.process_question(question)
-            if question:
-                questions.append(question)
-
-            if len(questions) >= self.questions_to_generate:
-                break
-
-        return questions
-
-    def generate_questions(self):
-        article = self._load_article()
-        paragraphs = qa_utils.split_into_paragraphs(article, self.tokenizer)
-        questions = []
-        for paragraph in paragraphs:
-            input_text = "generate question: " + paragraph
-            inputs = self.tokenizer.encode(
-                input_text, return_tensors="pt", max_length=512, truncation=True
-            )
+            ).to(self.device)
             outputs = self.model.generate(
                 inputs, max_length=64, num_beams=4, early_stopping=True
             )
