@@ -7,7 +7,8 @@ Question Generation and Answering System demo
 
 - (Optinal step for AWS users), install the environment and download model weights: 
 
-	 	pip install -r requirements.txt
+	 	source activate pytorch
+  		pip install -r requirements.txt
 	 	./aws_model_download.sh
 
 - Run the program
