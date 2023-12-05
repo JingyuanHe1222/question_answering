@@ -39,7 +39,8 @@ class WikiAnswerGenerator(AnswerGeneratorWithBackup):
         return self._generate_questions_concurrent(question=question, callback=callback)
 
     def _answer_from_article(article, question, tokenizer, model, device):
-        paragraphs = qa_utils.split_into_paragraphs(article, tokenizer)
+        # paragraphs = qa_utils.split_into_paragraphs(article, tokenizer)
+        paragraphs = qa_utils.split_article_to_sentences_nltk(article)
         # Iterate through each paragraph to find the best answer
         max_score = -float("inf")
         best_answer = ""

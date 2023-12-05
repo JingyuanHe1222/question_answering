@@ -7,3 +7,4 @@ todos
 .DS_Store
 *.txt
 !requirements.txt
+!article_samples/*.txt

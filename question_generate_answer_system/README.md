@@ -13,5 +13,5 @@ Question Generation and Answering System demo
 
 - Run the program
 
-		./run.sh Pittsburgh questions.txt
+		./run.sh --article article_samples/Ultraman.txt
 

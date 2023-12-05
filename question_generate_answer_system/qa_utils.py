@@ -70,6 +70,7 @@ def read_article_file(article_filename):
         return file.read()
 
 
+@lru_cache(maxsize=None)
 def split_article_to_sentences_nltk(article):
     """
     Split the article into sentences
@@ -79,6 +80,20 @@ def split_article_to_sentences_nltk(article):
     curr_context = curr_context.replace("\n", " ")
     list_context = nltk.tokenize.sent_tokenize(curr_context)
     return list_context
+
+
+def read_questions_from_file(question_filename):
+    questions = []
+    if not os.path.isabs(question_filename):
+        # If not, assume the file is in the current directory
+        question_filename = os.path.join(os.getcwd(), question_filename)
+    with open(question_filename, "r") as file:
+        for line in file:
+            # Strip leading/trailing whitespace and check if line is not empty
+            stripped_line = line.strip()
+            if stripped_line:
+                questions.append(stripped_line)
+    return questions
 
 
 YES_NO_PATTERN = re.compile(
@@ -97,7 +112,7 @@ class QuestionAnswerWriter:
     def __init__(
         self,
         qa_pair_filename="generated_question_answer_pairs.txt",
-        question_filename="questions.txt",
+        question_filename="generated_questions.txt",
     ):
         self.qa_pair_filename = qa_pair_filename
         self.question_filename = question_filename

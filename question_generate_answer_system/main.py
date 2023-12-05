@@ -1,38 +1,57 @@
 import sys
+import argparse
 from answer_generators.wiki_answer_generator import WikiAnswerGenerator
-from question_generators.simple_yes_question_generator import SimpleYesQuestionGenerator
+
+# from question_generators.simple_yes_question_generator import SimpleYesQuestionGenerator
+import qa_utils
 from qa_utils import QuestionAnswerWriter
 from question_generators.t5_question_generator import T5QuestionGenerator
 
 
 def main():
-    if len(sys.argv) != 3:
-        print("Usage: python3 main.py <article_filename> <questions_filename>")
-        print("<article_filename> is the name of the article file")
-        print(
-            "<questions_filename> is the name of the file containing all questions generated from the article"
+    parser = argparse.ArgumentParser(
+        description="This script generates questions from a given article file and writes them along with their answers to a specified output file.",
+    )
+    parser.add_argument("--article", type=str, help="Local article filename")
+
+    # Optional arguments
+    parser.add_argument(
+        "--questions",
+        type=str,
+        help="Output file for generated questions",
+        default=None,
+    )
+    parser.add_argument(
+        "--questions_to_generate",
+        type=int,
+        help="Number of questions to generate",
+        default=10,
+    )
+
+    args = parser.parse_args()
+
+    article_filename = args.article
+    questions_filename = args.questions
+    questions_to_generate = args.questions_to_generate
+
+    qa_writer = QuestionAnswerWriter()
+    questions_to_answer = []
+    # no question filename is supplied, generate questions from article
+    if questions_filename is None:
+        question_generator = T5QuestionGenerator(
+            article_filename, questions_to_generate=questions_to_generate
         )
-        sys.exit(1)
+        questions_to_answer = question_generator.generate_questions()
 
-    article_filename = sys.argv[1]
-    questions_filename = sys.argv[2]
-    qa_writer = QuestionAnswerWriter(question_filename=questions_filename)
-
-    question_generator = T5QuestionGenerator(article_filename)
-
-    # question_generator = SimpleYesQuestionGenerator(
-    #     article_filename, questions_to_generate=20
-    # )
-
-    generated_questions = question_generator.generate_questions()
-
-    qa_writer.start_new_session(mode=QuestionAnswerWriter.QUESTION)
-    qa_writer.write_questions_to_file(generated_questions)
+        qa_writer.start_new_session(mode=QuestionAnswerWriter.QUESTION)
+        qa_writer.write_questions_to_file(questions_to_answer)
+    # Otherwise read pre-written questions from file
+    else:
+        questions_to_answer = qa_utils.read_questions_from_file(questions_filename)
 
     answer_generator = WikiAnswerGenerator(article_filename)
-
     qa_writer.start_new_session(mode=QuestionAnswerWriter.QUESTION_AND_ANSWER)
-    for question in generated_questions:
+    for question in questions_to_answer:
         answer = answer_generator.generate_answer(question)
         qa_writer.write_question_answer_pair_to_file(question, answer)
 

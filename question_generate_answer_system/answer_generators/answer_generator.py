@@ -57,5 +57,5 @@ class AnswerGeneratorWithBackup(QAGeneratorWithCache):
                 if backup_answer not in ["[CLS]", "<s>"]:
                     return backup_answer
 
-            print("All models failed to generate an answer.")
-            return "CLS"
+            print("All models failed to generate an answer for the given question.")
+            return "NO_ANSWER_GENERATED"
