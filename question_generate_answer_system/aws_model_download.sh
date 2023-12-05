@@ -2,6 +2,9 @@
 
 
 echo "entering cache folder..."
+
+mkdir .model-cache
+
 cd .model-cache
 
 echo "getting model weights from gdown..."
