@@ -1,0 +1,56 @@
+article_name|human/machine|question|is_yes_no_type_question|question_type|word_count|n_content_words|n_relevant_words|conciseness_score|has_verb|has_subject|has_reasonable_length|n_unique_POS|has_coherent_structure|fluency_score
+Abraham_Lincoln|human|Was Abraham Lincoln the sixteenth President of the United States?|1|Yes/No|11|0|10|0.0|0|1|1|6|1|0.8
+Abraham_Lincoln|human|Was Abraham Lincoln the sixteenth President of the United States?|1|Yes/No|11|0|10|0.0|0|1|1|6|1|0.8
+Abraham_Lincoln|human|Did Lincoln sign the National Banking Act of 1863?|1|Yes/No|10|1|9|0.1111111111111111|1|1|1|7|0|0.8
+Abraham_Lincoln|human|Did Lincoln sign the National Banking Act of 1863?|1|Yes/No|10|1|9|0.1111111111111111|1|1|1|7|0|0.8
+Abraham_Lincoln|human|Did his mother die of pneumonia?|1|Yes/No|7|3|6|0.5|1|1|1|6|0|0.8
+Abraham_Lincoln|human|Did his mother die of pneumonia?|1|Yes/No|7|3|6|0.5|1|1|1|6|0|0.8
+Abraham_Lincoln|human|How many long was Lincoln's formal education?|0|How|9|1|8|0.125|0|1|1|8|0|0.6
+Abraham_Lincoln|human|How many long was Lincoln's formal education?|0|How|9|1|8|0.125|0|1|1|8|0|0.6
+Abraham_Lincoln|human|When did Lincoln begin his political career?|0|When/Why|8|2|7|0.2857142857142857|1|1|1|8|0|0.8
+Abraham_Lincoln|human|When did Lincoln begin his political career?|0|When/Why|8|2|7|0.2857142857142857|1|1|1|8|0|0.8
+Abraham_Lincoln|human|What did The Legal Tender Act of 1862 establish?|0|What/Where/Who|10|1|9|0.1111111111111111|1|1|1|8|0|0.8
+Abraham_Lincoln|human|What did The Legal Tender Act of 1862 establish?|0|What/Where/Who|10|1|9|0.1111111111111111|1|1|1|8|0|0.8
+Abraham_Lincoln|human|Who suggested Lincoln grow a beard?|0|What/Where/Who|7|3|6|0.5|1|1|1|6|0|0.8
+Abraham_Lincoln|human|Who suggested Lincoln grow a beard?|0|What/Where/Who|7|3|6|0.5|1|1|1|6|0|0.8
+Abraham_Lincoln|human|When did the Gettysburg address argue that America was born?|0|When/Why|11|3|10|0.3|1|1|1|7|0|0.8
+Abraham_Lincoln|human|When did the Gettysburg address argue that America was born?|0|When/Why|11|3|10|0.3|1|1|1|7|0|0.8
+Abraham_Lincoln|human|Did Lincoln beat John C. Breckinridge in the 1860 election?|1|Yes/No|11|2|10|0.2|1|1|1|8|0|0.8
+Abraham_Lincoln|human|Did Lincoln beat John C. Breckinridge in the 1860 election?|1|Yes/No|11|2|10|0.2|1|1|1|8|0|0.8
+Abraham_Lincoln|human|Was Abraham Lincoln the first President of the United States?|1|Yes/No|11|0|10|0.0|0|1|1|6|1|0.8
+Abraham_Lincoln|human|Was Abraham Lincoln the first President of the United States?|1|Yes/No|11|0|10|0.0|0|1|1|6|1|0.8
+Abraham_Lincoln|human|Did Lincoln start his political career in 1832?|1|Yes/No|9|2|8|0.25|1|1|1|9|0|0.8
+Abraham_Lincoln|human|Did Lincoln start his political career in 1832?|1|Yes/No|9|2|8|0.25|1|1|1|9|0|0.8
+Abraham_Lincoln|human|Did Lincoln ever represent Alton & Sangamon Railroad?|1|Yes/No|9|1|8|0.125|1|1|1|6|0|0.8
+Abraham_Lincoln|human|Did Lincoln ever represent Alton & Sangamon Railroad?|1|Yes/No|9|1|8|0.125|1|1|1|6|0|0.8
+Abraham_Lincoln|human|Which county was Lincoln born in?|0|Open-Ended|7|2|6|0.3333333333333333|1|1|1|7|0|0.8
+Abraham_Lincoln|human|Which county was Lincoln born in?|0|Open-Ended|7|2|6|0.3333333333333333|1|1|1|7|0|0.8
+Abraham_Lincoln|human|When did Lincoln first serve as President?|0|When/Why|8|1|7|0.14285714285714285|1|1|1|7|0|0.8
+Abraham_Lincoln|human|When did Lincoln first serve as President?|0|When/Why|8|1|7|0.14285714285714285|1|1|1|7|0|0.8
+Abraham_Lincoln|human|Who assassinated Lincoln?|0|What/Where/Who|4|1|3|0.3333333333333333|1|1|1|4|0|0.8
+Abraham_Lincoln|human|Who assassinated Lincoln?|0|What/Where/Who|4|1|3|0.3333333333333333|1|1|1|4|0|0.8
+Abraham_Lincoln|human|Did Lincoln win the election of 1860?|1|Yes/No|8|2|7|0.2857142857142857|1|1|1|8|0|0.8
+Abraham_Lincoln|human|Did Lincoln win the election of 1860?|1|Yes/No|8|2|7|0.2857142857142857|1|1|1|8|0|0.8
+Abraham_Lincoln|human|Who was the general in charge at the Battle of Antietam?|0|What/Where/Who|12|2|11|0.18181818181818182|0|0|1|7|0|0.4
+Abraham_Lincoln|human|Who was the general in charge at the Battle of Antietam?|0|What/Where/Who|12|2|11|0.18181818181818182|0|0|1|7|0|0.4
+Abraham_Lincoln|human|Why did Lincoln issue the Emancipation Proclamation?|0|When/Why|8|1|7|0.14285714285714285|1|1|1|6|0|0.8
+Abraham_Lincoln|human|Why did Lincoln issue the Emancipation Proclamation?|0|When/Why|8|1|7|0.14285714285714285|1|1|1|6|0|0.8
+Abraham_Lincoln|human|Do scholars rank lincoln among the top three presidents?|1|Yes/No|10|4|9|0.4444444444444444|1|1|1|8|0|0.8
+Abraham_Lincoln|human|Did lincoln have 18 months of schooling?|1|Yes/No|8|3|7|0.42857142857142855|1|1|1|7|0|0.8
+Abraham_Lincoln|human|Was Lincoln chosen as a presidential candidate in 1860?|1|Yes/No|10|2|9|0.2222222222222222|1|1|1|9|0|0.8
+Abraham_Lincoln|human|How old was Lincoln in 1816?|0|How|7|0|6|0.0|0|1|1|7|0|0.6
+Abraham_Lincoln|human|When was the first photgraph of lincoln taken?|0|When/Why|9|2|8|0.25|1|1|1|9|0|0.8
+Abraham_Lincoln|human|How long was Lincoln's legal Career?|0|How|8|1|7|0.14285714285714285|0|1|1|8|0|0.6
+Abraham_Lincoln|human|What trail did Lincoln use a Farmers' Almanac in? |0|What/Where/Who|11|3|10|0.3|1|1|1|8|0|0.8
+Abraham_Lincoln|human|Did Abraham Lincoln live in the Frontier?|1|Yes/No|8|1|7|0.14285714285714285|1|1|1|6|0|0.8
+Abraham_Lincoln|human|Did Lincoln's Wife's Family support slavery?|1|Yes/No|9|3|8|0.375|1|0|1|5|1|0.8
+Abraham_Lincoln|machine|When did Lincoln die?|0|When/Why|5|1|4|0.25|1|1|1|5|0|0.8
+Abraham_Lincoln|machine|Who led the Union through the American Civil War?|0|What/Where/Who|10|1|9|0.1111111111111111|1|1|1|6|0|0.8
+Abraham_Lincoln|machine|Where was Lincoln born?|0|What/Where/Who|5|1|4|0.25|1|1|1|5|0|0.8
+Abraham_Lincoln|machine|Who was a Whig Party leader, Illinois state legislator, and U.S. congressman from Illinois?|0|What/Where/Who|17|4|14|0.2857142857142857|0|0|1|8|0|0.4
+Abraham_Lincoln|machine|Where did Jefferson return to in 1849?|0|What/Where/Who|8|1|7|0.14285714285714285|1|1|1|7|0|0.8
+Abraham_Lincoln|machine|In what year did the Kansas–Nebraska Act take effect?|0|Open-Ended|10|3|8|0.375|1|1|1|7|0|0.8
+Abraham_Lincoln|machine|Who became a leader of the new Republican Party?|0|What/Where/Who|10|2|9|0.2222222222222222|1|1|1|8|0|0.8
+Abraham_Lincoln|machine|Who was the opponent in the 1858 Senate campaign debates?|0|What/Where/Who|11|3|10|0.3|0|1|1|8|0|0.6
+Abraham_Lincoln|machine|What year did Lincoln run for president?|0|What/Where/Who|8|3|7|0.42857142857142855|1|1|1|7|0|0.8
+Abraham_Lincoln|machine|What did pro-slavery elements in the South view as threat to slavery?|0|What/Where/Who|13|5|12|0.4166666666666667|1|1|1|7|0|0.8

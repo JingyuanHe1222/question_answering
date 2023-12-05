@@ -1,0 +1,16 @@
+ 1733
+ 1733
+ 0
+ 0
+ Centigrade
+ Centigrade
+CLS
+CLS
+ Uppsala, Sweden
+ Uppsala, Sweden
+CLS
+CLS
+CLS
+
+ 0 for the boiling point of water and 100 for the freezing point
+ 0 for the boiling point of water and 100 for the freezing point

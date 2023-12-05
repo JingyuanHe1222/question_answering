@@ -1,0 +1,64 @@
+article_name|human/machine|question|is_yes_no_type_question|question_type|word_count|n_content_words|n_relevant_words|conciseness_score|has_verb|has_subject|has_reasonable_length|n_unique_POS|has_coherent_structure|fluency_score
+Alessandro_Volta|human|Was Volta an Italian physicist?|1|Yes/No|6|1|5|0.2|0|1|1|6|1|0.8
+Alessandro_Volta|human|Was Volta an Italian physicist?|1|Yes/No|6|1|5|0.2|0|1|1|6|1|0.8
+Alessandro_Volta|human|Is Volta buried in the city of Pittsburgh?|1|Yes/No|9|2|8|0.25|1|0|1|7|1|0.8
+Alessandro_Volta|human|Is Volta buried in the city of Pittsburgh?|1|Yes/No|9|2|8|0.25|1|0|1|7|1|0.8
+Alessandro_Volta|human|Did Volta have a passion for the study of electricity?|1|Yes/No|11|4|10|0.4|1|1|1|7|0|0.8
+Alessandro_Volta|human|Did Volta have a passion for the study of electricity?|1|Yes/No|11|4|10|0.4|1|1|1|7|0|0.8
+Alessandro_Volta|human|What is the battery made by Volta credited to be?|0|What/Where/Who|11|3|10|0.3|1|1|1|9|0|0.8
+Alessandro_Volta|human|What is the battery made by Volta credited to be?|0|What/Where/Who|11|3|10|0.3|1|1|1|9|0|0.8
+Alessandro_Volta|human|What important electrical unit was named in honor of Volta?|0|What/Where/Who|11|3|10|0.3|1|1|1|8|0|0.8
+Alessandro_Volta|human|What important electrical unit was named in honor of Volta?|0|What/Where/Who|11|3|10|0.3|1|1|1|8|0|0.8
+Alessandro_Volta|human|Where did Volta enter retirement?|0|What/Where/Who|6|2|5|0.4|1|1|1|6|0|0.8
+Alessandro_Volta|human|Where did Volta enter retirement?|0|What/Where/Who|6|2|5|0.4|1|1|1|6|0|0.8
+Alessandro_Volta|human|Is it a disadvantage for something to be unsafe to handle?|1|Yes/No|12|2|11|0.18181818181818182|1|1|1|9|1|1.0
+Alessandro_Volta|human|Is it a disadvantage for something to be unsafe to handle?|1|Yes/No|12|2|11|0.18181818181818182|1|1|1|9|1|1.0
+Alessandro_Volta|human|Was Lombardy under Napoleon's rule in 1800?|1|Yes/No|9|1|8|0.125|0|1|1|7|1|0.8
+Alessandro_Volta|human|Was Lombardy under Napoleon's rule in 1800?|1|Yes/No|9|1|8|0.125|0|1|1|7|1|0.8
+Alessandro_Volta|human|Was the Italian 10.000 lira banknote created before the euro?|1|Yes/No|11|4|10|0.4|1|1|1|8|1|1.0
+Alessandro_Volta|human|Was the Italian 10.000 lira banknote created before the euro?|1|Yes/No|11|4|10|0.4|1|1|1|8|1|1.0
+Alessandro_Volta|human|Was Alessandro Volta a professor of chemistry?|1|Yes/No|8|2|7|0.2857142857142857|0|1|1|6|1|0.8
+Alessandro_Volta|human|Was Alessandro Volta a professor of chemistry?|1|Yes/No|8|2|7|0.2857142857142857|0|1|1|6|1|0.8
+Alessandro_Volta|human|Did Alessandro Volta invent the remotely operated pistol?|1|Yes/No|9|3|8|0.375|1|1|1|7|0|0.8
+Alessandro_Volta|human|Did Alessandro Volta invent the remotely operated pistol?|1|Yes/No|9|3|8|0.375|1|1|1|7|0|0.8
+Alessandro_Volta|human|Was Alessandro Volta taught in public schools?|1|Yes/No|8|2|7|0.2857142857142857|1|1|1|7|0|0.8
+Alessandro_Volta|human|Was Alessandro Volta taught in public schools?|1|Yes/No|8|2|7|0.2857142857142857|1|1|1|7|0|0.8
+Alessandro_Volta|human|Who did Alessandro Volta marry?|0|What/Where/Who|6|1|5|0.2|0|0|1|5|0|0.4
+Alessandro_Volta|human|Who did Alessandro Volta marry?|0|What/Where/Who|6|1|5|0.2|0|0|1|5|0|0.4
+Alessandro_Volta|human|What did Alessandro Volta invent in 1800?|0|What/Where/Who|8|1|7|0.14285714285714285|0|1|1|7|0|0.6
+Alessandro_Volta|human|What did Alessandro Volta invent in 1800?|0|What/Where/Who|8|1|7|0.14285714285714285|0|1|1|7|0|0.6
+Alessandro_Volta|human|What is the battery made by Alessandro Volta credited as?|0|What/Where/Who|11|3|10|0.3|1|1|1|8|0|0.8
+Alessandro_Volta|human|What is the battery made by Alessandro Volta credited as?|0|What/Where/Who|11|3|10|0.3|1|1|1|8|0|0.8
+Alessandro_Volta|human|Did Alessandro Volta die and retire in the same place?|1|Yes/No|11|3|10|0.3|1|1|1|9|0|0.8
+Alessandro_Volta|human|Did Alessandro Volta die and retire in the same place?|1|Yes/No|11|3|10|0.3|1|1|1|9|0|0.8
+Alessandro_Volta|human|When did Alessandro Volta improve  and popularize the electrophorus?|0|When/Why|10|3|9|0.3333333333333333|1|1|1|9|0|0.8
+Alessandro_Volta|human|When did Alessandro Volta improve  and popularize the electrophorus?|0|When/Why|10|3|9|0.3333333333333333|1|1|1|9|0|0.8
+Alessandro_Volta|human|How long was Alessandro Volta a professor at the University of Pavia?|0|How|13|1|12|0.08333333333333333|0|1|1|8|0|0.6
+Alessandro_Volta|human|How long was Alessandro Volta a professor at the University of Pavia?|0|How|13|1|12|0.08333333333333333|0|1|1|8|0|0.6
+Alessandro_Volta|human|Was Alessandro Volta an Egyptian?|1|Yes/No|6|0|5|0.0|0|1|1|4|1|0.8
+Alessandro_Volta|human|Was Alessandro Volta an Egyptian?|1|Yes/No|6|0|5|0.0|0|1|1|4|1|0.8
+Alessandro_Volta|human|Was Volta taught in public schools?|1|Yes/No|7|2|6|0.3333333333333333|1|1|1|7|0|0.8
+Alessandro_Volta|human|Was Volta taught in public schools?|1|Yes/No|7|2|6|0.3333333333333333|1|1|1|7|0|0.8
+Alessandro_Volta|human|Was Volta made a count in 1810?|1|Yes/No|8|2|7|0.2857142857142857|1|1|1|8|0|0.8
+Alessandro_Volta|human|Was Volta made a count in 1810?|1|Yes/No|8|2|7|0.2857142857142857|1|1|1|8|0|0.8
+Alessandro_Volta|human|Who made Volta a count?|0|What/Where/Who|6|2|5|0.4|1|1|1|6|0|0.8
+Alessandro_Volta|human|Who made Volta a count?|0|What/Where/Who|6|2|5|0.4|1|1|1|6|0|0.8
+Alessandro_Volta|human|Where was Volta born?|0|What/Where/Who|5|1|4|0.25|1|1|1|5|0|0.8
+Alessandro_Volta|human|Where was Volta born?|0|What/Where/Who|5|1|4|0.25|1|1|1|5|0|0.8
+Alessandro_Volta|human|When did Volta retire?|0|When/Why|5|1|4|0.25|1|1|1|5|0|0.8
+Alessandro_Volta|human|When did Volta retire?|0|When/Why|5|1|4|0.25|1|1|1|5|0|0.8
+Alessandro_Volta|human|A year before improving and popularizing the electrophorus, what did Volta become?|0|Open-Ended|14|5|12|0.4166666666666667|1|1|1|9|0|0.8
+Alessandro_Volta|human|Was Volta buried where he died or was he buried someplace else?|1|Choice|13|3|12|0.25|1|1|1|8|0|0.8
+Alessandro_Volta|human|Was Volta buried where he died or was he buried someplace else?|1|Choice|13|3|12|0.25|1|1|1|8|0|0.8
+Alessandro_Volta|human|Did Volta marry before he became professor of experimental physics at the University of Pavia?|1|Yes/No|16|4|15|0.26666666666666666|1|1|1|10|0|0.8
+Alessandro_Volta|human|Did Volta marry before he became professor of experimental physics at the University of Pavia?|1|Yes/No|16|4|15|0.26666666666666666|1|1|1|10|0|0.8
+Alessandro_Volta|machine|When did Alessandro Giuseppe Antonio Anastasio Volta die?|0|When/Why|9|1|8|0.125|1|1|1|5|0|0.8
+Alessandro_Volta|machine|When was the voltaic pile invented?|0|When/Why|7|2|6|0.3333333333333333|1|1|1|7|0|0.8
+Alessandro_Volta|machine|What did Volta's invention prove?|0|What/Where/Who|7|2|6|0.3333333333333333|1|1|1|7|0|0.8
+Alessandro_Volta|machine|Who did Voltta draw admiration from?|0|What/Where/Who|7|2|6|0.3333333333333333|1|1|1|7|0|0.8
+Alessandro_Volta|machine|How long did Voltta hold the chair of experimental physics at the University of Pavia?|0|How|16|3|15|0.2|1|1|1|10|0|0.8
+Alessandro_Volta|machine|What was Volta's main motivation for living alone?|0|What/Where/Who|10|2|9|0.2222222222222222|1|1|1|10|0|0.8
+Alessandro_Volta|machine|When did the series of illnesses that led to his death begin?|0|When/Why|13|5|12|0.4166666666666667|1|1|1|8|0|0.8
+Alessandro_Volta|machine|What is the name of the SI unit of electric potential?|0|What/Where/Who|12|3|11|0.2727272727272727|0|1|1|8|0|0.6
+Alessandro_Volta|machine|When was Volta born?|0|When/Why|5|1|4|0.25|1|1|1|5|0|0.8
+Alessandro_Volta|machine|What lineage did Filippo Voltta have?|0|What/Where/Who|7|2|6|0.3333333333333333|1|1|1|6|0|0.8

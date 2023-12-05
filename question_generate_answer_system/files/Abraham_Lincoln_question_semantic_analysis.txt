@@ -1,0 +1,451 @@
+article_name|machine_question|human_question|is_yes_no_machine_question|type_machine_question|is_yes_no_human_question|type_human_question|match_yes_no_type_question|match_type_question|f1_char_score|jaccard_similarity|jaccard_similarity_bigrams|overlap_coefficient
+Abraham_Lincoln|When did Lincoln die?|Was Abraham Lincoln the sixteenth President of the United States?|0|When/Why|1|Yes/No|0|0|0.6666666666666666|0.08333333333333337|0.0|0.25
+Abraham_Lincoln|When did Lincoln die?|Was Abraham Lincoln the sixteenth President of the United States?|0|When/Why|1|Yes/No|0|0|0.6666666666666666|0.08333333333333337|0.0|0.25
+Abraham_Lincoln|When did Lincoln die?|Did Lincoln sign the National Banking Act of 1863?|0|When/Why|1|Yes/No|0|0|0.5945945945945945|0.18181818181818177|0.0|0.5
+Abraham_Lincoln|When did Lincoln die?|Did Lincoln sign the National Banking Act of 1863?|0|When/Why|1|Yes/No|0|0|0.5945945945945945|0.18181818181818177|0.0|0.5
+Abraham_Lincoln|When did Lincoln die?|Did his mother die of pneumonia?|0|When/Why|1|Yes/No|0|0|0.5517241379310345|0.25|0.0|0.5
+Abraham_Lincoln|When did Lincoln die?|Did his mother die of pneumonia?|0|When/Why|1|Yes/No|0|0|0.5517241379310345|0.25|0.0|0.5
+Abraham_Lincoln|When did Lincoln die?|How many long was Lincoln's formal education?|0|When/Why|0|How|1|0|0.5882352941176471|0.0|0.0|0.0
+Abraham_Lincoln|When did Lincoln die?|How many long was Lincoln's formal education?|0|When/Why|0|How|1|0|0.5882352941176471|0.0|0.0|0.0
+Abraham_Lincoln|When did Lincoln die?|When did Lincoln begin his political career?|0|When/Why|0|When/Why|1|1|0.7741935483870968|0.375|0.2857142857142857|0.75
+Abraham_Lincoln|When did Lincoln die?|When did Lincoln begin his political career?|0|When/Why|0|When/Why|1|1|0.7741935483870968|0.375|0.2857142857142857|0.75
+Abraham_Lincoln|When did Lincoln die?|What did The Legal Tender Act of 1862 establish?|0|When/Why|0|What/Where/Who|1|0|0.6486486486486487|0.08333333333333337|0.0|0.25
+Abraham_Lincoln|When did Lincoln die?|What did The Legal Tender Act of 1862 establish?|0|When/Why|0|What/Where/Who|1|0|0.6486486486486487|0.08333333333333337|0.0|0.25
+Abraham_Lincoln|When did Lincoln die?|Who suggested Lincoln grow a beard?|0|When/Why|0|What/Where/Who|1|0|0.7499999999999999|0.11111111111111116|0.0|0.25
+Abraham_Lincoln|When did Lincoln die?|Who suggested Lincoln grow a beard?|0|When/Why|0|What/Where/Who|1|0|0.7499999999999999|0.11111111111111116|0.0|0.25
+Abraham_Lincoln|When did Lincoln die?|When did the Gettysburg address argue that America was born?|0|When/Why|0|When/Why|1|1|0.5882352941176471|0.16666666666666663|0.09090909090909094|0.5
+Abraham_Lincoln|When did Lincoln die?|When did the Gettysburg address argue that America was born?|0|When/Why|0|When/Why|1|1|0.5882352941176471|0.16666666666666663|0.09090909090909094|0.5
+Abraham_Lincoln|When did Lincoln die?|Did Lincoln beat John C. Breckinridge in the 1860 election?|0|When/Why|1|Yes/No|0|0|0.5789473684210527|0.16666666666666663|0.0|0.5
+Abraham_Lincoln|When did Lincoln die?|Did Lincoln beat John C. Breckinridge in the 1860 election?|0|When/Why|1|Yes/No|0|0|0.5789473684210527|0.16666666666666663|0.0|0.5
+Abraham_Lincoln|When did Lincoln die?|Was Abraham Lincoln the first President of the United States?|0|When/Why|1|Yes/No|0|0|0.6857142857142856|0.08333333333333337|0.0|0.25
+Abraham_Lincoln|When did Lincoln die?|Was Abraham Lincoln the first President of the United States?|0|When/Why|1|Yes/No|0|0|0.6857142857142856|0.08333333333333337|0.0|0.25
+Abraham_Lincoln|When did Lincoln die?|Did Lincoln start his political career in 1832?|0|When/Why|1|Yes/No|0|0|0.6666666666666667|0.19999999999999996|0.0|0.5
+Abraham_Lincoln|When did Lincoln die?|Did Lincoln start his political career in 1832?|0|When/Why|1|Yes/No|0|0|0.6666666666666667|0.19999999999999996|0.0|0.5
+Abraham_Lincoln|When did Lincoln die?|Did Lincoln ever represent Alton & Sangamon Railroad?|0|When/Why|1|Yes/No|0|0|0.5714285714285714|0.19999999999999996|0.0|0.5
+Abraham_Lincoln|When did Lincoln die?|Did Lincoln ever represent Alton & Sangamon Railroad?|0|When/Why|1|Yes/No|0|0|0.5714285714285714|0.19999999999999996|0.0|0.5
+Abraham_Lincoln|When did Lincoln die?|Which county was Lincoln born in?|0|When/Why|0|Open-Ended|1|0|0.6666666666666667|0.11111111111111116|0.0|0.25
+Abraham_Lincoln|When did Lincoln die?|Which county was Lincoln born in?|0|When/Why|0|Open-Ended|1|0|0.6666666666666667|0.11111111111111116|0.0|0.25
+Abraham_Lincoln|When did Lincoln die?|When did Lincoln first serve as President?|0|When/Why|0|When/Why|1|1|0.7741935483870968|0.375|0.2857142857142857|0.75
+Abraham_Lincoln|When did Lincoln die?|When did Lincoln first serve as President?|0|When/Why|0|When/Why|1|1|0.7741935483870968|0.375|0.2857142857142857|0.75
+Abraham_Lincoln|When did Lincoln die?|Who assassinated Lincoln?|0|When/Why|0|What/Where/Who|1|0|0.888888888888889|0.16666666666666663|0.0|0.3333333333333333
+Abraham_Lincoln|When did Lincoln die?|Who assassinated Lincoln?|0|When/Why|0|What/Where/Who|1|0|0.888888888888889|0.16666666666666663|0.0|0.3333333333333333
+Abraham_Lincoln|When did Lincoln die?|Did Lincoln win the election of 1860?|0|When/Why|1|Yes/No|0|0|0.7096774193548387|0.2222222222222222|0.0|0.5
+Abraham_Lincoln|When did Lincoln die?|Did Lincoln win the election of 1860?|0|When/Why|1|Yes/No|0|0|0.7096774193548387|0.2222222222222222|0.0|0.5
+Abraham_Lincoln|When did Lincoln die?|Who was the general in charge at the Battle of Antietam?|0|When/Why|0|What/Where/Who|1|0|0.625|0.0|0.0|0.0
+Abraham_Lincoln|When did Lincoln die?|Who was the general in charge at the Battle of Antietam?|0|When/Why|0|What/Where/Who|1|0|0.625|0.0|0.0|0.0
+Abraham_Lincoln|When did Lincoln die?|Why did Lincoln issue the Emancipation Proclamation?|0|When/Why|0|When/Why|1|1|0.7058823529411764|0.2222222222222222|0.125|0.5
+Abraham_Lincoln|When did Lincoln die?|Why did Lincoln issue the Emancipation Proclamation?|0|When/Why|0|When/Why|1|1|0.7058823529411764|0.2222222222222222|0.125|0.5
+Abraham_Lincoln|When did Lincoln die?|Do scholars rank lincoln among the top three presidents?|0|When/Why|1|Yes/No|0|0|0.6451612903225806|0.08333333333333337|0.0|0.25
+Abraham_Lincoln|When did Lincoln die?|Did lincoln have 18 months of schooling?|0|When/Why|1|Yes/No|0|0|0.625|0.2222222222222222|0.0|0.5
+Abraham_Lincoln|When did Lincoln die?|Was Lincoln chosen as a presidential candidate in 1860?|0|When/Why|1|Yes/No|0|0|0.7272727272727273|0.08333333333333337|0.0|0.25
+Abraham_Lincoln|When did Lincoln die?|How old was Lincoln in 1816?|0|When/Why|0|How|1|0|0.6428571428571429|0.11111111111111116|0.0|0.25
+Abraham_Lincoln|When did Lincoln die?|When was the first photgraph of lincoln taken?|0|When/Why|0|When/Why|1|1|0.6451612903225806|0.19999999999999996|0.0|0.5
+Abraham_Lincoln|When did Lincoln die?|How long was Lincoln's legal Career?|0|When/Why|0|How|1|0|0.6206896551724139|0.0|0.0|0.0
+Abraham_Lincoln|When did Lincoln die?|What trail did Lincoln use a Farmers' Almanac in? |0|When/Why|0|What/Where/Who|1|0|0.7272727272727273|0.18181818181818177|0.09999999999999998|0.5
+Abraham_Lincoln|When did Lincoln die?|Did Abraham Lincoln live in the Frontier?|0|When/Why|1|Yes/No|0|0|0.6874999999999999|0.2222222222222222|0.0|0.5
+Abraham_Lincoln|When did Lincoln die?|Did Lincoln's Wife's Family support slavery?|0|When/Why|1|Yes/No|0|0|0.611111111111111|0.11111111111111116|0.0|0.25
+Abraham_Lincoln|Who led the Union through the American Civil War?|Was Abraham Lincoln the sixteenth President of the United States?|0|What/Where/Who|1|Yes/No|0|0|0.7555555555555556|0.0625|0.0|0.125
+Abraham_Lincoln|Who led the Union through the American Civil War?|Was Abraham Lincoln the sixteenth President of the United States?|0|What/Where/Who|1|Yes/No|0|0|0.7555555555555556|0.0625|0.0|0.125
+Abraham_Lincoln|Who led the Union through the American Civil War?|Did Lincoln sign the National Banking Act of 1863?|0|What/Where/Who|1|Yes/No|0|0|0.6086956521739131|0.0625|0.0|0.125
+Abraham_Lincoln|Who led the Union through the American Civil War?|Did Lincoln sign the National Banking Act of 1863?|0|What/Where/Who|1|Yes/No|0|0|0.6086956521739131|0.0625|0.0|0.125
+Abraham_Lincoln|Who led the Union through the American Civil War?|Did his mother die of pneumonia?|0|What/Where/Who|1|Yes/No|0|0|0.6842105263157895|0.0|0.0|0.0
+Abraham_Lincoln|Who led the Union through the American Civil War?|Did his mother die of pneumonia?|0|What/Where/Who|1|Yes/No|0|0|0.6842105263157895|0.0|0.0|0.0
+Abraham_Lincoln|Who led the Union through the American Civil War?|How many long was Lincoln's formal education?|0|What/Where/Who|0|How|1|0|0.6976744186046512|0.0|0.0|0.0
+Abraham_Lincoln|Who led the Union through the American Civil War?|How many long was Lincoln's formal education?|0|What/Where/Who|0|How|1|0|0.6976744186046512|0.0|0.0|0.0
+Abraham_Lincoln|Who led the Union through the American Civil War?|When did Lincoln begin his political career?|0|What/Where/Who|0|When/Why|1|0|0.7500000000000001|0.0|0.0|0.0
+Abraham_Lincoln|Who led the Union through the American Civil War?|When did Lincoln begin his political career?|0|What/Where/Who|0|When/Why|1|0|0.7500000000000001|0.0|0.0|0.0
+Abraham_Lincoln|Who led the Union through the American Civil War?|What did The Legal Tender Act of 1862 establish?|0|What/Where/Who|0|What/Where/Who|1|1|0.6956521739130435|0.0625|0.0|0.125
+Abraham_Lincoln|Who led the Union through the American Civil War?|What did The Legal Tender Act of 1862 establish?|0|What/Where/Who|0|What/Where/Who|1|1|0.6956521739130435|0.0625|0.0|0.125
+Abraham_Lincoln|Who led the Union through the American Civil War?|Who suggested Lincoln grow a beard?|0|What/Where/Who|0|What/Where/Who|1|1|0.7804878048780488|0.07692307692307687|0.0|0.16666666666666666
+Abraham_Lincoln|Who led the Union through the American Civil War?|Who suggested Lincoln grow a beard?|0|What/Where/Who|0|What/Where/Who|1|1|0.7804878048780488|0.07692307692307687|0.0|0.16666666666666666
+Abraham_Lincoln|Who led the Union through the American Civil War?|When did the Gettysburg address argue that America was born?|0|What/Where/Who|0|When/Why|1|0|0.7906976744186046|0.05882352941176472|0.0|0.125
+Abraham_Lincoln|Who led the Union through the American Civil War?|When did the Gettysburg address argue that America was born?|0|What/Where/Who|0|When/Why|1|0|0.7906976744186046|0.05882352941176472|0.0|0.125
+Abraham_Lincoln|Who led the Union through the American Civil War?|Did Lincoln beat John C. Breckinridge in the 1860 election?|0|What/Where/Who|1|Yes/No|0|0|0.6382978723404256|0.05882352941176472|0.0|0.125
+Abraham_Lincoln|Who led the Union through the American Civil War?|Did Lincoln beat John C. Breckinridge in the 1860 election?|0|What/Where/Who|1|Yes/No|0|0|0.6382978723404256|0.05882352941176472|0.0|0.125
+Abraham_Lincoln|Who led the Union through the American Civil War?|Was Abraham Lincoln the first President of the United States?|0|What/Where/Who|1|Yes/No|0|0|0.7727272727272727|0.0625|0.0|0.125
+Abraham_Lincoln|Who led the Union through the American Civil War?|Was Abraham Lincoln the first President of the United States?|0|What/Where/Who|1|Yes/No|0|0|0.7727272727272727|0.0625|0.0|0.125
+Abraham_Lincoln|Who led the Union through the American Civil War?|Did Lincoln start his political career in 1832?|0|What/Where/Who|1|Yes/No|0|0|0.6190476190476191|0.0|0.0|0.0
+Abraham_Lincoln|Who led the Union through the American Civil War?|Did Lincoln start his political career in 1832?|0|What/Where/Who|1|Yes/No|0|0|0.6190476190476191|0.0|0.0|0.0
+Abraham_Lincoln|Who led the Union through the American Civil War?|Did Lincoln ever represent Alton & Sangamon Railroad?|0|What/Where/Who|1|Yes/No|0|0|0.7272727272727272|0.0|0.0|0.0
+Abraham_Lincoln|Who led the Union through the American Civil War?|Did Lincoln ever represent Alton & Sangamon Railroad?|0|What/Where/Who|1|Yes/No|0|0|0.7272727272727272|0.0|0.0|0.0
+Abraham_Lincoln|Who led the Union through the American Civil War?|Which county was Lincoln born in?|0|What/Where/Who|0|Open-Ended|1|0|0.6666666666666666|0.0|0.0|0.0
+Abraham_Lincoln|Who led the Union through the American Civil War?|Which county was Lincoln born in?|0|What/Where/Who|0|Open-Ended|1|0|0.6666666666666666|0.0|0.0|0.0
+Abraham_Lincoln|Who led the Union through the American Civil War?|When did Lincoln first serve as President?|0|What/Where/Who|0|When/Why|1|0|0.7500000000000001|0.0|0.0|0.0
+Abraham_Lincoln|Who led the Union through the American Civil War?|When did Lincoln first serve as President?|0|What/Where/Who|0|When/Why|1|0|0.7500000000000001|0.0|0.0|0.0
+Abraham_Lincoln|Who led the Union through the American Civil War?|Who assassinated Lincoln?|0|What/Where/Who|0|What/Where/Who|1|1|0.7222222222222222|0.09999999999999998|0.0|0.3333333333333333
+Abraham_Lincoln|Who led the Union through the American Civil War?|Who assassinated Lincoln?|0|What/Where/Who|0|What/Where/Who|1|1|0.7222222222222222|0.09999999999999998|0.0|0.3333333333333333
+Abraham_Lincoln|Who led the Union through the American Civil War?|Did Lincoln win the election of 1860?|0|What/Where/Who|1|Yes/No|0|0|0.5500000000000002|0.0714285714285714|0.0|0.14285714285714285
+Abraham_Lincoln|Who led the Union through the American Civil War?|Did Lincoln win the election of 1860?|0|What/Where/Who|1|Yes/No|0|0|0.5500000000000002|0.0714285714285714|0.0|0.14285714285714285
+Abraham_Lincoln|Who led the Union through the American Civil War?|Who was the general in charge at the Battle of Antietam?|0|What/Where/Who|0|What/Where/Who|1|1|0.7804878048780488|0.125|0.0|0.25
+Abraham_Lincoln|Who led the Union through the American Civil War?|Who was the general in charge at the Battle of Antietam?|0|What/Where/Who|0|What/Where/Who|1|1|0.7804878048780488|0.125|0.0|0.25
+Abraham_Lincoln|Who led the Union through the American Civil War?|Why did Lincoln issue the Emancipation Proclamation?|0|What/Where/Who|0|When/Why|1|0|0.7441860465116279|0.0714285714285714|0.0|0.14285714285714285
+Abraham_Lincoln|Who led the Union through the American Civil War?|Why did Lincoln issue the Emancipation Proclamation?|0|What/Where/Who|0|When/Why|1|0|0.7441860465116279|0.0714285714285714|0.0|0.14285714285714285
+Abraham_Lincoln|Who led the Union through the American Civil War?|Do scholars rank lincoln among the top three presidents?|0|What/Where/Who|1|Yes/No|0|0|0.7500000000000001|0.0625|0.0|0.125
+Abraham_Lincoln|Who led the Union through the American Civil War?|Did lincoln have 18 months of schooling?|0|What/Where/Who|1|Yes/No|0|0|0.7317073170731706|0.0|0.0|0.0
+Abraham_Lincoln|Who led the Union through the American Civil War?|Was Lincoln chosen as a presidential candidate in 1860?|0|What/Where/Who|1|Yes/No|0|0|0.6666666666666666|0.0|0.0|0.0
+Abraham_Lincoln|Who led the Union through the American Civil War?|How old was Lincoln in 1816?|0|What/Where/Who|0|How|1|0|0.4864864864864864|0.0|0.0|0.0
+Abraham_Lincoln|Who led the Union through the American Civil War?|When was the first photgraph of lincoln taken?|0|What/Where/Who|0|When/Why|1|0|0.7|0.06666666666666665|0.0|0.125
+Abraham_Lincoln|Who led the Union through the American Civil War?|How long was Lincoln's legal Career?|0|What/Where/Who|0|How|1|0|0.6315789473684211|0.0|0.0|0.0
+Abraham_Lincoln|Who led the Union through the American Civil War?|What trail did Lincoln use a Farmers' Almanac in? |0|What/Where/Who|0|What/Where/Who|1|1|0.8095238095238095|0.0|0.0|0.0
+Abraham_Lincoln|Who led the Union through the American Civil War?|Did Abraham Lincoln live in the Frontier?|0|What/Where/Who|1|Yes/No|0|0|0.7804878048780488|0.0714285714285714|0.0|0.14285714285714285
+Abraham_Lincoln|Who led the Union through the American Civil War?|Did Lincoln's Wife's Family support slavery?|0|What/Where/Who|1|Yes/No|0|0|0.7111111111111111|0.0|0.0|0.0
+Abraham_Lincoln|Where was Lincoln born?|Was Abraham Lincoln the sixteenth President of the United States?|0|What/Where/Who|1|Yes/No|0|0|0.75|0.18181818181818177|0.0|0.5
+Abraham_Lincoln|Where was Lincoln born?|Was Abraham Lincoln the sixteenth President of the United States?|0|What/Where/Who|1|Yes/No|0|0|0.75|0.18181818181818177|0.0|0.5
+Abraham_Lincoln|Where was Lincoln born?|Did Lincoln sign the National Banking Act of 1863?|0|What/Where/Who|1|Yes/No|0|0|0.5853658536585366|0.08333333333333337|0.0|0.25
+Abraham_Lincoln|Where was Lincoln born?|Did Lincoln sign the National Banking Act of 1863?|0|What/Where/Who|1|Yes/No|0|0|0.5853658536585366|0.08333333333333337|0.0|0.25
+Abraham_Lincoln|Where was Lincoln born?|Did his mother die of pneumonia?|0|What/Where/Who|1|Yes/No|0|0|0.6060606060606061|0.0|0.0|0.0
+Abraham_Lincoln|Where was Lincoln born?|Did his mother die of pneumonia?|0|What/Where/Who|1|Yes/No|0|0|0.6060606060606061|0.0|0.0|0.0
+Abraham_Lincoln|Where was Lincoln born?|How many long was Lincoln's formal education?|0|What/Where/Who|0|How|1|0|0.6842105263157896|0.09999999999999998|0.0|0.25
+Abraham_Lincoln|Where was Lincoln born?|How many long was Lincoln's formal education?|0|What/Where/Who|0|How|1|0|0.6842105263157896|0.09999999999999998|0.0|0.25
+Abraham_Lincoln|Where was Lincoln born?|When did Lincoln begin his political career?|0|What/Where/Who|0|When/Why|1|0|0.8571428571428572|0.09999999999999998|0.0|0.25
+Abraham_Lincoln|Where was Lincoln born?|When did Lincoln begin his political career?|0|What/Where/Who|0|When/Why|1|0|0.8571428571428572|0.09999999999999998|0.0|0.25
+Abraham_Lincoln|Where was Lincoln born?|What did The Legal Tender Act of 1862 establish?|0|What/Where/Who|0|What/Where/Who|1|1|0.7317073170731707|0.0|0.0|0.0
+Abraham_Lincoln|Where was Lincoln born?|What did The Legal Tender Act of 1862 establish?|0|What/Where/Who|0|What/Where/Who|1|1|0.7317073170731707|0.0|0.0|0.0
+Abraham_Lincoln|Where was Lincoln born?|Who suggested Lincoln grow a beard?|0|What/Where/Who|0|What/Where/Who|1|1|0.888888888888889|0.11111111111111116|0.0|0.25
+Abraham_Lincoln|Where was Lincoln born?|Who suggested Lincoln grow a beard?|0|What/Where/Who|0|What/Where/Who|1|1|0.888888888888889|0.11111111111111116|0.0|0.25
+Abraham_Lincoln|Where was Lincoln born?|When did the Gettysburg address argue that America was born?|0|What/Where/Who|0|When/Why|1|0|0.7368421052631579|0.16666666666666663|0.0|0.5
+Abraham_Lincoln|Where was Lincoln born?|When did the Gettysburg address argue that America was born?|0|What/Where/Who|0|When/Why|1|0|0.7368421052631579|0.16666666666666663|0.0|0.5
+Abraham_Lincoln|Where was Lincoln born?|Did Lincoln beat John C. Breckinridge in the 1860 election?|0|What/Where/Who|1|Yes/No|0|0|0.6190476190476191|0.07692307692307687|0.0|0.25
+Abraham_Lincoln|Where was Lincoln born?|Did Lincoln beat John C. Breckinridge in the 1860 election?|0|What/Where/Who|1|Yes/No|0|0|0.6190476190476191|0.07692307692307687|0.0|0.25
+Abraham_Lincoln|Where was Lincoln born?|Was Abraham Lincoln the first President of the United States?|0|What/Where/Who|1|Yes/No|0|0|0.7692307692307693|0.18181818181818177|0.0|0.5
+Abraham_Lincoln|Where was Lincoln born?|Was Abraham Lincoln the first President of the United States?|0|What/Where/Who|1|Yes/No|0|0|0.7692307692307693|0.18181818181818177|0.0|0.5
+Abraham_Lincoln|Where was Lincoln born?|Did Lincoln start his political career in 1832?|0|What/Where/Who|1|Yes/No|0|0|0.7027027027027026|0.09090909090909094|0.0|0.25
+Abraham_Lincoln|Where was Lincoln born?|Did Lincoln start his political career in 1832?|0|What/Where/Who|1|Yes/No|0|0|0.7027027027027026|0.09090909090909094|0.0|0.25
+Abraham_Lincoln|Where was Lincoln born?|Did Lincoln ever represent Alton & Sangamon Railroad?|0|What/Where/Who|1|Yes/No|0|0|0.6153846153846153|0.09090909090909094|0.0|0.25
+Abraham_Lincoln|Where was Lincoln born?|Did Lincoln ever represent Alton & Sangamon Railroad?|0|What/Where/Who|1|Yes/No|0|0|0.6153846153846153|0.09090909090909094|0.0|0.25
+Abraham_Lincoln|Where was Lincoln born?|Which county was Lincoln born in?|0|What/Where/Who|0|Open-Ended|1|0|0.8823529411764706|0.4285714285714286|0.1428571428571429|0.75
+Abraham_Lincoln|Where was Lincoln born?|Which county was Lincoln born in?|0|What/Where/Who|0|Open-Ended|1|0|0.8823529411764706|0.4285714285714286|0.1428571428571429|0.75
+Abraham_Lincoln|Where was Lincoln born?|When did Lincoln first serve as President?|0|What/Where/Who|0|When/Why|1|0|0.7999999999999999|0.09999999999999998|0.0|0.25
+Abraham_Lincoln|Where was Lincoln born?|When did Lincoln first serve as President?|0|What/Where/Who|0|When/Why|1|0|0.7999999999999999|0.09999999999999998|0.0|0.25
+Abraham_Lincoln|Where was Lincoln born?|Who assassinated Lincoln?|0|What/Where/Who|0|What/Where/Who|1|1|0.8387096774193549|0.16666666666666663|0.0|0.3333333333333333
+Abraham_Lincoln|Where was Lincoln born?|Who assassinated Lincoln?|0|What/Where/Who|0|What/Where/Who|1|1|0.8387096774193549|0.16666666666666663|0.0|0.3333333333333333
+Abraham_Lincoln|Where was Lincoln born?|Did Lincoln win the election of 1860?|0|What/Where/Who|1|Yes/No|0|0|0.6285714285714286|0.09999999999999998|0.0|0.25
+Abraham_Lincoln|Where was Lincoln born?|Did Lincoln win the election of 1860?|0|What/Where/Who|1|Yes/No|0|0|0.6285714285714286|0.09999999999999998|0.0|0.25
+Abraham_Lincoln|Where was Lincoln born?|Who was the general in charge at the Battle of Antietam?|0|What/Where/Who|0|What/Where/Who|1|1|0.7777777777777777|0.07692307692307687|0.0|0.25
+Abraham_Lincoln|Where was Lincoln born?|Who was the general in charge at the Battle of Antietam?|0|What/Where/Who|0|What/Where/Who|1|1|0.7777777777777777|0.07692307692307687|0.0|0.25
+Abraham_Lincoln|Where was Lincoln born?|Why did Lincoln issue the Emancipation Proclamation?|0|What/Where/Who|0|When/Why|1|0|0.7368421052631579|0.09999999999999998|0.0|0.25
+Abraham_Lincoln|Where was Lincoln born?|Why did Lincoln issue the Emancipation Proclamation?|0|What/Where/Who|0|When/Why|1|0|0.7368421052631579|0.09999999999999998|0.0|0.25
+Abraham_Lincoln|Where was Lincoln born?|Do scholars rank lincoln among the top three presidents?|0|What/Where/Who|1|Yes/No|0|0|0.6857142857142857|0.08333333333333337|0.0|0.25
+Abraham_Lincoln|Where was Lincoln born?|Did lincoln have 18 months of schooling?|0|What/Where/Who|1|Yes/No|0|0|0.6111111111111112|0.09999999999999998|0.0|0.25
+Abraham_Lincoln|Where was Lincoln born?|Was Lincoln chosen as a presidential candidate in 1860?|0|What/Where/Who|1|Yes/No|0|0|0.7567567567567567|0.18181818181818177|0.0|0.5
+Abraham_Lincoln|Where was Lincoln born?|How old was Lincoln in 1816?|0|What/Where/Who|0|How|1|0|0.6875|0.25|0.1428571428571429|0.5
+Abraham_Lincoln|Where was Lincoln born?|When was the first photgraph of lincoln taken?|0|What/Where/Who|0|When/Why|1|0|0.7999999999999999|0.19999999999999996|0.0|0.5
+Abraham_Lincoln|Where was Lincoln born?|How long was Lincoln's legal Career?|0|What/Where/Who|0|How|1|0|0.787878787878788|0.11111111111111116|0.0|0.25
+Abraham_Lincoln|Where was Lincoln born?|What trail did Lincoln use a Farmers' Almanac in? |0|What/Where/Who|0|What/Where/Who|1|1|0.7567567567567567|0.08333333333333337|0.0|0.25
+Abraham_Lincoln|Where was Lincoln born?|Did Abraham Lincoln live in the Frontier?|0|What/Where/Who|1|Yes/No|0|0|0.7222222222222223|0.09999999999999998|0.0|0.25
+Abraham_Lincoln|Where was Lincoln born?|Did Lincoln's Wife's Family support slavery?|0|What/Where/Who|1|Yes/No|0|0|0.65|0.0|0.0|0.0
+Abraham_Lincoln|Who was a Whig Party leader, Illinois state legislator, and U.S. congressman from Illinois?|Was Abraham Lincoln the sixteenth President of the United States?|0|What/Where/Who|1|Yes/No|0|0|0.8|0.04761904761904767|0.0|0.1111111111111111
+Abraham_Lincoln|Who was a Whig Party leader, Illinois state legislator, and U.S. congressman from Illinois?|Was Abraham Lincoln the sixteenth President of the United States?|0|What/Where/Who|1|Yes/No|0|0|0.8|0.04761904761904767|0.0|0.1111111111111111
+Abraham_Lincoln|Who was a Whig Party leader, Illinois state legislator, and U.S. congressman from Illinois?|Did Lincoln sign the National Banking Act of 1863?|0|What/Where/Who|1|Yes/No|0|0|0.5882352941176471|0.0|0.0|0.0
+Abraham_Lincoln|Who was a Whig Party leader, Illinois state legislator, and U.S. congressman from Illinois?|Did Lincoln sign the National Banking Act of 1863?|0|What/Where/Who|1|Yes/No|0|0|0.5882352941176471|0.0|0.0|0.0
+Abraham_Lincoln|Who was a Whig Party leader, Illinois state legislator, and U.S. congressman from Illinois?|Did his mother die of pneumonia?|0|What/Where/Who|1|Yes/No|0|0|0.6511627906976744|0.0|0.0|0.0
+Abraham_Lincoln|Who was a Whig Party leader, Illinois state legislator, and U.S. congressman from Illinois?|Did his mother die of pneumonia?|0|What/Where/Who|1|Yes/No|0|0|0.6511627906976744|0.0|0.0|0.0
+Abraham_Lincoln|Who was a Whig Party leader, Illinois state legislator, and U.S. congressman from Illinois?|How many long was Lincoln's formal education?|0|What/Where/Who|0|How|1|0|0.7500000000000001|0.052631578947368474|0.0|0.14285714285714285
+Abraham_Lincoln|Who was a Whig Party leader, Illinois state legislator, and U.S. congressman from Illinois?|How many long was Lincoln's formal education?|0|What/Where/Who|0|How|1|0|0.7500000000000001|0.052631578947368474|0.0|0.14285714285714285
+Abraham_Lincoln|Who was a Whig Party leader, Illinois state legislator, and U.S. congressman from Illinois?|When did Lincoln begin his political career?|0|What/Where/Who|0|When/Why|1|0|0.7111111111111111|0.0|0.0|0.0
+Abraham_Lincoln|Who was a Whig Party leader, Illinois state legislator, and U.S. congressman from Illinois?|When did Lincoln begin his political career?|0|What/Where/Who|0|When/Why|1|0|0.7111111111111111|0.0|0.0|0.0
+Abraham_Lincoln|Who was a Whig Party leader, Illinois state legislator, and U.S. congressman from Illinois?|What did The Legal Tender Act of 1862 establish?|0|What/Where/Who|0|What/Where/Who|1|1|0.6666666666666666|0.0|0.0|0.0
+Abraham_Lincoln|Who was a Whig Party leader, Illinois state legislator, and U.S. congressman from Illinois?|What did The Legal Tender Act of 1862 establish?|0|What/Where/Who|0|What/Where/Who|1|1|0.6666666666666666|0.0|0.0|0.0
+Abraham_Lincoln|Who was a Whig Party leader, Illinois state legislator, and U.S. congressman from Illinois?|Who suggested Lincoln grow a beard?|0|What/Where/Who|0|What/Where/Who|1|1|0.7391304347826088|0.11764705882352944|0.0|0.3333333333333333
+Abraham_Lincoln|Who was a Whig Party leader, Illinois state legislator, and U.S. congressman from Illinois?|Who suggested Lincoln grow a beard?|0|What/Where/Who|0|What/Where/Who|1|1|0.7391304347826088|0.11764705882352944|0.0|0.3333333333333333
+Abraham_Lincoln|Who was a Whig Party leader, Illinois state legislator, and U.S. congressman from Illinois?|When did the Gettysburg address argue that America was born?|0|What/Where/Who|0|When/Why|1|0|0.7500000000000001|0.045454545454545414|0.0|0.1
+Abraham_Lincoln|Who was a Whig Party leader, Illinois state legislator, and U.S. congressman from Illinois?|When did the Gettysburg address argue that America was born?|0|What/Where/Who|0|When/Why|1|0|0.7500000000000001|0.045454545454545414|0.0|0.1
+Abraham_Lincoln|Who was a Whig Party leader, Illinois state legislator, and U.S. congressman from Illinois?|Did Lincoln beat John C. Breckinridge in the 1860 election?|0|What/Where/Who|1|Yes/No|0|0|0.5769230769230769|0.0|0.0|0.0
+Abraham_Lincoln|Who was a Whig Party leader, Illinois state legislator, and U.S. congressman from Illinois?|Did Lincoln beat John C. Breckinridge in the 1860 election?|0|What/Where/Who|1|Yes/No|0|0|0.5769230769230769|0.0|0.0|0.0
+Abraham_Lincoln|Who was a Whig Party leader, Illinois state legislator, and U.S. congressman from Illinois?|Was Abraham Lincoln the first President of the United States?|0|What/Where/Who|1|Yes/No|0|0|0.8163265306122449|0.04761904761904767|0.0|0.1111111111111111
+Abraham_Lincoln|Who was a Whig Party leader, Illinois state legislator, and U.S. congressman from Illinois?|Was Abraham Lincoln the first President of the United States?|0|What/Where/Who|1|Yes/No|0|0|0.8163265306122449|0.04761904761904767|0.0|0.1111111111111111
+Abraham_Lincoln|Who was a Whig Party leader, Illinois state legislator, and U.S. congressman from Illinois?|Did Lincoln start his political career in 1832?|0|What/Where/Who|1|Yes/No|0|0|0.5957446808510638|0.0|0.0|0.0
+Abraham_Lincoln|Who was a Whig Party leader, Illinois state legislator, and U.S. congressman from Illinois?|Did Lincoln start his political career in 1832?|0|What/Where/Who|1|Yes/No|0|0|0.5957446808510638|0.0|0.0|0.0
+Abraham_Lincoln|Who was a Whig Party leader, Illinois state legislator, and U.S. congressman from Illinois?|Did Lincoln ever represent Alton & Sangamon Railroad?|0|What/Where/Who|1|Yes/No|0|0|0.6530612244897959|0.0|0.0|0.0
+Abraham_Lincoln|Who was a Whig Party leader, Illinois state legislator, and U.S. congressman from Illinois?|Did Lincoln ever represent Alton & Sangamon Railroad?|0|What/Where/Who|1|Yes/No|0|0|0.6530612244897959|0.0|0.0|0.0
+Abraham_Lincoln|Who was a Whig Party leader, Illinois state legislator, and U.S. congressman from Illinois?|Which county was Lincoln born in?|0|What/Where/Who|0|Open-Ended|1|0|0.6818181818181818|0.05555555555555558|0.0|0.16666666666666666
+Abraham_Lincoln|Who was a Whig Party leader, Illinois state legislator, and U.S. congressman from Illinois?|Which county was Lincoln born in?|0|What/Where/Who|0|Open-Ended|1|0|0.6818181818181818|0.05555555555555558|0.0|0.16666666666666666
+Abraham_Lincoln|Who was a Whig Party leader, Illinois state legislator, and U.S. congressman from Illinois?|When did Lincoln first serve as President?|0|What/Where/Who|0|When/Why|1|0|0.7555555555555555|0.0|0.0|0.0
+Abraham_Lincoln|Who was a Whig Party leader, Illinois state legislator, and U.S. congressman from Illinois?|When did Lincoln first serve as President?|0|What/Where/Who|0|When/Why|1|0|0.7555555555555555|0.0|0.0|0.0
+Abraham_Lincoln|Who was a Whig Party leader, Illinois state legislator, and U.S. congressman from Illinois?|Who assassinated Lincoln?|0|What/Where/Who|0|What/Where/Who|1|1|0.6829268292682926|0.06666666666666665|0.0|0.3333333333333333
+Abraham_Lincoln|Who was a Whig Party leader, Illinois state legislator, and U.S. congressman from Illinois?|Who assassinated Lincoln?|0|What/Where/Who|0|What/Where/Who|1|1|0.6829268292682926|0.06666666666666665|0.0|0.3333333333333333
+Abraham_Lincoln|Who was a Whig Party leader, Illinois state legislator, and U.S. congressman from Illinois?|Did Lincoln win the election of 1860?|0|What/Where/Who|1|Yes/No|0|0|0.5777777777777778|0.0|0.0|0.0
+Abraham_Lincoln|Who was a Whig Party leader, Illinois state legislator, and U.S. congressman from Illinois?|Did Lincoln win the election of 1860?|0|What/Where/Who|1|Yes/No|0|0|0.5777777777777778|0.0|0.0|0.0
+Abraham_Lincoln|Who was a Whig Party leader, Illinois state legislator, and U.S. congressman from Illinois?|Who was the general in charge at the Battle of Antietam?|0|What/Where/Who|0|What/Where/Who|1|1|0.7826086956521738|0.09523809523809523|0.045454545454545414|0.2
+Abraham_Lincoln|Who was a Whig Party leader, Illinois state legislator, and U.S. congressman from Illinois?|Who was the general in charge at the Battle of Antietam?|0|What/Where/Who|0|What/Where/Who|1|1|0.7826086956521738|0.09523809523809523|0.045454545454545414|0.2
+Abraham_Lincoln|Who was a Whig Party leader, Illinois state legislator, and U.S. congressman from Illinois?|Why did Lincoln issue the Emancipation Proclamation?|0|What/Where/Who|0|When/Why|1|0|0.7500000000000001|0.0|0.0|0.0
+Abraham_Lincoln|Who was a Whig Party leader, Illinois state legislator, and U.S. congressman from Illinois?|Why did Lincoln issue the Emancipation Proclamation?|0|What/Where/Who|0|When/Why|1|0|0.7500000000000001|0.0|0.0|0.0
+Abraham_Lincoln|Who was a Whig Party leader, Illinois state legislator, and U.S. congressman from Illinois?|Do scholars rank lincoln among the top three presidents?|0|What/Where/Who|1|Yes/No|0|0|0.7111111111111111|0.0|0.0|0.0
+Abraham_Lincoln|Who was a Whig Party leader, Illinois state legislator, and U.S. congressman from Illinois?|Did lincoln have 18 months of schooling?|0|What/Where/Who|1|Yes/No|0|0|0.6956521739130435|0.0|0.0|0.0
+Abraham_Lincoln|Who was a Whig Party leader, Illinois state legislator, and U.S. congressman from Illinois?|Was Lincoln chosen as a presidential candidate in 1860?|0|What/Where/Who|1|Yes/No|0|0|0.6382978723404256|0.09999999999999998|0.0|0.2222222222222222
+Abraham_Lincoln|Who was a Whig Party leader, Illinois state legislator, and U.S. congressman from Illinois?|How old was Lincoln in 1816?|0|What/Where/Who|0|How|1|0|0.5238095238095238|0.05555555555555558|0.0|0.16666666666666666
+Abraham_Lincoln|Who was a Whig Party leader, Illinois state legislator, and U.S. congressman from Illinois?|When was the first photgraph of lincoln taken?|0|What/Where/Who|0|When/Why|1|0|0.7555555555555555|0.050000000000000044|0.0|0.125
+Abraham_Lincoln|Who was a Whig Party leader, Illinois state legislator, and U.S. congressman from Illinois?|How long was Lincoln's legal Career?|0|What/Where/Who|0|How|1|0|0.6046511627906976|0.05555555555555558|0.0|0.16666666666666666
+Abraham_Lincoln|Who was a Whig Party leader, Illinois state legislator, and U.S. congressman from Illinois?|What trail did Lincoln use a Farmers' Almanac in? |0|What/Where/Who|0|What/Where/Who|1|1|0.6808510638297872|0.04761904761904767|0.0|0.1111111111111111
+Abraham_Lincoln|Who was a Whig Party leader, Illinois state legislator, and U.S. congressman from Illinois?|Did Abraham Lincoln live in the Frontier?|0|What/Where/Who|1|Yes/No|0|0|0.608695652173913|0.0|0.0|0.0
+Abraham_Lincoln|Who was a Whig Party leader, Illinois state legislator, and U.S. congressman from Illinois?|Did Lincoln's Wife's Family support slavery?|0|What/Where/Who|1|Yes/No|0|0|0.68|0.0|0.0|0.0
+Abraham_Lincoln|Where did Jefferson return to in 1849?|Was Abraham Lincoln the sixteenth President of the United States?|0|What/Where/Who|1|Yes/No|0|0|0.6046511627906976|0.0|0.0|0.0
+Abraham_Lincoln|Where did Jefferson return to in 1849?|Was Abraham Lincoln the sixteenth President of the United States?|0|What/Where/Who|1|Yes/No|0|0|0.6046511627906976|0.0|0.0|0.0
+Abraham_Lincoln|Where did Jefferson return to in 1849?|Did Lincoln sign the National Banking Act of 1863?|0|What/Where/Who|1|Yes/No|0|0|0.5909090909090909|0.06666666666666665|0.0|0.14285714285714285
+Abraham_Lincoln|Where did Jefferson return to in 1849?|Did Lincoln sign the National Banking Act of 1863?|0|What/Where/Who|1|Yes/No|0|0|0.5909090909090909|0.06666666666666665|0.0|0.14285714285714285
+Abraham_Lincoln|Where did Jefferson return to in 1849?|Did his mother die of pneumonia?|0|What/Where/Who|1|Yes/No|0|0|0.7222222222222222|0.08333333333333337|0.0|0.16666666666666666
+Abraham_Lincoln|Where did Jefferson return to in 1849?|Did his mother die of pneumonia?|0|What/Where/Who|1|Yes/No|0|0|0.7222222222222222|0.08333333333333337|0.0|0.16666666666666666
+Abraham_Lincoln|Where did Jefferson return to in 1849?|How many long was Lincoln's formal education?|0|What/Where/Who|0|How|1|0|0.5853658536585366|0.0|0.0|0.0
+Abraham_Lincoln|Where did Jefferson return to in 1849?|How many long was Lincoln's formal education?|0|What/Where/Who|0|How|1|0|0.5853658536585366|0.0|0.0|0.0
+Abraham_Lincoln|Where did Jefferson return to in 1849?|When did Lincoln begin his political career?|0|What/Where/Who|0|When/Why|1|0|0.631578947368421|0.07692307692307687|0.0|0.14285714285714285
+Abraham_Lincoln|Where did Jefferson return to in 1849?|When did Lincoln begin his political career?|0|What/Where/Who|0|When/Why|1|0|0.631578947368421|0.07692307692307687|0.0|0.14285714285714285
+Abraham_Lincoln|Where did Jefferson return to in 1849?|What did The Legal Tender Act of 1862 establish?|0|What/Where/Who|0|What/Where/Who|1|1|0.6818181818181819|0.06666666666666665|0.0|0.14285714285714285
+Abraham_Lincoln|Where did Jefferson return to in 1849?|What did The Legal Tender Act of 1862 establish?|0|What/Where/Who|0|What/Where/Who|1|1|0.6818181818181819|0.06666666666666665|0.0|0.14285714285714285
+Abraham_Lincoln|Where did Jefferson return to in 1849?|Who suggested Lincoln grow a beard?|0|What/Where/Who|0|What/Where/Who|1|1|0.6666666666666667|0.0|0.0|0.0
+Abraham_Lincoln|Where did Jefferson return to in 1849?|Who suggested Lincoln grow a beard?|0|What/Where/Who|0|What/Where/Who|1|1|0.6666666666666667|0.0|0.0|0.0
+Abraham_Lincoln|Where did Jefferson return to in 1849?|When did the Gettysburg address argue that America was born?|0|What/Where/Who|0|When/Why|1|0|0.6341463414634148|0.0625|0.0|0.14285714285714285
+Abraham_Lincoln|Where did Jefferson return to in 1849?|When did the Gettysburg address argue that America was born?|0|What/Where/Who|0|When/Why|1|0|0.6341463414634148|0.0625|0.0|0.14285714285714285
+Abraham_Lincoln|Where did Jefferson return to in 1849?|Did Lincoln beat John C. Breckinridge in the 1860 election?|0|What/Where/Who|1|Yes/No|0|0|0.5777777777777778|0.1333333333333333|0.0|0.2857142857142857
+Abraham_Lincoln|Where did Jefferson return to in 1849?|Did Lincoln beat John C. Breckinridge in the 1860 election?|0|What/Where/Who|1|Yes/No|0|0|0.5777777777777778|0.1333333333333333|0.0|0.2857142857142857
+Abraham_Lincoln|Where did Jefferson return to in 1849?|Was Abraham Lincoln the first President of the United States?|0|What/Where/Who|1|Yes/No|0|0|0.6190476190476191|0.0|0.0|0.0
+Abraham_Lincoln|Where did Jefferson return to in 1849?|Was Abraham Lincoln the first President of the United States?|0|What/Where/Who|1|Yes/No|0|0|0.6190476190476191|0.0|0.0|0.0
+Abraham_Lincoln|Where did Jefferson return to in 1849?|Did Lincoln start his political career in 1832?|0|What/Where/Who|1|Yes/No|0|0|0.6500000000000001|0.15384615384615385|0.0|0.2857142857142857
+Abraham_Lincoln|Where did Jefferson return to in 1849?|Did Lincoln start his political career in 1832?|0|What/Where/Who|1|Yes/No|0|0|0.6500000000000001|0.15384615384615385|0.0|0.2857142857142857
+Abraham_Lincoln|Where did Jefferson return to in 1849?|Did Lincoln ever represent Alton & Sangamon Railroad?|0|What/Where/Who|1|Yes/No|0|0|0.47619047619047616|0.0714285714285714|0.0|0.14285714285714285
+Abraham_Lincoln|Where did Jefferson return to in 1849?|Did Lincoln ever represent Alton & Sangamon Railroad?|0|What/Where/Who|1|Yes/No|0|0|0.47619047619047616|0.0714285714285714|0.0|0.14285714285714285
+Abraham_Lincoln|Where did Jefferson return to in 1849?|Which county was Lincoln born in?|0|What/Where/Who|0|Open-Ended|1|0|0.5945945945945946|0.08333333333333337|0.0|0.16666666666666666
+Abraham_Lincoln|Where did Jefferson return to in 1849?|Which county was Lincoln born in?|0|What/Where/Who|0|Open-Ended|1|0|0.5945945945945946|0.08333333333333337|0.0|0.16666666666666666
+Abraham_Lincoln|Where did Jefferson return to in 1849?|When did Lincoln first serve as President?|0|What/Where/Who|0|When/Why|1|0|0.6842105263157895|0.07692307692307687|0.0|0.14285714285714285
+Abraham_Lincoln|Where did Jefferson return to in 1849?|When did Lincoln first serve as President?|0|What/Where/Who|0|When/Why|1|0|0.6842105263157895|0.07692307692307687|0.0|0.14285714285714285
+Abraham_Lincoln|Where did Jefferson return to in 1849?|Who assassinated Lincoln?|0|What/Where/Who|0|What/Where/Who|1|1|0.6470588235294117|0.0|0.0|0.0
+Abraham_Lincoln|Where did Jefferson return to in 1849?|Who assassinated Lincoln?|0|What/Where/Who|0|What/Where/Who|1|1|0.6470588235294117|0.0|0.0|0.0
+Abraham_Lincoln|Where did Jefferson return to in 1849?|Did Lincoln win the election of 1860?|0|What/Where/Who|1|Yes/No|0|0|0.631578947368421|0.07692307692307687|0.0|0.14285714285714285
+Abraham_Lincoln|Where did Jefferson return to in 1849?|Did Lincoln win the election of 1860?|0|What/Where/Who|1|Yes/No|0|0|0.631578947368421|0.07692307692307687|0.0|0.14285714285714285
+Abraham_Lincoln|Where did Jefferson return to in 1849?|Who was the general in charge at the Battle of Antietam?|0|What/Where/Who|0|What/Where/Who|1|1|0.6153846153846154|0.0625|0.0|0.14285714285714285
+Abraham_Lincoln|Where did Jefferson return to in 1849?|Who was the general in charge at the Battle of Antietam?|0|What/Where/Who|0|What/Where/Who|1|1|0.6153846153846154|0.0625|0.0|0.14285714285714285
+Abraham_Lincoln|Where did Jefferson return to in 1849?|Why did Lincoln issue the Emancipation Proclamation?|0|What/Where/Who|0|When/Why|1|0|0.6341463414634148|0.07692307692307687|0.0|0.14285714285714285
+Abraham_Lincoln|Where did Jefferson return to in 1849?|Why did Lincoln issue the Emancipation Proclamation?|0|What/Where/Who|0|When/Why|1|0|0.6341463414634148|0.07692307692307687|0.0|0.14285714285714285
+Abraham_Lincoln|Where did Jefferson return to in 1849?|Do scholars rank lincoln among the top three presidents?|0|What/Where/Who|1|Yes/No|0|0|0.5789473684210527|0.0|0.0|0.0
+Abraham_Lincoln|Where did Jefferson return to in 1849?|Did lincoln have 18 months of schooling?|0|What/Where/Who|1|Yes/No|0|0|0.6666666666666667|0.07692307692307687|0.0|0.14285714285714285
+Abraham_Lincoln|Where did Jefferson return to in 1849?|Was Lincoln chosen as a presidential candidate in 1860?|0|What/Where/Who|1|Yes/No|0|0|0.7|0.06666666666666665|0.0|0.14285714285714285
+Abraham_Lincoln|Where did Jefferson return to in 1849?|How old was Lincoln in 1816?|0|What/Where/Who|0|How|1|0|0.5142857142857142|0.08333333333333337|0.0|0.16666666666666666
+Abraham_Lincoln|Where did Jefferson return to in 1849?|When was the first photgraph of lincoln taken?|0|What/Where/Who|0|When/Why|1|0|0.631578947368421|0.0|0.0|0.0
+Abraham_Lincoln|Where did Jefferson return to in 1849?|How long was Lincoln's legal Career?|0|What/Where/Who|0|How|1|0|0.4444444444444444|0.0|0.0|0.0
+Abraham_Lincoln|Where did Jefferson return to in 1849?|What trail did Lincoln use a Farmers' Almanac in? |0|What/Where/Who|0|What/Where/Who|1|1|0.6500000000000001|0.1428571428571429|0.0|0.2857142857142857
+Abraham_Lincoln|Where did Jefferson return to in 1849?|Did Abraham Lincoln live in the Frontier?|0|What/Where/Who|1|Yes/No|0|0|0.5128205128205129|0.16666666666666663|0.0|0.2857142857142857
+Abraham_Lincoln|Where did Jefferson return to in 1849?|Did Lincoln's Wife's Family support slavery?|0|What/Where/Who|1|Yes/No|0|0|0.6046511627906976|0.08333333333333337|0.0|0.16666666666666666
+Abraham_Lincoln|In what year did the Kansas–Nebraska Act take effect?|Was Abraham Lincoln the sixteenth President of the United States?|0|Open-Ended|1|Yes/No|0|0|0.6521739130434783|0.05882352941176472|0.0|0.1111111111111111
+Abraham_Lincoln|In what year did the Kansas–Nebraska Act take effect?|Was Abraham Lincoln the sixteenth President of the United States?|0|Open-Ended|1|Yes/No|0|0|0.6521739130434783|0.05882352941176472|0.0|0.1111111111111111
+Abraham_Lincoln|In what year did the Kansas–Nebraska Act take effect?|Did Lincoln sign the National Banking Act of 1863?|0|Open-Ended|1|Yes/No|0|0|0.6382978723404256|0.19999999999999996|0.0|0.3333333333333333
+Abraham_Lincoln|In what year did the Kansas–Nebraska Act take effect?|Did Lincoln sign the National Banking Act of 1863?|0|Open-Ended|1|Yes/No|0|0|0.6382978723404256|0.19999999999999996|0.0|0.3333333333333333
+Abraham_Lincoln|In what year did the Kansas–Nebraska Act take effect?|Did his mother die of pneumonia?|0|Open-Ended|1|Yes/No|0|0|0.6153846153846153|0.0714285714285714|0.0|0.16666666666666666
+Abraham_Lincoln|In what year did the Kansas–Nebraska Act take effect?|Did his mother die of pneumonia?|0|Open-Ended|1|Yes/No|0|0|0.6153846153846153|0.0714285714285714|0.0|0.16666666666666666
+Abraham_Lincoln|In what year did the Kansas–Nebraska Act take effect?|How many long was Lincoln's formal education?|0|Open-Ended|0|How|1|0|0.6363636363636364|0.0|0.0|0.0
+Abraham_Lincoln|In what year did the Kansas–Nebraska Act take effect?|How many long was Lincoln's formal education?|0|Open-Ended|0|How|1|0|0.6363636363636364|0.0|0.0|0.0
+Abraham_Lincoln|In what year did the Kansas–Nebraska Act take effect?|When did Lincoln begin his political career?|0|Open-Ended|0|When/Why|1|0|0.6341463414634148|0.06666666666666665|0.0|0.14285714285714285
+Abraham_Lincoln|In what year did the Kansas–Nebraska Act take effect?|When did Lincoln begin his political career?|0|Open-Ended|0|When/Why|1|0|0.6341463414634148|0.06666666666666665|0.0|0.14285714285714285
+Abraham_Lincoln|In what year did the Kansas–Nebraska Act take effect?|What did The Legal Tender Act of 1862 establish?|0|Open-Ended|0|What/Where/Who|1|0|0.6382978723404256|0.2857142857142857|0.0|0.4444444444444444
+Abraham_Lincoln|In what year did the Kansas–Nebraska Act take effect?|What did The Legal Tender Act of 1862 establish?|0|Open-Ended|0|What/Where/Who|1|0|0.6382978723404256|0.2857142857142857|0.0|0.4444444444444444
+Abraham_Lincoln|In what year did the Kansas–Nebraska Act take effect?|Who suggested Lincoln grow a beard?|0|Open-Ended|0|What/Where/Who|1|0|0.6666666666666666|0.0|0.0|0.0
+Abraham_Lincoln|In what year did the Kansas–Nebraska Act take effect?|Who suggested Lincoln grow a beard?|0|Open-Ended|0|What/Where/Who|1|0|0.6666666666666666|0.0|0.0|0.0
+Abraham_Lincoln|In what year did the Kansas–Nebraska Act take effect?|When did the Gettysburg address argue that America was born?|0|Open-Ended|0|When/Why|1|0|0.7272727272727273|0.11764705882352944|0.0625|0.2222222222222222
+Abraham_Lincoln|In what year did the Kansas–Nebraska Act take effect?|When did the Gettysburg address argue that America was born?|0|Open-Ended|0|When/Why|1|0|0.7272727272727273|0.11764705882352944|0.0625|0.2222222222222222
+Abraham_Lincoln|In what year did the Kansas–Nebraska Act take effect?|Did Lincoln beat John C. Breckinridge in the 1860 election?|0|Open-Ended|1|Yes/No|0|0|0.5416666666666667|0.1875|0.0|0.3333333333333333
+Abraham_Lincoln|In what year did the Kansas–Nebraska Act take effect?|Did Lincoln beat John C. Breckinridge in the 1860 election?|0|Open-Ended|1|Yes/No|0|0|0.5416666666666667|0.1875|0.0|0.3333333333333333
+Abraham_Lincoln|In what year did the Kansas–Nebraska Act take effect?|Was Abraham Lincoln the first President of the United States?|0|Open-Ended|1|Yes/No|0|0|0.6666666666666666|0.05882352941176472|0.0|0.1111111111111111
+Abraham_Lincoln|In what year did the Kansas–Nebraska Act take effect?|Was Abraham Lincoln the first President of the United States?|0|Open-Ended|1|Yes/No|0|0|0.6666666666666666|0.05882352941176472|0.0|0.1111111111111111
+Abraham_Lincoln|In what year did the Kansas–Nebraska Act take effect?|Did Lincoln start his political career in 1832?|0|Open-Ended|1|Yes/No|0|0|0.5581395348837208|0.1333333333333333|0.0|0.25
+Abraham_Lincoln|In what year did the Kansas–Nebraska Act take effect?|Did Lincoln start his political career in 1832?|0|Open-Ended|1|Yes/No|0|0|0.5581395348837208|0.1333333333333333|0.0|0.25
+Abraham_Lincoln|In what year did the Kansas–Nebraska Act take effect?|Did Lincoln ever represent Alton & Sangamon Railroad?|0|Open-Ended|1|Yes/No|0|0|0.5333333333333332|0.0625|0.0|0.125
+Abraham_Lincoln|In what year did the Kansas–Nebraska Act take effect?|Did Lincoln ever represent Alton & Sangamon Railroad?|0|Open-Ended|1|Yes/No|0|0|0.5333333333333332|0.0625|0.0|0.125
+Abraham_Lincoln|In what year did the Kansas–Nebraska Act take effect?|Which county was Lincoln born in?|0|Open-Ended|0|Open-Ended|1|1|0.65|0.0714285714285714|0.0|0.16666666666666666
+Abraham_Lincoln|In what year did the Kansas–Nebraska Act take effect?|Which county was Lincoln born in?|0|Open-Ended|0|Open-Ended|1|1|0.65|0.0714285714285714|0.0|0.16666666666666666
+Abraham_Lincoln|In what year did the Kansas–Nebraska Act take effect?|When did Lincoln first serve as President?|0|Open-Ended|0|When/Why|1|0|0.6341463414634148|0.06666666666666665|0.0|0.14285714285714285
+Abraham_Lincoln|In what year did the Kansas–Nebraska Act take effect?|When did Lincoln first serve as President?|0|Open-Ended|0|When/Why|1|0|0.6341463414634148|0.06666666666666665|0.0|0.14285714285714285
+Abraham_Lincoln|In what year did the Kansas–Nebraska Act take effect?|Who assassinated Lincoln?|0|Open-Ended|0|What/Where/Who|1|0|0.5945945945945945|0.0|0.0|0.0
+Abraham_Lincoln|In what year did the Kansas–Nebraska Act take effect?|Who assassinated Lincoln?|0|Open-Ended|0|What/Where/Who|1|0|0.5945945945945945|0.0|0.0|0.0
+Abraham_Lincoln|In what year did the Kansas–Nebraska Act take effect?|Did Lincoln win the election of 1860?|0|Open-Ended|1|Yes/No|0|0|0.5365853658536586|0.1428571428571429|0.0|0.2857142857142857
+Abraham_Lincoln|In what year did the Kansas–Nebraska Act take effect?|Did Lincoln win the election of 1860?|0|Open-Ended|1|Yes/No|0|0|0.5365853658536586|0.1428571428571429|0.0|0.2857142857142857
+Abraham_Lincoln|In what year did the Kansas–Nebraska Act take effect?|Who was the general in charge at the Battle of Antietam?|0|Open-Ended|0|What/Where/Who|1|0|0.6666666666666666|0.11764705882352944|0.0|0.2222222222222222
+Abraham_Lincoln|In what year did the Kansas–Nebraska Act take effect?|Who was the general in charge at the Battle of Antietam?|0|Open-Ended|0|What/Where/Who|1|0|0.6666666666666666|0.11764705882352944|0.0|0.2222222222222222
+Abraham_Lincoln|In what year did the Kansas–Nebraska Act take effect?|Why did Lincoln issue the Emancipation Proclamation?|0|Open-Ended|0|When/Why|1|0|0.5909090909090909|0.1428571428571429|0.0|0.2857142857142857
+Abraham_Lincoln|In what year did the Kansas–Nebraska Act take effect?|Why did Lincoln issue the Emancipation Proclamation?|0|Open-Ended|0|When/Why|1|0|0.5909090909090909|0.1428571428571429|0.0|0.2857142857142857
+Abraham_Lincoln|In what year did the Kansas–Nebraska Act take effect?|Do scholars rank lincoln among the top three presidents?|0|Open-Ended|1|Yes/No|0|0|0.6341463414634148|0.05882352941176472|0.0|0.1111111111111111
+Abraham_Lincoln|In what year did the Kansas–Nebraska Act take effect?|Did lincoln have 18 months of schooling?|0|Open-Ended|1|Yes/No|0|0|0.5714285714285713|0.06666666666666665|0.0|0.14285714285714285
+Abraham_Lincoln|In what year did the Kansas–Nebraska Act take effect?|Was Lincoln chosen as a presidential candidate in 1860?|0|Open-Ended|1|Yes/No|0|0|0.5581395348837208|0.05882352941176472|0.0|0.1111111111111111
+Abraham_Lincoln|In what year did the Kansas–Nebraska Act take effect?|How old was Lincoln in 1816?|0|Open-Ended|0|How|1|0|0.47368421052631576|0.0714285714285714|0.0|0.16666666666666666
+Abraham_Lincoln|In what year did the Kansas–Nebraska Act take effect?|When was the first photgraph of lincoln taken?|0|Open-Ended|0|When/Why|1|0|0.6829268292682926|0.0625|0.0|0.125
+Abraham_Lincoln|In what year did the Kansas–Nebraska Act take effect?|How long was Lincoln's legal Career?|0|Open-Ended|0|How|1|0|0.5128205128205129|0.0|0.0|0.0
+Abraham_Lincoln|In what year did the Kansas–Nebraska Act take effect?|What trail did Lincoln use a Farmers' Almanac in? |0|Open-Ended|0|What/Where/Who|1|0|0.6046511627906977|0.19999999999999996|0.0|0.3333333333333333
+Abraham_Lincoln|In what year did the Kansas–Nebraska Act take effect?|Did Abraham Lincoln live in the Frontier?|0|Open-Ended|1|Yes/No|0|0|0.6190476190476191|0.23076923076923073|0.0|0.42857142857142855
+Abraham_Lincoln|In what year did the Kansas–Nebraska Act take effect?|Did Lincoln's Wife's Family support slavery?|0|Open-Ended|1|Yes/No|0|0|0.5652173913043478|0.0714285714285714|0.0|0.16666666666666666
+Abraham_Lincoln|Who became a leader of the new Republican Party?|Was Abraham Lincoln the sixteenth President of the United States?|0|What/Where/Who|1|Yes/No|0|0|0.7659574468085107|0.125|0.0625|0.2222222222222222
+Abraham_Lincoln|Who became a leader of the new Republican Party?|Was Abraham Lincoln the sixteenth President of the United States?|0|What/Where/Who|1|Yes/No|0|0|0.7659574468085107|0.125|0.0625|0.2222222222222222
+Abraham_Lincoln|Who became a leader of the new Republican Party?|Did Lincoln sign the National Banking Act of 1863?|0|What/Where/Who|1|Yes/No|0|0|0.5416666666666667|0.125|0.0|0.2222222222222222
+Abraham_Lincoln|Who became a leader of the new Republican Party?|Did Lincoln sign the National Banking Act of 1863?|0|What/Where/Who|1|Yes/No|0|0|0.5416666666666667|0.125|0.0|0.2222222222222222
+Abraham_Lincoln|Who became a leader of the new Republican Party?|Did his mother die of pneumonia?|0|What/Where/Who|1|Yes/No|0|0|0.75|0.0714285714285714|0.0|0.16666666666666666
+Abraham_Lincoln|Who became a leader of the new Republican Party?|Did his mother die of pneumonia?|0|What/Where/Who|1|Yes/No|0|0|0.75|0.0714285714285714|0.0|0.16666666666666666
+Abraham_Lincoln|Who became a leader of the new Republican Party?|How many long was Lincoln's formal education?|0|What/Where/Who|0|How|1|0|0.7555555555555555|0.0|0.0|0.0
+Abraham_Lincoln|Who became a leader of the new Republican Party?|How many long was Lincoln's formal education?|0|What/Where/Who|0|How|1|0|0.7555555555555555|0.0|0.0|0.0
+Abraham_Lincoln|Who became a leader of the new Republican Party?|When did Lincoln begin his political career?|0|What/Where/Who|0|When/Why|1|0|0.761904761904762|0.0|0.0|0.0
+Abraham_Lincoln|Who became a leader of the new Republican Party?|When did Lincoln begin his political career?|0|What/Where/Who|0|When/Why|1|0|0.761904761904762|0.0|0.0|0.0
+Abraham_Lincoln|Who became a leader of the new Republican Party?|What did The Legal Tender Act of 1862 establish?|0|What/Where/Who|0|What/Where/Who|1|1|0.6666666666666666|0.125|0.0|0.2222222222222222
+Abraham_Lincoln|Who became a leader of the new Republican Party?|What did The Legal Tender Act of 1862 establish?|0|What/Where/Who|0|What/Where/Who|1|1|0.6666666666666666|0.125|0.0|0.2222222222222222
+Abraham_Lincoln|Who became a leader of the new Republican Party?|Who suggested Lincoln grow a beard?|0|What/Where/Who|0|What/Where/Who|1|1|0.7906976744186046|0.15384615384615385|0.0|0.3333333333333333
+Abraham_Lincoln|Who became a leader of the new Republican Party?|Who suggested Lincoln grow a beard?|0|What/Where/Who|0|What/Where/Who|1|1|0.7906976744186046|0.15384615384615385|0.0|0.3333333333333333
+Abraham_Lincoln|Who became a leader of the new Republican Party?|When did the Gettysburg address argue that America was born?|0|What/Where/Who|0|When/Why|1|0|0.8|0.05555555555555558|0.0|0.1111111111111111
+Abraham_Lincoln|Who became a leader of the new Republican Party?|When did the Gettysburg address argue that America was born?|0|What/Where/Who|0|When/Why|1|0|0.8|0.05555555555555558|0.0|0.1111111111111111
+Abraham_Lincoln|Who became a leader of the new Republican Party?|Did Lincoln beat John C. Breckinridge in the 1860 election?|0|What/Where/Who|1|Yes/No|0|0|0.5714285714285715|0.05555555555555558|0.0|0.1111111111111111
+Abraham_Lincoln|Who became a leader of the new Republican Party?|Did Lincoln beat John C. Breckinridge in the 1860 election?|0|What/Where/Who|1|Yes/No|0|0|0.5714285714285715|0.05555555555555558|0.0|0.1111111111111111
+Abraham_Lincoln|Who became a leader of the new Republican Party?|Was Abraham Lincoln the first President of the United States?|0|What/Where/Who|1|Yes/No|0|0|0.782608695652174|0.125|0.0625|0.2222222222222222
+Abraham_Lincoln|Who became a leader of the new Republican Party?|Was Abraham Lincoln the first President of the United States?|0|What/Where/Who|1|Yes/No|0|0|0.782608695652174|0.125|0.0625|0.2222222222222222
+Abraham_Lincoln|Who became a leader of the new Republican Party?|Did Lincoln start his political career in 1832?|0|What/Where/Who|1|Yes/No|0|0|0.6363636363636365|0.0|0.0|0.0
+Abraham_Lincoln|Who became a leader of the new Republican Party?|Did Lincoln start his political career in 1832?|0|What/Where/Who|1|Yes/No|0|0|0.6363636363636365|0.0|0.0|0.0
+Abraham_Lincoln|Who became a leader of the new Republican Party?|Did Lincoln ever represent Alton & Sangamon Railroad?|0|What/Where/Who|1|Yes/No|0|0|0.6521739130434783|0.0|0.0|0.0
+Abraham_Lincoln|Who became a leader of the new Republican Party?|Did Lincoln ever represent Alton & Sangamon Railroad?|0|What/Where/Who|1|Yes/No|0|0|0.6521739130434783|0.0|0.0|0.0
+Abraham_Lincoln|Who became a leader of the new Republican Party?|Which county was Lincoln born in?|0|What/Where/Who|0|Open-Ended|1|0|0.7804878048780488|0.0|0.0|0.0
+Abraham_Lincoln|Who became a leader of the new Republican Party?|Which county was Lincoln born in?|0|What/Where/Who|0|Open-Ended|1|0|0.7804878048780488|0.0|0.0|0.0
+Abraham_Lincoln|Who became a leader of the new Republican Party?|When did Lincoln first serve as President?|0|What/Where/Who|0|When/Why|1|0|0.761904761904762|0.0|0.0|0.0
+Abraham_Lincoln|Who became a leader of the new Republican Party?|When did Lincoln first serve as President?|0|What/Where/Who|0|When/Why|1|0|0.761904761904762|0.0|0.0|0.0
+Abraham_Lincoln|Who became a leader of the new Republican Party?|Who assassinated Lincoln?|0|What/Where/Who|0|What/Where/Who|1|1|0.6842105263157895|0.09090909090909094|0.0|0.3333333333333333
+Abraham_Lincoln|Who became a leader of the new Republican Party?|Who assassinated Lincoln?|0|What/Where/Who|0|What/Where/Who|1|1|0.6842105263157895|0.09090909090909094|0.0|0.3333333333333333
+Abraham_Lincoln|Who became a leader of the new Republican Party?|Did Lincoln win the election of 1860?|0|What/Where/Who|1|Yes/No|0|0|0.6190476190476191|0.1428571428571429|0.0|0.2857142857142857
+Abraham_Lincoln|Who became a leader of the new Republican Party?|Did Lincoln win the election of 1860?|0|What/Where/Who|1|Yes/No|0|0|0.6190476190476191|0.1428571428571429|0.0|0.2857142857142857
+Abraham_Lincoln|Who became a leader of the new Republican Party?|Who was the general in charge at the Battle of Antietam?|0|What/Where/Who|0|What/Where/Who|1|1|0.7441860465116279|0.1875|0.0|0.3333333333333333
+Abraham_Lincoln|Who became a leader of the new Republican Party?|Who was the general in charge at the Battle of Antietam?|0|What/Where/Who|0|What/Where/Who|1|1|0.7441860465116279|0.1875|0.0|0.3333333333333333
+Abraham_Lincoln|Who became a leader of the new Republican Party?|Why did Lincoln issue the Emancipation Proclamation?|0|What/Where/Who|0|When/Why|1|0|0.8444444444444444|0.06666666666666665|0.0|0.14285714285714285
+Abraham_Lincoln|Who became a leader of the new Republican Party?|Why did Lincoln issue the Emancipation Proclamation?|0|What/Where/Who|0|When/Why|1|0|0.8444444444444444|0.06666666666666665|0.0|0.14285714285714285
+Abraham_Lincoln|Who became a leader of the new Republican Party?|Do scholars rank lincoln among the top three presidents?|0|What/Where/Who|1|Yes/No|0|0|0.7142857142857143|0.05882352941176472|0.0|0.1111111111111111
+Abraham_Lincoln|Who became a leader of the new Republican Party?|Did lincoln have 18 months of schooling?|0|What/Where/Who|1|Yes/No|0|0|0.6511627906976744|0.06666666666666665|0.0|0.14285714285714285
+Abraham_Lincoln|Who became a leader of the new Republican Party?|Was Lincoln chosen as a presidential candidate in 1860?|0|What/Where/Who|1|Yes/No|0|0|0.6818181818181819|0.05882352941176472|0.0|0.1111111111111111
+Abraham_Lincoln|Who became a leader of the new Republican Party?|How old was Lincoln in 1816?|0|What/Where/Who|0|How|1|0|0.5128205128205128|0.0|0.0|0.0
+Abraham_Lincoln|Who became a leader of the new Republican Party?|When was the first photgraph of lincoln taken?|0|What/Where/Who|0|When/Why|1|0|0.761904761904762|0.1333333333333333|0.0|0.25
+Abraham_Lincoln|Who became a leader of the new Republican Party?|How long was Lincoln's legal Career?|0|What/Where/Who|0|How|1|0|0.55|0.0|0.0|0.0
+Abraham_Lincoln|Who became a leader of the new Republican Party?|What trail did Lincoln use a Farmers' Almanac in? |0|What/Where/Who|0|What/Where/Who|1|1|0.7272727272727272|0.05882352941176472|0.0|0.1111111111111111
+Abraham_Lincoln|Who became a leader of the new Republican Party?|Did Abraham Lincoln live in the Frontier?|0|What/Where/Who|1|Yes/No|0|0|0.6976744186046512|0.06666666666666665|0.0|0.14285714285714285
+Abraham_Lincoln|Who became a leader of the new Republican Party?|Did Lincoln's Wife's Family support slavery?|0|What/Where/Who|1|Yes/No|0|0|0.7659574468085107|0.0|0.0|0.0
+Abraham_Lincoln|Who was the opponent in the 1858 Senate campaign debates?|Was Abraham Lincoln the sixteenth President of the United States?|0|What/Where/Who|1|Yes/No|0|0|0.6956521739130435|0.125|0.0|0.2222222222222222
+Abraham_Lincoln|Who was the opponent in the 1858 Senate campaign debates?|Was Abraham Lincoln the sixteenth President of the United States?|0|What/Where/Who|1|Yes/No|0|0|0.6956521739130435|0.125|0.0|0.2222222222222222
+Abraham_Lincoln|Who was the opponent in the 1858 Senate campaign debates?|Did Lincoln sign the National Banking Act of 1863?|0|What/Where/Who|1|Yes/No|0|0|0.6382978723404256|0.05882352941176472|0.0|0.1111111111111111
+Abraham_Lincoln|Who was the opponent in the 1858 Senate campaign debates?|Did Lincoln sign the National Banking Act of 1863?|0|What/Where/Who|1|Yes/No|0|0|0.6382978723404256|0.05882352941176472|0.0|0.1111111111111111
+Abraham_Lincoln|Who was the opponent in the 1858 Senate campaign debates?|Did his mother die of pneumonia?|0|What/Where/Who|1|Yes/No|0|0|0.6666666666666667|0.0|0.0|0.0
+Abraham_Lincoln|Who was the opponent in the 1858 Senate campaign debates?|Did his mother die of pneumonia?|0|What/Where/Who|1|Yes/No|0|0|0.6666666666666667|0.0|0.0|0.0
+Abraham_Lincoln|Who was the opponent in the 1858 Senate campaign debates?|How many long was Lincoln's formal education?|0|What/Where/Who|0|How|1|0|0.6363636363636364|0.06666666666666665|0.0|0.14285714285714285
+Abraham_Lincoln|Who was the opponent in the 1858 Senate campaign debates?|How many long was Lincoln's formal education?|0|What/Where/Who|0|How|1|0|0.6363636363636364|0.06666666666666665|0.0|0.14285714285714285
+Abraham_Lincoln|Who was the opponent in the 1858 Senate campaign debates?|When did Lincoln begin his political career?|0|What/Where/Who|0|When/Why|1|0|0.7804878048780488|0.0|0.0|0.0
+Abraham_Lincoln|Who was the opponent in the 1858 Senate campaign debates?|When did Lincoln begin his political career?|0|What/Where/Who|0|When/Why|1|0|0.7804878048780488|0.0|0.0|0.0
+Abraham_Lincoln|Who was the opponent in the 1858 Senate campaign debates?|What did The Legal Tender Act of 1862 establish?|0|What/Where/Who|0|What/Where/Who|1|1|0.7234042553191491|0.05882352941176472|0.0|0.1111111111111111
+Abraham_Lincoln|Who was the opponent in the 1858 Senate campaign debates?|What did The Legal Tender Act of 1862 establish?|0|What/Where/Who|0|What/Where/Who|1|1|0.7234042553191491|0.05882352941176472|0.0|0.1111111111111111
+Abraham_Lincoln|Who was the opponent in the 1858 Senate campaign debates?|Who suggested Lincoln grow a beard?|0|What/Where/Who|0|What/Where/Who|1|1|0.761904761904762|0.0714285714285714|0.0|0.16666666666666666
+Abraham_Lincoln|Who was the opponent in the 1858 Senate campaign debates?|Who suggested Lincoln grow a beard?|0|What/Where/Who|0|What/Where/Who|1|1|0.761904761904762|0.0714285714285714|0.0|0.16666666666666666
+Abraham_Lincoln|Who was the opponent in the 1858 Senate campaign debates?|When did the Gettysburg address argue that America was born?|0|What/Where/Who|0|When/Why|1|0|0.7727272727272727|0.11764705882352944|0.0|0.2222222222222222
+Abraham_Lincoln|Who was the opponent in the 1858 Senate campaign debates?|When did the Gettysburg address argue that America was born?|0|What/Where/Who|0|When/Why|1|0|0.7727272727272727|0.11764705882352944|0.0|0.2222222222222222
+Abraham_Lincoln|Who was the opponent in the 1858 Senate campaign debates?|Did Lincoln beat John C. Breckinridge in the 1860 election?|0|What/Where/Who|1|Yes/No|0|0|0.6249999999999999|0.11764705882352944|0.05882352941176472|0.2222222222222222
+Abraham_Lincoln|Who was the opponent in the 1858 Senate campaign debates?|Did Lincoln beat John C. Breckinridge in the 1860 election?|0|What/Where/Who|1|Yes/No|0|0|0.6249999999999999|0.11764705882352944|0.05882352941176472|0.2222222222222222
+Abraham_Lincoln|Who was the opponent in the 1858 Senate campaign debates?|Was Abraham Lincoln the first President of the United States?|0|What/Where/Who|1|Yes/No|0|0|0.711111111111111|0.125|0.0|0.2222222222222222
+Abraham_Lincoln|Who was the opponent in the 1858 Senate campaign debates?|Was Abraham Lincoln the first President of the United States?|0|What/Where/Who|1|Yes/No|0|0|0.711111111111111|0.125|0.0|0.2222222222222222
+Abraham_Lincoln|Who was the opponent in the 1858 Senate campaign debates?|Did Lincoln start his political career in 1832?|0|What/Where/Who|1|Yes/No|0|0|0.6976744186046512|0.0625|0.0|0.125
+Abraham_Lincoln|Who was the opponent in the 1858 Senate campaign debates?|Did Lincoln start his political career in 1832?|0|What/Where/Who|1|Yes/No|0|0|0.6976744186046512|0.0625|0.0|0.125
+Abraham_Lincoln|Who was the opponent in the 1858 Senate campaign debates?|Did Lincoln ever represent Alton & Sangamon Railroad?|0|What/Where/Who|1|Yes/No|0|0|0.6666666666666666|0.0|0.0|0.0
+Abraham_Lincoln|Who was the opponent in the 1858 Senate campaign debates?|Did Lincoln ever represent Alton & Sangamon Railroad?|0|What/Where/Who|1|Yes/No|0|0|0.6666666666666666|0.0|0.0|0.0
+Abraham_Lincoln|Who was the opponent in the 1858 Senate campaign debates?|Which county was Lincoln born in?|0|What/Where/Who|0|Open-Ended|1|0|0.65|0.15384615384615385|0.0|0.3333333333333333
+Abraham_Lincoln|Who was the opponent in the 1858 Senate campaign debates?|Which county was Lincoln born in?|0|What/Where/Who|0|Open-Ended|1|0|0.65|0.15384615384615385|0.0|0.3333333333333333
+Abraham_Lincoln|Who was the opponent in the 1858 Senate campaign debates?|When did Lincoln first serve as President?|0|What/Where/Who|0|When/Why|1|0|0.6341463414634148|0.0|0.0|0.0
+Abraham_Lincoln|Who was the opponent in the 1858 Senate campaign debates?|When did Lincoln first serve as President?|0|What/Where/Who|0|When/Why|1|0|0.6341463414634148|0.0|0.0|0.0
+Abraham_Lincoln|Who was the opponent in the 1858 Senate campaign debates?|Who assassinated Lincoln?|0|What/Where/Who|0|What/Where/Who|1|1|0.7027027027027029|0.09090909090909094|0.0|0.3333333333333333
+Abraham_Lincoln|Who was the opponent in the 1858 Senate campaign debates?|Who assassinated Lincoln?|0|What/Where/Who|0|What/Where/Who|1|1|0.7027027027027029|0.09090909090909094|0.0|0.3333333333333333
+Abraham_Lincoln|Who was the opponent in the 1858 Senate campaign debates?|Did Lincoln win the election of 1860?|0|What/Where/Who|1|Yes/No|0|0|0.6341463414634148|0.06666666666666665|0.0|0.14285714285714285
+Abraham_Lincoln|Who was the opponent in the 1858 Senate campaign debates?|Did Lincoln win the election of 1860?|0|What/Where/Who|1|Yes/No|0|0|0.6341463414634148|0.06666666666666665|0.0|0.14285714285714285
+Abraham_Lincoln|Who was the opponent in the 1858 Senate campaign debates?|Who was the general in charge at the Battle of Antietam?|0|What/Where/Who|0|What/Where/Who|1|1|0.7142857142857143|0.2666666666666667|0.11764705882352944|0.4444444444444444
+Abraham_Lincoln|Who was the opponent in the 1858 Senate campaign debates?|Who was the general in charge at the Battle of Antietam?|0|What/Where/Who|0|What/Where/Who|1|1|0.7142857142857143|0.2666666666666667|0.11764705882352944|0.4444444444444444
+Abraham_Lincoln|Who was the opponent in the 1858 Senate campaign debates?|Why did Lincoln issue the Emancipation Proclamation?|0|What/Where/Who|0|When/Why|1|0|0.6818181818181818|0.06666666666666665|0.0|0.14285714285714285
+Abraham_Lincoln|Who was the opponent in the 1858 Senate campaign debates?|Why did Lincoln issue the Emancipation Proclamation?|0|What/Where/Who|0|When/Why|1|0|0.6818181818181818|0.06666666666666665|0.0|0.14285714285714285
+Abraham_Lincoln|Who was the opponent in the 1858 Senate campaign debates?|Do scholars rank lincoln among the top three presidents?|0|What/Where/Who|1|Yes/No|0|0|0.7317073170731707|0.05882352941176472|0.0|0.1111111111111111
+Abraham_Lincoln|Who was the opponent in the 1858 Senate campaign debates?|Did lincoln have 18 months of schooling?|0|What/Where/Who|1|Yes/No|0|0|0.761904761904762|0.0|0.0|0.0
+Abraham_Lincoln|Who was the opponent in the 1858 Senate campaign debates?|Was Lincoln chosen as a presidential candidate in 1860?|0|What/Where/Who|1|Yes/No|0|0|0.7441860465116279|0.125|0.0|0.2222222222222222
+Abraham_Lincoln|Who was the opponent in the 1858 Senate campaign debates?|How old was Lincoln in 1816?|0|What/Where/Who|0|How|1|0|0.631578947368421|0.15384615384615385|0.0|0.3333333333333333
+Abraham_Lincoln|Who was the opponent in the 1858 Senate campaign debates?|When was the first photgraph of lincoln taken?|0|What/Where/Who|0|When/Why|1|0|0.7317073170731707|0.1333333333333333|0.06666666666666665|0.25
+Abraham_Lincoln|Who was the opponent in the 1858 Senate campaign debates?|How long was Lincoln's legal Career?|0|What/Where/Who|0|How|1|0|0.5641025641025642|0.0714285714285714|0.0|0.16666666666666666
+Abraham_Lincoln|Who was the opponent in the 1858 Senate campaign debates?|What trail did Lincoln use a Farmers' Almanac in? |0|What/Where/Who|0|What/Where/Who|1|1|0.6511627906976744|0.05882352941176472|0.0|0.1111111111111111
+Abraham_Lincoln|Who was the opponent in the 1858 Senate campaign debates?|Did Abraham Lincoln live in the Frontier?|0|What/Where/Who|1|Yes/No|0|0|0.6190476190476191|0.1428571428571429|0.0714285714285714|0.2857142857142857
+Abraham_Lincoln|Who was the opponent in the 1858 Senate campaign debates?|Did Lincoln's Wife's Family support slavery?|0|What/Where/Who|1|Yes/No|0|0|0.6086956521739131|0.0|0.0|0.0
+Abraham_Lincoln|What year did Lincoln run for president?|Was Abraham Lincoln the sixteenth President of the United States?|0|What/Where/Who|1|Yes/No|0|0|0.7727272727272727|0.1428571428571429|0.0|0.2857142857142857
+Abraham_Lincoln|What year did Lincoln run for president?|Was Abraham Lincoln the sixteenth President of the United States?|0|What/Where/Who|1|Yes/No|0|0|0.7727272727272727|0.1428571428571429|0.0|0.2857142857142857
+Abraham_Lincoln|What year did Lincoln run for president?|Did Lincoln sign the National Banking Act of 1863?|0|What/Where/Who|1|Yes/No|0|0|0.6666666666666665|0.1428571428571429|0.0|0.2857142857142857
+Abraham_Lincoln|What year did Lincoln run for president?|Did Lincoln sign the National Banking Act of 1863?|0|What/Where/Who|1|Yes/No|0|0|0.6666666666666665|0.1428571428571429|0.0|0.2857142857142857
+Abraham_Lincoln|What year did Lincoln run for president?|Did his mother die of pneumonia?|0|What/Where/Who|1|Yes/No|0|0|0.8108108108108107|0.08333333333333337|0.0|0.16666666666666666
+Abraham_Lincoln|What year did Lincoln run for president?|Did his mother die of pneumonia?|0|What/Where/Who|1|Yes/No|0|0|0.8108108108108107|0.08333333333333337|0.0|0.16666666666666666
+Abraham_Lincoln|What year did Lincoln run for president?|How many long was Lincoln's formal education?|0|What/Where/Who|0|How|1|0|0.8095238095238095|0.0|0.0|0.0
+Abraham_Lincoln|What year did Lincoln run for president?|How many long was Lincoln's formal education?|0|What/Where/Who|0|How|1|0|0.8095238095238095|0.0|0.0|0.0
+Abraham_Lincoln|What year did Lincoln run for president?|When did Lincoln begin his political career?|0|What/Where/Who|0|When/Why|1|0|0.8717948717948718|0.16666666666666663|0.09090909090909094|0.2857142857142857
+Abraham_Lincoln|What year did Lincoln run for president?|When did Lincoln begin his political career?|0|What/Where/Who|0|When/Why|1|0|0.8717948717948718|0.16666666666666663|0.09090909090909094|0.2857142857142857
+Abraham_Lincoln|What year did Lincoln run for president?|What did The Legal Tender Act of 1862 establish?|0|What/Where/Who|0|What/Where/Who|1|1|0.7555555555555556|0.1428571428571429|0.0|0.2857142857142857
+Abraham_Lincoln|What year did Lincoln run for president?|What did The Legal Tender Act of 1862 establish?|0|What/Where/Who|0|What/Where/Who|1|1|0.7555555555555556|0.1428571428571429|0.0|0.2857142857142857
+Abraham_Lincoln|What year did Lincoln run for president?|Who suggested Lincoln grow a beard?|0|What/Where/Who|0|What/Where/Who|1|1|0.85|0.08333333333333337|0.0|0.16666666666666666
+Abraham_Lincoln|What year did Lincoln run for president?|Who suggested Lincoln grow a beard?|0|What/Where/Who|0|What/Where/Who|1|1|0.85|0.08333333333333337|0.0|0.16666666666666666
+Abraham_Lincoln|What year did Lincoln run for president?|When did the Gettysburg address argue that America was born?|0|What/Where/Who|0|When/Why|1|0|0.761904761904762|0.0625|0.0|0.14285714285714285
+Abraham_Lincoln|What year did Lincoln run for president?|When did the Gettysburg address argue that America was born?|0|What/Where/Who|0|When/Why|1|0|0.761904761904762|0.0625|0.0|0.14285714285714285
+Abraham_Lincoln|What year did Lincoln run for president?|Did Lincoln beat John C. Breckinridge in the 1860 election?|0|What/Where/Who|1|Yes/No|0|0|0.608695652173913|0.1333333333333333|0.0|0.2857142857142857
+Abraham_Lincoln|What year did Lincoln run for president?|Did Lincoln beat John C. Breckinridge in the 1860 election?|0|What/Where/Who|1|Yes/No|0|0|0.608695652173913|0.1333333333333333|0.0|0.2857142857142857
+Abraham_Lincoln|What year did Lincoln run for president?|Was Abraham Lincoln the first President of the United States?|0|What/Where/Who|1|Yes/No|0|0|0.7906976744186046|0.1428571428571429|0.0|0.2857142857142857
+Abraham_Lincoln|What year did Lincoln run for president?|Was Abraham Lincoln the first President of the United States?|0|What/Where/Who|1|Yes/No|0|0|0.7906976744186046|0.1428571428571429|0.0|0.2857142857142857
+Abraham_Lincoln|What year did Lincoln run for president?|Did Lincoln start his political career in 1832?|0|What/Where/Who|1|Yes/No|0|0|0.7804878048780488|0.15384615384615385|0.0|0.2857142857142857
+Abraham_Lincoln|What year did Lincoln run for president?|Did Lincoln start his political career in 1832?|0|What/Where/Who|1|Yes/No|0|0|0.7804878048780488|0.15384615384615385|0.0|0.2857142857142857
+Abraham_Lincoln|What year did Lincoln run for president?|Did Lincoln ever represent Alton & Sangamon Railroad?|0|What/Where/Who|1|Yes/No|0|0|0.6976744186046512|0.15384615384615385|0.0|0.2857142857142857
+Abraham_Lincoln|What year did Lincoln run for president?|Did Lincoln ever represent Alton & Sangamon Railroad?|0|What/Where/Who|1|Yes/No|0|0|0.6976744186046512|0.15384615384615385|0.0|0.2857142857142857
+Abraham_Lincoln|What year did Lincoln run for president?|Which county was Lincoln born in?|0|What/Where/Who|0|Open-Ended|1|0|0.8421052631578948|0.08333333333333337|0.0|0.16666666666666666
+Abraham_Lincoln|What year did Lincoln run for president?|Which county was Lincoln born in?|0|What/Where/Who|0|Open-Ended|1|0|0.8421052631578948|0.08333333333333337|0.0|0.16666666666666666
+Abraham_Lincoln|What year did Lincoln run for president?|When did Lincoln first serve as President?|0|What/Where/Who|0|When/Why|1|0|0.8717948717948718|0.2727272727272727|0.09090909090909094|0.42857142857142855
+Abraham_Lincoln|What year did Lincoln run for president?|When did Lincoln first serve as President?|0|What/Where/Who|0|When/Why|1|0|0.8717948717948718|0.2727272727272727|0.09090909090909094|0.42857142857142855
+Abraham_Lincoln|What year did Lincoln run for president?|Who assassinated Lincoln?|0|What/Where/Who|0|What/Where/Who|1|1|0.8571428571428571|0.11111111111111116|0.0|0.3333333333333333
+Abraham_Lincoln|What year did Lincoln run for president?|Who assassinated Lincoln?|0|What/Where/Who|0|What/Where/Who|1|1|0.8571428571428571|0.11111111111111116|0.0|0.3333333333333333
+Abraham_Lincoln|What year did Lincoln run for president?|Did Lincoln win the election of 1860?|0|What/Where/Who|1|Yes/No|0|0|0.6666666666666667|0.16666666666666663|0.0|0.2857142857142857
+Abraham_Lincoln|What year did Lincoln run for president?|Did Lincoln win the election of 1860?|0|What/Where/Who|1|Yes/No|0|0|0.6666666666666667|0.16666666666666663|0.0|0.2857142857142857
+Abraham_Lincoln|What year did Lincoln run for president?|Who was the general in charge at the Battle of Antietam?|0|What/Where/Who|0|What/Where/Who|1|1|0.75|0.0|0.0|0.0
+Abraham_Lincoln|What year did Lincoln run for president?|Who was the general in charge at the Battle of Antietam?|0|What/Where/Who|0|What/Where/Who|1|1|0.75|0.0|0.0|0.0
+Abraham_Lincoln|What year did Lincoln run for president?|Why did Lincoln issue the Emancipation Proclamation?|0|What/Where/Who|0|When/Why|1|0|0.9047619047619048|0.16666666666666663|0.09090909090909094|0.2857142857142857
+Abraham_Lincoln|What year did Lincoln run for president?|Why did Lincoln issue the Emancipation Proclamation?|0|What/Where/Who|0|When/Why|1|0|0.9047619047619048|0.16666666666666663|0.09090909090909094|0.2857142857142857
+Abraham_Lincoln|What year did Lincoln run for president?|Do scholars rank lincoln among the top three presidents?|0|What/Where/Who|1|Yes/No|0|0|0.7692307692307692|0.06666666666666665|0.0|0.14285714285714285
+Abraham_Lincoln|What year did Lincoln run for president?|Did lincoln have 18 months of schooling?|0|What/Where/Who|1|Yes/No|0|0|0.7|0.16666666666666663|0.0|0.2857142857142857
+Abraham_Lincoln|What year did Lincoln run for president?|Was Lincoln chosen as a presidential candidate in 1860?|0|What/Where/Who|1|Yes/No|0|0|0.8292682926829269|0.06666666666666665|0.0|0.14285714285714285
+Abraham_Lincoln|What year did Lincoln run for president?|How old was Lincoln in 1816?|0|What/Where/Who|0|How|1|0|0.6111111111111112|0.08333333333333337|0.0|0.16666666666666666
+Abraham_Lincoln|What year did Lincoln run for president?|When was the first photgraph of lincoln taken?|0|What/Where/Who|0|When/Why|1|0|0.8205128205128205|0.0714285714285714|0.0|0.14285714285714285
+Abraham_Lincoln|What year did Lincoln run for president?|How long was Lincoln's legal Career?|0|What/Where/Who|0|How|1|0|0.6486486486486486|0.0|0.0|0.0
+Abraham_Lincoln|What year did Lincoln run for president?|What trail did Lincoln use a Farmers' Almanac in? |0|What/Where/Who|0|What/Where/Who|1|1|0.8292682926829269|0.23076923076923073|0.07692307692307687|0.42857142857142855
+Abraham_Lincoln|What year did Lincoln run for president?|Did Abraham Lincoln live in the Frontier?|0|What/Where/Who|1|Yes/No|0|0|0.7|0.16666666666666663|0.0|0.2857142857142857
+Abraham_Lincoln|What year did Lincoln run for president?|Did Lincoln's Wife's Family support slavery?|0|What/Where/Who|1|Yes/No|0|0|0.8636363636363635|0.08333333333333337|0.0|0.16666666666666666
+Abraham_Lincoln|What did pro-slavery elements in the South view as threat to slavery?|Was Abraham Lincoln the sixteenth President of the United States?|0|What/Where/Who|1|Yes/No|0|0|0.6956521739130435|0.050000000000000044|0.0|0.1111111111111111
+Abraham_Lincoln|What did pro-slavery elements in the South view as threat to slavery?|Was Abraham Lincoln the sixteenth President of the United States?|0|What/Where/Who|1|Yes/No|0|0|0.6956521739130435|0.050000000000000044|0.0|0.1111111111111111
+Abraham_Lincoln|What did pro-slavery elements in the South view as threat to slavery?|Did Lincoln sign the National Banking Act of 1863?|0|What/Where/Who|1|Yes/No|0|0|0.5106382978723404|0.10526315789473684|0.0|0.2222222222222222
+Abraham_Lincoln|What did pro-slavery elements in the South view as threat to slavery?|Did Lincoln sign the National Banking Act of 1863?|0|What/Where/Who|1|Yes/No|0|0|0.5106382978723404|0.10526315789473684|0.0|0.2222222222222222
+Abraham_Lincoln|What did pro-slavery elements in the South view as threat to slavery?|Did his mother die of pneumonia?|0|What/Where/Who|1|Yes/No|0|0|0.7692307692307693|0.05882352941176472|0.0|0.16666666666666666
+Abraham_Lincoln|What did pro-slavery elements in the South view as threat to slavery?|Did his mother die of pneumonia?|0|What/Where/Who|1|Yes/No|0|0|0.7692307692307693|0.05882352941176472|0.0|0.16666666666666666
+Abraham_Lincoln|What did pro-slavery elements in the South view as threat to slavery?|How many long was Lincoln's formal education?|0|What/Where/Who|0|How|1|0|0.7272727272727273|0.0|0.0|0.0
+Abraham_Lincoln|What did pro-slavery elements in the South view as threat to slavery?|How many long was Lincoln's formal education?|0|What/Where/Who|0|How|1|0|0.7272727272727273|0.0|0.0|0.0
+Abraham_Lincoln|What did pro-slavery elements in the South view as threat to slavery?|When did Lincoln begin his political career?|0|What/Where/Who|0|When/Why|1|0|0.7317073170731707|0.05555555555555558|0.0|0.14285714285714285
+Abraham_Lincoln|What did pro-slavery elements in the South view as threat to slavery?|When did Lincoln begin his political career?|0|What/Where/Who|0|When/Why|1|0|0.7317073170731707|0.05555555555555558|0.0|0.14285714285714285
+Abraham_Lincoln|What did pro-slavery elements in the South view as threat to slavery?|What did The Legal Tender Act of 1862 establish?|0|What/Where/Who|0|What/Where/Who|1|1|0.5957446808510639|0.16666666666666663|0.05555555555555558|0.3333333333333333
+Abraham_Lincoln|What did pro-slavery elements in the South view as threat to slavery?|What did The Legal Tender Act of 1862 establish?|0|What/Where/Who|0|What/Where/Who|1|1|0.5957446808510639|0.16666666666666663|0.05555555555555558|0.3333333333333333
+Abraham_Lincoln|What did pro-slavery elements in the South view as threat to slavery?|Who suggested Lincoln grow a beard?|0|What/Where/Who|0|What/Where/Who|1|1|0.761904761904762|0.0|0.0|0.0
+Abraham_Lincoln|What did pro-slavery elements in the South view as threat to slavery?|Who suggested Lincoln grow a beard?|0|What/Where/Who|0|What/Where/Who|1|1|0.761904761904762|0.0|0.0|0.0
+Abraham_Lincoln|What did pro-slavery elements in the South view as threat to slavery?|When did the Gettysburg address argue that America was born?|0|What/Where/Who|0|When/Why|1|0|0.7727272727272727|0.09999999999999998|0.0|0.2
+Abraham_Lincoln|What did pro-slavery elements in the South view as threat to slavery?|When did the Gettysburg address argue that America was born?|0|What/Where/Who|0|When/Why|1|0|0.7727272727272727|0.09999999999999998|0.0|0.2
+Abraham_Lincoln|What did pro-slavery elements in the South view as threat to slavery?|Did Lincoln beat John C. Breckinridge in the 1860 election?|0|What/Where/Who|1|Yes/No|0|0|0.4999999999999999|0.1578947368421053|0.052631578947368474|0.3
+Abraham_Lincoln|What did pro-slavery elements in the South view as threat to slavery?|Did Lincoln beat John C. Breckinridge in the 1860 election?|0|What/Where/Who|1|Yes/No|0|0|0.4999999999999999|0.1578947368421053|0.052631578947368474|0.3
+Abraham_Lincoln|What did pro-slavery elements in the South view as threat to slavery?|Was Abraham Lincoln the first President of the United States?|0|What/Where/Who|1|Yes/No|0|0|0.711111111111111|0.050000000000000044|0.0|0.1111111111111111
+Abraham_Lincoln|What did pro-slavery elements in the South view as threat to slavery?|Was Abraham Lincoln the first President of the United States?|0|What/Where/Who|1|Yes/No|0|0|0.711111111111111|0.050000000000000044|0.0|0.1111111111111111
+Abraham_Lincoln|What did pro-slavery elements in the South view as threat to slavery?|Did Lincoln start his political career in 1832?|0|What/Where/Who|1|Yes/No|0|0|0.6511627906976744|0.11111111111111116|0.0|0.25
+Abraham_Lincoln|What did pro-slavery elements in the South view as threat to slavery?|Did Lincoln start his political career in 1832?|0|What/Where/Who|1|Yes/No|0|0|0.6511627906976744|0.11111111111111116|0.0|0.25
+Abraham_Lincoln|What did pro-slavery elements in the South view as threat to slavery?|Did Lincoln ever represent Alton & Sangamon Railroad?|0|What/Where/Who|1|Yes/No|0|0|0.711111111111111|0.052631578947368474|0.0|0.125
+Abraham_Lincoln|What did pro-slavery elements in the South view as threat to slavery?|Did Lincoln ever represent Alton & Sangamon Railroad?|0|What/Where/Who|1|Yes/No|0|0|0.711111111111111|0.052631578947368474|0.0|0.125
+Abraham_Lincoln|What did pro-slavery elements in the South view as threat to slavery?|Which county was Lincoln born in?|0|What/Where/Who|0|Open-Ended|1|0|0.7499999999999999|0.05882352941176472|0.0|0.16666666666666666
+Abraham_Lincoln|What did pro-slavery elements in the South view as threat to slavery?|Which county was Lincoln born in?|0|What/Where/Who|0|Open-Ended|1|0|0.7499999999999999|0.05882352941176472|0.0|0.16666666666666666
+Abraham_Lincoln|What did pro-slavery elements in the South view as threat to slavery?|When did Lincoln first serve as President?|0|What/Where/Who|0|When/Why|1|0|0.7317073170731707|0.11764705882352944|0.0|0.2857142857142857
+Abraham_Lincoln|What did pro-slavery elements in the South view as threat to slavery?|When did Lincoln first serve as President?|0|What/Where/Who|0|When/Why|1|0|0.7317073170731707|0.11764705882352944|0.0|0.2857142857142857
+Abraham_Lincoln|What did pro-slavery elements in the South view as threat to slavery?|Who assassinated Lincoln?|0|What/Where/Who|0|What/Where/Who|1|1|0.7027027027027029|0.0|0.0|0.0
+Abraham_Lincoln|What did pro-slavery elements in the South view as threat to slavery?|Who assassinated Lincoln?|0|What/Where/Who|0|What/Where/Who|1|1|0.7027027027027029|0.0|0.0|0.0
+Abraham_Lincoln|What did pro-slavery elements in the South view as threat to slavery?|Did Lincoln win the election of 1860?|0|What/Where/Who|1|Yes/No|0|0|0.5365853658536586|0.11764705882352944|0.0|0.2857142857142857
+Abraham_Lincoln|What did pro-slavery elements in the South view as threat to slavery?|Did Lincoln win the election of 1860?|0|What/Where/Who|1|Yes/No|0|0|0.5365853658536586|0.11764705882352944|0.0|0.2857142857142857
+Abraham_Lincoln|What did pro-slavery elements in the South view as threat to slavery?|Who was the general in charge at the Battle of Antietam?|0|What/Where/Who|0|What/Where/Who|1|1|0.7142857142857143|0.09999999999999998|0.0|0.2
+Abraham_Lincoln|What did pro-slavery elements in the South view as threat to slavery?|Who was the general in charge at the Battle of Antietam?|0|What/Where/Who|0|What/Where/Who|1|1|0.7142857142857143|0.09999999999999998|0.0|0.2
+Abraham_Lincoln|What did pro-slavery elements in the South view as threat to slavery?|Why did Lincoln issue the Emancipation Proclamation?|0|What/Where/Who|0|When/Why|1|0|0.8181818181818182|0.11764705882352944|0.0|0.2857142857142857
+Abraham_Lincoln|What did pro-slavery elements in the South view as threat to slavery?|Why did Lincoln issue the Emancipation Proclamation?|0|What/Where/Who|0|When/Why|1|0|0.8181818181818182|0.11764705882352944|0.0|0.2857142857142857
+Abraham_Lincoln|What did pro-slavery elements in the South view as threat to slavery?|Do scholars rank lincoln among the top three presidents?|0|What/Where/Who|1|Yes/No|0|0|0.7317073170731707|0.050000000000000044|0.0|0.1111111111111111
+Abraham_Lincoln|What did pro-slavery elements in the South view as threat to slavery?|Did lincoln have 18 months of schooling?|0|What/Where/Who|1|Yes/No|0|0|0.6666666666666666|0.05555555555555558|0.0|0.14285714285714285
+Abraham_Lincoln|What did pro-slavery elements in the South view as threat to slavery?|Was Lincoln chosen as a presidential candidate in 1860?|0|What/Where/Who|1|Yes/No|0|0|0.6976744186046512|0.10526315789473684|0.0|0.2222222222222222
+Abraham_Lincoln|What did pro-slavery elements in the South view as threat to slavery?|How old was Lincoln in 1816?|0|What/Where/Who|0|How|1|0|0.5263157894736842|0.05882352941176472|0.0|0.16666666666666666
+Abraham_Lincoln|What did pro-slavery elements in the South view as threat to slavery?|When was the first photgraph of lincoln taken?|0|What/Where/Who|0|When/Why|1|0|0.7317073170731707|0.052631578947368474|0.0|0.125
+Abraham_Lincoln|What did pro-slavery elements in the South view as threat to slavery?|How long was Lincoln's legal Career?|0|What/Where/Who|0|How|1|0|0.5641025641025642|0.0|0.0|0.0
+Abraham_Lincoln|What did pro-slavery elements in the South view as threat to slavery?|What trail did Lincoln use a Farmers' Almanac in? |0|What/Where/Who|0|What/Where/Who|1|1|0.7441860465116279|0.16666666666666663|0.0|0.3333333333333333
+Abraham_Lincoln|What did pro-slavery elements in the South view as threat to slavery?|Did Abraham Lincoln live in the Frontier?|0|What/Where/Who|1|Yes/No|0|0|0.6666666666666666|0.1875|0.0625|0.42857142857142855
+Abraham_Lincoln|What did pro-slavery elements in the South view as threat to slavery?|Did Lincoln's Wife's Family support slavery?|0|What/Where/Who|1|Yes/No|0|0|0.7826086956521738|0.125|0.0|0.3333333333333333

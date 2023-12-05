@@ -1,0 +1,161 @@
+article_name|machine_question|human_question|is_yes_no_machine_question|type_machine_question|is_yes_no_human_question|type_human_question|match_yes_no_type_question|match_type_question|f1_char_score|jaccard_similarity|jaccard_similarity_bigrams|overlap_coefficient
+Anders_Celsius|When was Anders Celsius born?|When did Anders Celcius publish his observations on the aurora borealis?|0|When/Why|0|When/Why|1|1|0.8717948717948718|0.1428571428571429|0.0|0.4
+Anders_Celsius|When was Anders Celsius born?|When did Anders Celcius publish his observations on the aurora borealis?|0|When/Why|0|When/Why|1|1|0.8717948717948718|0.1428571428571429|0.0|0.4
+Anders_Celsius|When was Anders Celsius born?|What did Anders Celsius determine about the boiling of water?|0|When/Why|0|What/Where/Who|1|0|0.9|0.15384615384615385|0.08333333333333337|0.4
+Anders_Celsius|When was Anders Celsius born?|What did Anders Celsius determine about the boiling of water?|0|When/Why|0|What/Where/Who|1|0|0.9|0.15384615384615385|0.08333333333333337|0.4
+Anders_Celsius|When was Anders Celsius born?|Which temperature scale did Celsius propose?|0|When/Why|0|Open-Ended|1|0|0.7777777777777778|0.09999999999999998|0.0|0.2
+Anders_Celsius|When was Anders Celsius born?|Which temperature scale did Celsius propose?|0|When/Why|0|Open-Ended|1|0|0.7777777777777778|0.09999999999999998|0.0|0.2
+Anders_Celsius|When was Anders Celsius born?|What is the boiling point of water dependent on?|0|When/Why|0|What/Where/Who|1|0|0.8108108108108109|0.0|0.0|0.0
+Anders_Celsius|When was Anders Celsius born?|What is the boiling point of water dependent on?|0|When/Why|0|What/Where/Who|1|0|0.8108108108108109|0.0|0.0|0.0
+Anders_Celsius|When was Anders Celsius born?|Where was Celsius born?|0|When/Why|0|What/Where/Who|1|0|0.9411764705882353|0.5|0.16666666666666663|0.75
+Anders_Celsius|When was Anders Celsius born?|Where was Celsius born?|0|When/Why|0|What/Where/Who|1|0|0.9411764705882353|0.5|0.16666666666666663|0.75
+Anders_Celsius|When was Anders Celsius born?|Whad did Celsius report in his paper "Observations of two persistent degrees on a thermometer"?|0|When/Why|0|Open-Ended|1|0|0.7906976744186047|0.052631578947368474|0.0|0.2
+Anders_Celsius|When was Anders Celsius born?|How old was Celsius when he died?|0|When/Why|0|How|1|0|0.8484848484848485|0.33333333333333337|0.0|0.6
+Anders_Celsius|When was Anders Celsius born?|How old was Celsius when he died?|0|When/Why|0|How|1|0|0.8484848484848485|0.33333333333333337|0.0|0.6
+Anders_Celsius|When was Anders Celsius born?|What is temperature would water have to be to be halfway between its standard boiling and freezing point?|0|When/Why|0|What/Where/Who|1|0|0.761904761904762|0.0|0.0|0.0
+Anders_Celsius|When was Anders Celsius born?|What is the difference between Celsius' original temperature scale and the one we use today?|0|When/Why|0|What/Where/Who|1|0|0.7906976744186047|0.0|0.0|0.0
+Anders_Celsius|When was Anders Celsius born?|What is the difference between Celsius' original temperature scale and the one we use today?|0|When/Why|0|What/Where/Who|1|0|0.7906976744186047|0.0|0.0|0.0
+Anders_Celsius|When did Galileo visit Germany?|When did Anders Celcius publish his observations on the aurora borealis?|0|When/Why|0|When/Why|1|1|0.7692307692307692|0.1428571428571429|0.07692307692307687|0.4
+Anders_Celsius|When did Galileo visit Germany?|When did Anders Celcius publish his observations on the aurora borealis?|0|When/Why|0|When/Why|1|1|0.7692307692307692|0.1428571428571429|0.07692307692307687|0.4
+Anders_Celsius|When did Galileo visit Germany?|What did Anders Celsius determine about the boiling of water?|0|When/Why|0|What/Where/Who|1|0|0.7499999999999999|0.0714285714285714|0.0|0.2
+Anders_Celsius|When did Galileo visit Germany?|What did Anders Celsius determine about the boiling of water?|0|When/Why|0|What/Where/Who|1|0|0.7499999999999999|0.0714285714285714|0.0|0.2
+Anders_Celsius|When did Galileo visit Germany?|Which temperature scale did Celsius propose?|0|When/Why|0|Open-Ended|1|0|0.7777777777777778|0.09999999999999998|0.0|0.2
+Anders_Celsius|When did Galileo visit Germany?|Which temperature scale did Celsius propose?|0|When/Why|0|Open-Ended|1|0|0.7777777777777778|0.09999999999999998|0.0|0.2
+Anders_Celsius|When did Galileo visit Germany?|What is the boiling point of water dependent on?|0|When/Why|0|What/Where/Who|1|0|0.7567567567567567|0.0|0.0|0.0
+Anders_Celsius|When did Galileo visit Germany?|What is the boiling point of water dependent on?|0|When/Why|0|What/Where/Who|1|0|0.7567567567567567|0.0|0.0|0.0
+Anders_Celsius|When did Galileo visit Germany?|Where was Celsius born?|0|When/Why|0|What/Where/Who|1|0|0.7058823529411765|0.0|0.0|0.0
+Anders_Celsius|When did Galileo visit Germany?|Where was Celsius born?|0|When/Why|0|What/Where/Who|1|0|0.7058823529411765|0.0|0.0|0.0
+Anders_Celsius|When did Galileo visit Germany?|Whad did Celsius report in his paper "Observations of two persistent degrees on a thermometer"?|0|When/Why|0|Open-Ended|1|0|0.7441860465116279|0.052631578947368474|0.0|0.2
+Anders_Celsius|When did Galileo visit Germany?|How old was Celsius when he died?|0|When/Why|0|How|1|0|0.6666666666666666|0.09090909090909094|0.0|0.2
+Anders_Celsius|When did Galileo visit Germany?|How old was Celsius when he died?|0|When/Why|0|How|1|0|0.6666666666666666|0.09090909090909094|0.0|0.2
+Anders_Celsius|When did Galileo visit Germany?|What is temperature would water have to be to be halfway between its standard boiling and freezing point?|0|When/Why|0|What/Where/Who|1|0|0.8095238095238096|0.0|0.0|0.0
+Anders_Celsius|When did Galileo visit Germany?|What is the difference between Celsius' original temperature scale and the one we use today?|0|When/Why|0|What/Where/Who|1|0|0.7441860465116279|0.0|0.0|0.0
+Anders_Celsius|When did Galileo visit Germany?|What is the difference between Celsius' original temperature scale and the one we use today?|0|When/Why|0|What/Where/Who|1|0|0.7441860465116279|0.0|0.0|0.0
+Anders_Celsius|In what year was the Centigrade temperature scale proposed?|When did Anders Celcius publish his observations on the aurora borealis?|0|Open-Ended|0|When/Why|1|0|0.7906976744186046|0.052631578947368474|0.0|0.1111111111111111
+Anders_Celsius|In what year was the Centigrade temperature scale proposed?|When did Anders Celcius publish his observations on the aurora borealis?|0|Open-Ended|0|When/Why|1|0|0.7906976744186046|0.052631578947368474|0.0|0.1111111111111111
+Anders_Celsius|In what year was the Centigrade temperature scale proposed?|What did Anders Celsius determine about the boiling of water?|0|Open-Ended|0|What/Where/Who|1|0|0.8181818181818182|0.11764705882352944|0.0|0.2222222222222222
+Anders_Celsius|In what year was the Centigrade temperature scale proposed?|What did Anders Celsius determine about the boiling of water?|0|Open-Ended|0|What/Where/Who|1|0|0.8181818181818182|0.11764705882352944|0.0|0.2222222222222222
+Anders_Celsius|In what year was the Centigrade temperature scale proposed?|Which temperature scale did Celsius propose?|0|Open-Ended|0|Open-Ended|1|1|0.85|0.15384615384615385|0.08333333333333337|0.3333333333333333
+Anders_Celsius|In what year was the Centigrade temperature scale proposed?|Which temperature scale did Celsius propose?|0|Open-Ended|0|Open-Ended|1|1|0.85|0.15384615384615385|0.08333333333333337|0.3333333333333333
+Anders_Celsius|In what year was the Centigrade temperature scale proposed?|What is the boiling point of water dependent on?|0|Open-Ended|0|What/Where/Who|1|0|0.7804878048780488|0.125|0.0|0.2222222222222222
+Anders_Celsius|In what year was the Centigrade temperature scale proposed?|What is the boiling point of water dependent on?|0|Open-Ended|0|What/Where/Who|1|0|0.7804878048780488|0.125|0.0|0.2222222222222222
+Anders_Celsius|In what year was the Centigrade temperature scale proposed?|Where was Celsius born?|0|Open-Ended|0|What/Where/Who|1|0|0.7368421052631579|0.08333333333333337|0.0|0.25
+Anders_Celsius|In what year was the Centigrade temperature scale proposed?|Where was Celsius born?|0|Open-Ended|0|What/Where/Who|1|0|0.7368421052631579|0.08333333333333337|0.0|0.25
+Anders_Celsius|In what year was the Centigrade temperature scale proposed?|Whad did Celsius report in his paper "Observations of two persistent degrees on a thermometer"?|0|Open-Ended|0|Open-Ended|1|1|0.8085106382978724|0.04347826086956519|0.0|0.1111111111111111
+Anders_Celsius|In what year was the Centigrade temperature scale proposed?|How old was Celsius when he died?|0|Open-Ended|0|How|1|0|0.7567567567567568|0.06666666666666665|0.0|0.14285714285714285
+Anders_Celsius|In what year was the Centigrade temperature scale proposed?|How old was Celsius when he died?|0|Open-Ended|0|How|1|0|0.7567567567567568|0.06666666666666665|0.0|0.14285714285714285
+Anders_Celsius|In what year was the Centigrade temperature scale proposed?|What is temperature would water have to be to be halfway between its standard boiling and freezing point?|0|Open-Ended|0|What/Where/Who|1|0|0.8260869565217391|0.08695652173913049|0.0|0.2222222222222222
+Anders_Celsius|In what year was the Centigrade temperature scale proposed?|What is the difference between Celsius' original temperature scale and the one we use today?|0|Open-Ended|0|What/Where/Who|1|0|0.8936170212765958|0.21052631578947367|0.04761904761904767|0.4444444444444444
+Anders_Celsius|In what year was the Centigrade temperature scale proposed?|What is the difference between Celsius' original temperature scale and the one we use today?|0|Open-Ended|0|What/Where/Who|1|0|0.8936170212765958|0.21052631578947367|0.04761904761904767|0.4444444444444444
+Anders_Celsius|When was Anders Celsius born?|When did Anders Celcius publish his observations on the aurora borealis?|0|When/Why|0|When/Why|1|1|0.8717948717948718|0.1428571428571429|0.0|0.4
+Anders_Celsius|When was Anders Celsius born?|When did Anders Celcius publish his observations on the aurora borealis?|0|When/Why|0|When/Why|1|1|0.8717948717948718|0.1428571428571429|0.0|0.4
+Anders_Celsius|When was Anders Celsius born?|What did Anders Celsius determine about the boiling of water?|0|When/Why|0|What/Where/Who|1|0|0.9|0.15384615384615385|0.08333333333333337|0.4
+Anders_Celsius|When was Anders Celsius born?|What did Anders Celsius determine about the boiling of water?|0|When/Why|0|What/Where/Who|1|0|0.9|0.15384615384615385|0.08333333333333337|0.4
+Anders_Celsius|When was Anders Celsius born?|Which temperature scale did Celsius propose?|0|When/Why|0|Open-Ended|1|0|0.7777777777777778|0.09999999999999998|0.0|0.2
+Anders_Celsius|When was Anders Celsius born?|Which temperature scale did Celsius propose?|0|When/Why|0|Open-Ended|1|0|0.7777777777777778|0.09999999999999998|0.0|0.2
+Anders_Celsius|When was Anders Celsius born?|What is the boiling point of water dependent on?|0|When/Why|0|What/Where/Who|1|0|0.8108108108108109|0.0|0.0|0.0
+Anders_Celsius|When was Anders Celsius born?|What is the boiling point of water dependent on?|0|When/Why|0|What/Where/Who|1|0|0.8108108108108109|0.0|0.0|0.0
+Anders_Celsius|When was Anders Celsius born?|Where was Celsius born?|0|When/Why|0|What/Where/Who|1|0|0.9411764705882353|0.5|0.16666666666666663|0.75
+Anders_Celsius|When was Anders Celsius born?|Where was Celsius born?|0|When/Why|0|What/Where/Who|1|0|0.9411764705882353|0.5|0.16666666666666663|0.75
+Anders_Celsius|When was Anders Celsius born?|Whad did Celsius report in his paper "Observations of two persistent degrees on a thermometer"?|0|When/Why|0|Open-Ended|1|0|0.7906976744186047|0.052631578947368474|0.0|0.2
+Anders_Celsius|When was Anders Celsius born?|How old was Celsius when he died?|0|When/Why|0|How|1|0|0.8484848484848485|0.33333333333333337|0.0|0.6
+Anders_Celsius|When was Anders Celsius born?|How old was Celsius when he died?|0|When/Why|0|How|1|0|0.8484848484848485|0.33333333333333337|0.0|0.6
+Anders_Celsius|When was Anders Celsius born?|What is temperature would water have to be to be halfway between its standard boiling and freezing point?|0|When/Why|0|What/Where/Who|1|0|0.761904761904762|0.0|0.0|0.0
+Anders_Celsius|When was Anders Celsius born?|What is the difference between Celsius' original temperature scale and the one we use today?|0|When/Why|0|What/Where/Who|1|0|0.7906976744186047|0.0|0.0|0.0
+Anders_Celsius|When was Anders Celsius born?|What is the difference between Celsius' original temperature scale and the one we use today?|0|When/Why|0|What/Where/Who|1|0|0.7906976744186047|0.0|0.0|0.0
+Anders_Celsius|Where did his family originate from?|When did Anders Celcius publish his observations on the aurora borealis?|0|What/Where/Who|0|When/Why|1|0|0.717948717948718|0.1333333333333333|0.0|0.3333333333333333
+Anders_Celsius|Where did his family originate from?|When did Anders Celcius publish his observations on the aurora borealis?|0|What/Where/Who|0|When/Why|1|0|0.717948717948718|0.1333333333333333|0.0|0.3333333333333333
+Anders_Celsius|Where did his family originate from?|What did Anders Celsius determine about the boiling of water?|0|What/Where/Who|0|What/Where/Who|1|1|0.85|0.06666666666666665|0.0|0.16666666666666666
+Anders_Celsius|Where did his family originate from?|What did Anders Celsius determine about the boiling of water?|0|What/Where/Who|0|What/Where/Who|1|1|0.85|0.06666666666666665|0.0|0.16666666666666666
+Anders_Celsius|Where did his family originate from?|Which temperature scale did Celsius propose?|0|What/Where/Who|0|Open-Ended|1|0|0.7777777777777778|0.09090909090909094|0.0|0.16666666666666666
+Anders_Celsius|Where did his family originate from?|Which temperature scale did Celsius propose?|0|What/Where/Who|0|Open-Ended|1|0|0.7777777777777778|0.09090909090909094|0.0|0.16666666666666666
+Anders_Celsius|Where did his family originate from?|What is the boiling point of water dependent on?|0|What/Where/Who|0|What/Where/Who|1|1|0.8648648648648649|0.0|0.0|0.0
+Anders_Celsius|Where did his family originate from?|What is the boiling point of water dependent on?|0|What/Where/Who|0|What/Where/Who|1|1|0.8648648648648649|0.0|0.0|0.0
+Anders_Celsius|Where did his family originate from?|Where was Celsius born?|0|What/Where/Who|0|What/Where/Who|1|1|0.7058823529411765|0.11111111111111116|0.0|0.25
+Anders_Celsius|Where did his family originate from?|Where was Celsius born?|0|What/Where/Who|0|What/Where/Who|1|1|0.7058823529411765|0.11111111111111116|0.0|0.25
+Anders_Celsius|Where did his family originate from?|Whad did Celsius report in his paper "Observations of two persistent degrees on a thermometer"?|0|What/Where/Who|0|Open-Ended|1|0|0.7906976744186047|0.10526315789473684|0.0|0.3333333333333333
+Anders_Celsius|Where did his family originate from?|How old was Celsius when he died?|0|What/Where/Who|0|How|1|0|0.6666666666666666|0.0|0.0|0.0
+Anders_Celsius|Where did his family originate from?|How old was Celsius when he died?|0|What/Where/Who|0|How|1|0|0.6666666666666666|0.0|0.0|0.0
+Anders_Celsius|Where did his family originate from?|What is temperature would water have to be to be halfway between its standard boiling and freezing point?|0|What/Where/Who|0|What/Where/Who|1|1|0.8571428571428571|0.0|0.0|0.0
+Anders_Celsius|Where did his family originate from?|What is the difference between Celsius' original temperature scale and the one we use today?|0|What/Where/Who|0|What/Where/Who|1|1|0.8372093023255813|0.0|0.0|0.0
+Anders_Celsius|Where did his family originate from?|What is the difference between Celsius' original temperature scale and the one we use today?|0|What/Where/Who|0|What/Where/Who|1|1|0.8372093023255813|0.0|0.0|0.0
+Anders_Celsius|Where was the family estate located?|When did Anders Celcius publish his observations on the aurora borealis?|0|What/Where/Who|0|When/Why|1|0|0.717948717948718|0.0625|0.0|0.16666666666666666
+Anders_Celsius|Where was the family estate located?|When did Anders Celcius publish his observations on the aurora borealis?|0|What/Where/Who|0|When/Why|1|0|0.717948717948718|0.0625|0.0|0.16666666666666666
+Anders_Celsius|Where was the family estate located?|What did Anders Celsius determine about the boiling of water?|0|What/Where/Who|0|What/Where/Who|1|1|0.7999999999999999|0.06666666666666665|0.0|0.16666666666666666
+Anders_Celsius|Where was the family estate located?|What did Anders Celsius determine about the boiling of water?|0|What/Where/Who|0|What/Where/Who|1|1|0.7999999999999999|0.06666666666666665|0.0|0.16666666666666666
+Anders_Celsius|Where was the family estate located?|Which temperature scale did Celsius propose?|0|What/Where/Who|0|Open-Ended|1|0|0.8333333333333334|0.0|0.0|0.0
+Anders_Celsius|Where was the family estate located?|Which temperature scale did Celsius propose?|0|What/Where/Who|0|Open-Ended|1|0|0.8333333333333334|0.0|0.0|0.0
+Anders_Celsius|Where was the family estate located?|What is the boiling point of water dependent on?|0|What/Where/Who|0|What/Where/Who|1|1|0.8108108108108109|0.0714285714285714|0.0|0.16666666666666666
+Anders_Celsius|Where was the family estate located?|What is the boiling point of water dependent on?|0|What/Where/Who|0|What/Where/Who|1|1|0.8108108108108109|0.0714285714285714|0.0|0.16666666666666666
+Anders_Celsius|Where was the family estate located?|Where was Celsius born?|0|What/Where/Who|0|What/Where/Who|1|1|0.7058823529411765|0.25|0.1428571428571429|0.5
+Anders_Celsius|Where was the family estate located?|Where was Celsius born?|0|What/Where/Who|0|What/Where/Who|1|1|0.7058823529411765|0.25|0.1428571428571429|0.5
+Anders_Celsius|Where was the family estate located?|Whad did Celsius report in his paper "Observations of two persistent degrees on a thermometer"?|0|What/Where/Who|0|Open-Ended|1|0|0.7441860465116279|0.0|0.0|0.0
+Anders_Celsius|Where was the family estate located?|How old was Celsius when he died?|0|What/Where/Who|0|How|1|0|0.6666666666666666|0.08333333333333337|0.0|0.16666666666666666
+Anders_Celsius|Where was the family estate located?|How old was Celsius when he died?|0|What/Where/Who|0|How|1|0|0.6666666666666666|0.08333333333333337|0.0|0.16666666666666666
+Anders_Celsius|Where was the family estate located?|What is temperature would water have to be to be halfway between its standard boiling and freezing point?|0|What/Where/Who|0|What/Where/Who|1|1|0.8095238095238096|0.0|0.0|0.0
+Anders_Celsius|Where was the family estate located?|What is the difference between Celsius' original temperature scale and the one we use today?|0|What/Where/Who|0|What/Where/Who|1|1|0.8372093023255813|0.052631578947368474|0.0|0.16666666666666666
+Anders_Celsius|Where was the family estate located?|What is the difference between Celsius' original temperature scale and the one we use today?|0|What/Where/Who|0|What/Where/Who|1|1|0.8372093023255813|0.052631578947368474|0.0|0.16666666666666666
+Anders_Celsius|What does celsus mean in English?|When did Anders Celcius publish his observations on the aurora borealis?|0|What/Where/Who|0|When/Why|1|0|0.7692307692307692|0.0|0.0|0.0
+Anders_Celsius|What does celsus mean in English?|When did Anders Celcius publish his observations on the aurora borealis?|0|What/Where/Who|0|When/Why|1|0|0.7692307692307692|0.0|0.0|0.0
+Anders_Celsius|What does celsus mean in English?|What did Anders Celsius determine about the boiling of water?|0|What/Where/Who|0|What/Where/Who|1|1|0.7999999999999999|0.06666666666666665|0.0|0.16666666666666666
+Anders_Celsius|What does celsus mean in English?|What did Anders Celsius determine about the boiling of water?|0|What/Where/Who|0|What/Where/Who|1|1|0.7999999999999999|0.06666666666666665|0.0|0.16666666666666666
+Anders_Celsius|What does celsus mean in English?|Which temperature scale did Celsius propose?|0|What/Where/Who|0|Open-Ended|1|0|0.8333333333333334|0.0|0.0|0.0
+Anders_Celsius|What does celsus mean in English?|Which temperature scale did Celsius propose?|0|What/Where/Who|0|Open-Ended|1|0|0.8333333333333334|0.0|0.0|0.0
+Anders_Celsius|What does celsus mean in English?|What is the boiling point of water dependent on?|0|What/Where/Who|0|What/Where/Who|1|1|0.7567567567567567|0.0714285714285714|0.0|0.16666666666666666
+Anders_Celsius|What does celsus mean in English?|What is the boiling point of water dependent on?|0|What/Where/Who|0|What/Where/Who|1|1|0.7567567567567567|0.0714285714285714|0.0|0.16666666666666666
+Anders_Celsius|What does celsus mean in English?|Where was Celsius born?|0|What/Where/Who|0|What/Where/Who|1|1|0.7058823529411765|0.0|0.0|0.0
+Anders_Celsius|What does celsus mean in English?|Where was Celsius born?|0|What/Where/Who|0|What/Where/Who|1|1|0.7058823529411765|0.0|0.0|0.0
+Anders_Celsius|What does celsus mean in English?|Whad did Celsius report in his paper "Observations of two persistent degrees on a thermometer"?|0|What/Where/Who|0|Open-Ended|1|0|0.7441860465116279|0.050000000000000044|0.0|0.16666666666666666
+Anders_Celsius|What does celsus mean in English?|How old was Celsius when he died?|0|What/Where/Who|0|How|1|0|0.7272727272727272|0.0|0.0|0.0
+Anders_Celsius|What does celsus mean in English?|How old was Celsius when he died?|0|What/Where/Who|0|How|1|0|0.7272727272727272|0.0|0.0|0.0
+Anders_Celsius|What does celsus mean in English?|What is temperature would water have to be to be halfway between its standard boiling and freezing point?|0|What/Where/Who|0|What/Where/Who|1|1|0.761904761904762|0.04761904761904767|0.0|0.16666666666666666
+Anders_Celsius|What does celsus mean in English?|What is the difference between Celsius' original temperature scale and the one we use today?|0|What/Where/Who|0|What/Where/Who|1|1|0.7906976744186047|0.052631578947368474|0.0|0.16666666666666666
+Anders_Celsius|What does celsus mean in English?|What is the difference between Celsius' original temperature scale and the one we use today?|0|What/Where/Who|0|What/Where/Who|1|1|0.7906976744186047|0.052631578947368474|0.0|0.16666666666666666
+Anders_Celsius|Who was Nils Celsius's uncle?|When did Anders Celcius publish his observations on the aurora borealis?|0|What/Where/Who|0|When/Why|1|0|0.7368421052631577|0.0|0.0|0.0
+Anders_Celsius|Who was Nils Celsius's uncle?|When did Anders Celcius publish his observations on the aurora borealis?|0|What/Where/Who|0|When/Why|1|0|0.7368421052631577|0.0|0.0|0.0
+Anders_Celsius|Who was Nils Celsius's uncle?|What did Anders Celsius determine about the boiling of water?|0|What/Where/Who|0|What/Where/Who|1|1|0.717948717948718|0.0|0.0|0.0
+Anders_Celsius|Who was Nils Celsius's uncle?|What did Anders Celsius determine about the boiling of water?|0|What/Where/Who|0|What/Where/Who|1|1|0.717948717948718|0.0|0.0|0.0
+Anders_Celsius|Who was Nils Celsius's uncle?|Which temperature scale did Celsius propose?|0|What/Where/Who|0|Open-Ended|1|0|0.7428571428571428|0.0|0.0|0.0
+Anders_Celsius|Who was Nils Celsius's uncle?|Which temperature scale did Celsius propose?|0|What/Where/Who|0|Open-Ended|1|0|0.7428571428571428|0.0|0.0|0.0
+Anders_Celsius|Who was Nils Celsius's uncle?|What is the boiling point of water dependent on?|0|What/Where/Who|0|What/Where/Who|1|1|0.6666666666666667|0.0|0.0|0.0
+Anders_Celsius|Who was Nils Celsius's uncle?|What is the boiling point of water dependent on?|0|What/Where/Who|0|What/Where/Who|1|1|0.6666666666666667|0.0|0.0|0.0
+Anders_Celsius|Who was Nils Celsius's uncle?|Where was Celsius born?|0|What/Where/Who|0|What/Where/Who|1|1|0.8484848484848485|0.125|0.0|0.25
+Anders_Celsius|Who was Nils Celsius's uncle?|Where was Celsius born?|0|What/Where/Who|0|What/Where/Who|1|1|0.8484848484848485|0.125|0.0|0.25
+Anders_Celsius|Who was Nils Celsius's uncle?|Whad did Celsius report in his paper "Observations of two persistent degrees on a thermometer"?|0|What/Where/Who|0|Open-Ended|1|0|0.6666666666666666|0.0|0.0|0.0
+Anders_Celsius|Who was Nils Celsius's uncle?|How old was Celsius when he died?|0|What/Where/Who|0|How|1|0|0.8125|0.09090909090909094|0.0|0.2
+Anders_Celsius|Who was Nils Celsius's uncle?|How old was Celsius when he died?|0|What/Where/Who|0|How|1|0|0.8125|0.09090909090909094|0.0|0.2
+Anders_Celsius|Who was Nils Celsius's uncle?|What is temperature would water have to be to be halfway between its standard boiling and freezing point?|0|What/Where/Who|0|What/Where/Who|1|1|0.6341463414634146|0.0|0.0|0.0
+Anders_Celsius|Who was Nils Celsius's uncle?|What is the difference between Celsius' original temperature scale and the one we use today?|0|What/Where/Who|0|What/Where/Who|1|1|0.7619047619047621|0.0|0.0|0.0
+Anders_Celsius|Who was Nils Celsius's uncle?|What is the difference between Celsius' original temperature scale and the one we use today?|0|What/Where/Who|0|What/Where/Who|1|1|0.7619047619047621|0.0|0.0|0.0
+Anders_Celsius|Who was a talented mathematician from an early age?|When did Anders Celcius publish his observations on the aurora borealis?|0|What/Where/Who|0|When/Why|1|0|0.7317073170731706|0.0|0.0|0.0
+Anders_Celsius|Who was a talented mathematician from an early age?|When did Anders Celcius publish his observations on the aurora borealis?|0|What/Where/Who|0|When/Why|1|0|0.7317073170731706|0.0|0.0|0.0
+Anders_Celsius|Who was a talented mathematician from an early age?|What did Anders Celsius determine about the boiling of water?|0|What/Where/Who|0|What/Where/Who|1|1|0.8571428571428572|0.0|0.0|0.0
+Anders_Celsius|Who was a talented mathematician from an early age?|What did Anders Celsius determine about the boiling of water?|0|What/Where/Who|0|What/Where/Who|1|1|0.8571428571428572|0.0|0.0|0.0
+Anders_Celsius|Who was a talented mathematician from an early age?|Which temperature scale did Celsius propose?|0|What/Where/Who|0|Open-Ended|1|0|0.7894736842105262|0.0|0.0|0.0
+Anders_Celsius|Who was a talented mathematician from an early age?|Which temperature scale did Celsius propose?|0|What/Where/Who|0|Open-Ended|1|0|0.7894736842105262|0.0|0.0|0.0
+Anders_Celsius|Who was a talented mathematician from an early age?|What is the boiling point of water dependent on?|0|What/Where/Who|0|What/Where/Who|1|1|0.8717948717948718|0.0|0.0|0.0
+Anders_Celsius|Who was a talented mathematician from an early age?|What is the boiling point of water dependent on?|0|What/Where/Who|0|What/Where/Who|1|1|0.8717948717948718|0.0|0.0|0.0
+Anders_Celsius|Who was a talented mathematician from an early age?|Where was Celsius born?|0|What/Where/Who|0|What/Where/Who|1|1|0.7222222222222223|0.08333333333333337|0.0|0.25
+Anders_Celsius|Who was a talented mathematician from an early age?|Where was Celsius born?|0|What/Where/Who|0|What/Where/Who|1|1|0.7222222222222223|0.08333333333333337|0.0|0.25
+Anders_Celsius|Who was a talented mathematician from an early age?|Whad did Celsius report in his paper "Observations of two persistent degrees on a thermometer"?|0|What/Where/Who|0|Open-Ended|1|0|0.7999999999999999|0.04347826086956519|0.0|0.1111111111111111
+Anders_Celsius|Who was a talented mathematician from an early age?|How old was Celsius when he died?|0|What/Where/Who|0|How|1|0|0.6857142857142857|0.06666666666666665|0.0|0.14285714285714285
+Anders_Celsius|Who was a talented mathematician from an early age?|How old was Celsius when he died?|0|What/Where/Who|0|How|1|0|0.6857142857142857|0.06666666666666665|0.0|0.14285714285714285
+Anders_Celsius|Who was a talented mathematician from an early age?|What is temperature would water have to be to be halfway between its standard boiling and freezing point?|0|What/Where/Who|0|What/Where/Who|1|1|0.8636363636363635|0.0|0.0|0.0
+Anders_Celsius|Who was a talented mathematician from an early age?|What is the difference between Celsius' original temperature scale and the one we use today?|0|What/Where/Who|0|What/Where/Who|1|1|0.888888888888889|0.0|0.0|0.0
+Anders_Celsius|Who was a talented mathematician from an early age?|What is the difference between Celsius' original temperature scale and the one we use today?|0|What/Where/Who|0|What/Where/Who|1|1|0.888888888888889|0.0|0.0|0.0
+Anders_Celsius|Where did Anders Celsius study?|When did Anders Celcius publish his observations on the aurora borealis?|0|What/Where/Who|0|When/Why|1|0|0.8108108108108109|0.1428571428571429|0.07692307692307687|0.4
+Anders_Celsius|Where did Anders Celsius study?|When did Anders Celcius publish his observations on the aurora borealis?|0|What/Where/Who|0|When/Why|1|0|0.8108108108108109|0.1428571428571429|0.07692307692307687|0.4
+Anders_Celsius|Where did Anders Celsius study?|What did Anders Celsius determine about the boiling of water?|0|What/Where/Who|0|What/Where/Who|1|1|0.7894736842105263|0.25|0.18181818181818177|0.6
+Anders_Celsius|Where did Anders Celsius study?|What did Anders Celsius determine about the boiling of water?|0|What/Where/Who|0|What/Where/Who|1|1|0.7894736842105263|0.25|0.18181818181818177|0.6
+Anders_Celsius|Where did Anders Celsius study?|Which temperature scale did Celsius propose?|0|What/Where/Who|0|Open-Ended|1|0|0.7647058823529411|0.2222222222222222|0.0|0.4
+Anders_Celsius|Where did Anders Celsius study?|Which temperature scale did Celsius propose?|0|What/Where/Who|0|Open-Ended|1|0|0.7647058823529411|0.2222222222222222|0.0|0.4
+Anders_Celsius|Where did Anders Celsius study?|What is the boiling point of water dependent on?|0|What/Where/Who|0|What/Where/Who|1|1|0.6857142857142857|0.0|0.0|0.0
+Anders_Celsius|Where did Anders Celsius study?|What is the boiling point of water dependent on?|0|What/Where/Who|0|What/Where/Who|1|1|0.6857142857142857|0.0|0.0|0.0
+Anders_Celsius|Where did Anders Celsius study?|Where was Celsius born?|0|What/Where/Who|0|What/Where/Who|1|1|0.75|0.2857142857142857|0.0|0.5
+Anders_Celsius|Where did Anders Celsius study?|Where was Celsius born?|0|What/Where/Who|0|What/Where/Who|1|1|0.75|0.2857142857142857|0.0|0.5
+Anders_Celsius|Where did Anders Celsius study?|Whad did Celsius report in his paper "Observations of two persistent degrees on a thermometer"?|0|What/Where/Who|0|Open-Ended|1|0|0.6829268292682927|0.11111111111111116|0.0|0.4
+Anders_Celsius|Where did Anders Celsius study?|How old was Celsius when he died?|0|What/Where/Who|0|How|1|0|0.7096774193548386|0.09090909090909094|0.0|0.2
+Anders_Celsius|Where did Anders Celsius study?|How old was Celsius when he died?|0|What/Where/Who|0|How|1|0|0.7096774193548386|0.09090909090909094|0.0|0.2
+Anders_Celsius|Where did Anders Celsius study?|What is temperature would water have to be to be halfway between its standard boiling and freezing point?|0|What/Where/Who|0|What/Where/Who|1|1|0.7000000000000001|0.0|0.0|0.0
+Anders_Celsius|Where did Anders Celsius study?|What is the difference between Celsius' original temperature scale and the one we use today?|0|What/Where/Who|0|What/Where/Who|1|1|0.7317073170731707|0.0|0.0|0.0
+Anders_Celsius|Where did Anders Celsius study?|What is the difference between Celsius' original temperature scale and the one we use today?|0|What/Where/Who|0|What/Where/Who|1|1|0.7317073170731707|0.0|0.0|0.0
