@@ -117,6 +117,9 @@ class QuestionAnswerWriter:
         self.qa_pair_filename = qa_pair_filename
         self.question_filename = question_filename
 
+    def set_qa_pair_filename(self, qa_pair_filename):
+        self.qa_pair_filename = qa_pair_filename
+
     def start_new_session(self, mode):
         file_to_remove = self.qa_pair_filename
         if QuestionAnswerWriter.QUESTION == mode:

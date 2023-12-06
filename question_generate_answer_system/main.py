@@ -27,14 +27,27 @@ def main():
         help="Number of questions to generate",
         default=10,
     )
-
+    parser.add_argument(
+        "--answers",
+        type=str,
+        help="Output file for generated questions and answer pairs",
+        default=None,
+    )
+    parser.add_argument(
+        "--questions_only",
+        action="store_true",
+        help="Generate only questions without answers",
+    )
     args = parser.parse_args()
-
     article_filename = args.article
     questions_filename = args.questions
     questions_to_generate = args.questions_to_generate
+    answer_output_file = args.answers
 
     qa_writer = QuestionAnswerWriter()
+    if answer_output_file:
+        qa_writer.set_qa_pair_filename(answer_output_file)
+
     questions_to_answer = []
     # no question filename is supplied, generate questions from article
     if questions_filename is None:
@@ -48,6 +61,10 @@ def main():
     # Otherwise read pre-written questions from file
     else:
         questions_to_answer = qa_utils.read_questions_from_file(questions_filename)
+
+    # Stop execution if --questions_only flag is used
+    if args.questions_only:
+        return
 
     answer_generator = WikiAnswerGenerator(article_filename)
     qa_writer.start_new_session(mode=QuestionAnswerWriter.QUESTION_AND_ANSWER)
