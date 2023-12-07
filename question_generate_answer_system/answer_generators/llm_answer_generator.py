@@ -17,8 +17,27 @@ class LLMAnswerGenerator(QAGeneratorWithCache):
         self.article = self._load_article()
         self.beam_width = beam_width
 
-    def generate_answer(self, question):
+    def generate_answer_binary(self, question):
         print("generating answer from LLM")
+        context = qa_utils.extract_context_information_retrival(
+            self.article, question, self.beam_width
+        )
+
+        # Combine the context and the question into a single string
+        input_text = f"Context: {context} Question: {question}"
+
+        # Encode the input text
+        input_ids = self.tokenizer.encode(input_text, return_tensors="pt").to(
+            self.device
+        )
+        # Generate an answer from the model
+        output = self.model.generate(input_ids, max_length=512, num_return_sequences=1)
+
+        # Decode and return the model's output
+        return self.tokenizer.decode(output[0], skip_special_tokens=True)
+
+    def generate_answer_binary(self, question):
+        print("generating binary answer from LLM")
         context = qa_utils.extract_context_information_retrival(
             self.article, question, self.beam_width
         )

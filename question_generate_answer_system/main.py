@@ -80,9 +80,11 @@ def main():
     qa_writer.start_new_session(mode=QuestionAnswerWriter.QUESTION_AND_ANSWER)
     for question in questions_to_answer:
         if enable_llm and qa_utils.is_yes_no_question(question):
-            answer = answer_generator_llm.generate_answer(question)
+            answer = answer_generator_llm.generate_answer_binary(question)
         else:
-            answer = answer_generator.generate_answer(question)
+            # answer = answer_generator.generate_answer(question)
+            answer = answer_generator_llm.generate_answer(question)
+
         qa_writer.write_question_answer_pair_to_file(question, answer)
 
 
