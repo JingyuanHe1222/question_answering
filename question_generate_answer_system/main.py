@@ -1,6 +1,6 @@
-import sys
 import argparse
 from answer_generators.wiki_answer_generator import WikiAnswerGenerator
+from answer_generators.llm_answer_generator import LLMAnswerGenerator
 
 # from question_generators.simple_yes_question_generator import SimpleYesQuestionGenerator
 import qa_utils
@@ -38,11 +38,17 @@ def main():
         action="store_true",
         help="Generate only questions without answers",
     )
+    parser.add_argument(
+        "--llm",
+        action="store_true",
+        help="Generate only questions without answers",
+    )
     args = parser.parse_args()
     article_filename = args.article
     questions_filename = args.questions
     questions_to_generate = args.questions_to_generate
     answer_output_file = args.answers
+    enable_llm = args.llm
 
     qa_writer = QuestionAnswerWriter()
     if answer_output_file:
@@ -66,10 +72,17 @@ def main():
     if args.questions_only:
         return
 
+    answer_generator_llm = None
+    if enable_llm:
+        answer_generator_llm = LLMAnswerGenerator(article_filename)
+
     answer_generator = WikiAnswerGenerator(article_filename)
     qa_writer.start_new_session(mode=QuestionAnswerWriter.QUESTION_AND_ANSWER)
     for question in questions_to_answer:
-        answer = answer_generator.generate_answer(question)
+        if enable_llm and qa_utils.is_yes_no_question(question):
+            answer = answer_generator_llm.generate_answer(question)
+        else:
+            answer = answer_generator.generate_answer(question)
         qa_writer.write_question_answer_pair_to_file(question, answer)
 
 

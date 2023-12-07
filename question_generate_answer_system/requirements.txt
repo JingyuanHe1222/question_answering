@@ -3,3 +3,4 @@ transformers
 wikipedia-api
 nltk
 gdown
+sentence-transformers

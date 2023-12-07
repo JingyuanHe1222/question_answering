@@ -4,6 +4,9 @@ from functools import lru_cache
 import nltk
 from nltk.tokenize import sent_tokenize
 import re
+import numpy as np
+import torch
+from sentence_transformers import SentenceTransformer
 
 nltk.download("punkt")
 
@@ -55,6 +58,86 @@ def download_article_from_wikipedia(article_name, save_locally=True):
         with open(file_name, "w", encoding="utf-8") as file:
             file.write(article_content)
     return article_content
+
+
+def is_yes_no_question(question):
+    question = question.lower().strip()
+    # purposely has space after words since it should be a word in itself as part of a sentence
+    return question.startswith(
+        (
+            "is ",
+            "are ",
+            "do ",
+            "does ",
+            "did ",
+            "was ",
+            "were ",
+            "will ",
+            "can ",
+            "could ",
+            "should ",
+            "would " "have ",
+            "has ",
+            "had ",
+            "must ",
+            "am ",
+        )
+    )
+
+
+def is_yes_no_question_info_retrieval_text(question):
+    if is_yes_no_question(question) == 1:  # it is a yes/no question
+        words = question.split()  # split words
+        words = words[1:]  # exclude first word
+        if words[-1].endswith("?"):  # exclude question mark if it exists
+            words[-1] = words[-1][:-1]
+        return " ".join(words)  # join the string back
+    return (
+        None  # do not return info for information retrieval if it is NOT a yes/no type
+    )
+
+
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+encoder_model = SentenceTransformer("sentence-transformers/sentence-t5-base").to(device)
+
+
+def extract_context_information_retrival(article, question, n):
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    encoder_model.to(device)
+    all_context = article
+
+    # split the context into sentences
+    list_context = split_article_to_sentences_nltk(all_context)
+
+    # embed everything and compute the 1-nn IR result for the question
+    c_embed = []
+    for context in list_context:
+        output = encoder_model.encode(context)
+        c_embed.append(output)
+    context_embeds = np.vstack(c_embed)
+
+    q_embed = encoder_model.encode(question)
+
+    scores = context_embeds.dot(q_embed)
+    k_nn = scores.argsort()[-n:][::-1]
+    k_nn = list(k_nn)
+    # closest context sentence in text
+    contexts = [
+        top_context for top_context in np.array(list_context)[k_nn]
+    ]  # top n context sentences
+    return " ".join(contexts)
+    # top_scores = sorted(scores, reverse=True)[:n]
+
+    # q_text = is_yes_no_question_info_retrieval_text(question)
+    # if q_text == None:
+    #     ### pipeline thing
+    #     #         print("---TODO---") ### TODO
+    #     return None  ### TODO
+    # else:
+    #     first_context = contexts[0]
+    #     score = top_scores[0]
+
+    #     return score  ### TODO
 
 
 def read_article_file(article_filename):

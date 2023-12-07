@@ -23,9 +23,6 @@ class WikiAnswerGenerator(AnswerGeneratorWithBackup):
 
     def generate_answer(self, question):
         question = self._preprocess_question(question)
-        if qa_utils.is_boolean_question(question):
-            print("encountered yes/no question")
-            # return "Yes"
 
         def callback(model, tokenizer, question):
             return WikiAnswerGenerator._answer_from_article(
