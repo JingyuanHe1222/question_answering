@@ -102,8 +102,6 @@ encoder_model = SentenceTransformer("sentence-transformers/sentence-t5-base").to
 
 
 def extract_context_information_retrival(article, question, n):
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    encoder_model.to(device)
     all_context = article
 
     # split the context into sentences

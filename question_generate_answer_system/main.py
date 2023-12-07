@@ -41,7 +41,7 @@ def main():
     parser.add_argument(
         "--llm",
         action="store_true",
-        help="Generate only questions without answers",
+        help="Enable Mistral 7B for answer generation",
     )
     args = parser.parse_args()
     article_filename = args.article
@@ -72,18 +72,18 @@ def main():
     if args.questions_only:
         return
 
-    answer_generator_llm = None
-    if enable_llm:
-        answer_generator_llm = LLMAnswerGenerator(article_filename)
-
     answer_generator = WikiAnswerGenerator(article_filename)
+    answer_generator_llm = LLMAnswerGenerator(article_filename) if enable_llm else None
+    # answer_generator = WikiAnswerGenerator(article_filename)
     qa_writer.start_new_session(mode=QuestionAnswerWriter.QUESTION_AND_ANSWER)
     for question in questions_to_answer:
-        if enable_llm and qa_utils.is_yes_no_question(question):
-            answer = answer_generator_llm.generate_answer_binary(question)
-        else:
-            # answer = answer_generator.generate_answer(question)
+        if enable_llm:
             answer = answer_generator_llm.generate_answer(question)
+            if answer == LLMAnswerGenerator.FAIL_TO_GENERATE:
+                print("LLM falied to generate answer. Trying backup models...")
+                answer = answer_generator.generate_answer(question)
+        else:
+            answer = answer_generator.generate_answer(question)
 
         qa_writer.write_question_answer_pair_to_file(question, answer)
 
