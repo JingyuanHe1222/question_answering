@@ -12,7 +12,7 @@ display_usage() {
     echo "   --questions_only                  - Optional: Supply this flag if you want the system to only generate questions and skip answer generation. "
     echo "   --answers                         - Optional: Specifies the filename for saving the generated question and answer pairs. If this flag is not used, "
     echo "                                                 the default filename 'generated_question_answer_pairs.txt' will be applied."    
-    echo "   --llm                             - Optional: Enable LLM for answer generation. "
+    echo "   --llm                             - Optional: Enable Mistral 7B LLM for answer generation. Be aware that Mistral 7B can only be ran on an A100 GPU or any better GPUs thereof."
 }
 
 # Display usage if no arguments or -h is the first argument
