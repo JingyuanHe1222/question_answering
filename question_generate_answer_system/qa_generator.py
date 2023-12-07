@@ -14,8 +14,8 @@ class QAGeneratorWithCache:
         self.article = None
 
     def _load_article(self):
-        return qa_utils.read_article_file(self.article_name)
-        # return qa_utils.download_article_from_wikipedia(self.article_name)
+        # return qa_utils.read_article_file(self.article_name)
+        return qa_utils.download_article_from_wikipedia(self.article_name)
 
     def _load_tokenizer_and_model(self, model_name, tokenizer_source, model_source):
         tokenizer_path = os.path.join(self.model_cache_dir, model_name)
