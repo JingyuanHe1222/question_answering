@@ -74,7 +74,6 @@ def main():
 
     answer_generator = WikiAnswerGenerator(article_filename)
     answer_generator_llm = LLMAnswerGenerator(article_filename) if enable_llm else None
-    # answer_generator = WikiAnswerGenerator(article_filename)
     qa_writer.start_new_session(mode=QuestionAnswerWriter.QUESTION_AND_ANSWER)
     for question in questions_to_answer:
         if enable_llm:

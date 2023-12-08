@@ -1,5 +1,6 @@
 import concurrent.futures
 from qa_generator import QAGeneratorWithCache
+import qa_utils
 
 
 class AnswerGeneratorWithBackup(QAGeneratorWithCache):
@@ -58,4 +59,9 @@ class AnswerGeneratorWithBackup(QAGeneratorWithCache):
                     return backup_answer
 
             print("All models failed to generate an answer for the given question.")
+            ir_backup_output = qa_utils.extract_context_information_retrival(
+                self._load_article(), question, 1
+            )
+            if ir_backup_output is not None or len(ir_backup_output) > 0:
+                return ir_backup_output
             return "NO_ANSWER_GENERATED"
