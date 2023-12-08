@@ -8,6 +8,7 @@
 import nltk
 from nltk.translate.bleu_score import sentence_bleu
 
+'''
 def calculate_bleu_score(reference, candidate, debug=False):
     # Tokenize the reference and candidate sentences
     reference_tokens = reference.split()
@@ -20,6 +21,24 @@ def calculate_bleu_score(reference, candidate, debug=False):
         print('BLEU:', result)
 
     return result
+'''
+
+import nltk
+from nltk.translate.bleu_score import sentence_bleu
+
+def calculate_bleu_score(reference, candidate, debug=False):
+
+    # Tokenizing the sentences into words
+    reference_tokens = nltk.word_tokenize(reference)
+    candidate_tokens = nltk.word_tokenize(candidate)
+
+    # Calculating BLEU score
+    # Note that the reference sentence must be in a list of lists format
+    bleu_score = sentence_bleu([reference_tokens], candidate_tokens)
+
+    return bleu_score
+
+
 
 
 #F1-Character Score: measure of how many characters are correctly predicted, regardless of their order.
@@ -270,3 +289,270 @@ def evaluate_syntax_fluency(sentence, debug=False, detail=False):
         return has_verb, has_subject, has_reasonable_length, unique_pos, has_coherent_structure, fluency_score
 
     return fluency_score
+
+
+def syntactic_score_for_answers(question, answer, weights_IS_yes_no=[3,2,1], weights_NOT_yes_no=[1,2,3], debug=False, extra_outputs='False'):
+    
+    #only question and answer are strictly required. Others are set to default values of equal weights, no print out and no additional outputs
+    #There are 2 sets of weights since answers to YES/NO type questions are not comparable to non Yes/No type
+    #weights are of [0] coherency, [1] conciseness and [2] fluency are proportions which are scaled to 0 and 1 within the function. 
+    
+    # Default values have the following logic:
+    # if IS a Yes/No type, then fluency is less relevant since short answers are generally not fluent. Better answers should be coherent first and concise second, thus weights_IS_yes_no=[3,2,1]
+    # if NOT a Yes/No type, then fluency is deemed more important than conciseness. Coherency in this case represents answering in the "wrong format", thus weights_NOT_yes_no=[1,2,3]
+    
+
+    is_yes_no_type=is_yes_no_question(question)
+    coherency = evaluate_type_coherency(question,answer)
+    conciseness=evaluate_conciseness(answer)
+    fluency=evaluate_syntax_fluency(answer)
+    
+    #choose adequate weights for the case
+    if is_yes_no_type==1:
+        weights=weights_IS_yes_no   
+    else:
+        weights=weights_NOT_yes_no   
+
+    #calulate score as weighted average
+    syntactic_score=(coherency*weights[0]+conciseness*weights[1]+fluency*weights[2])/np.sum(weights)
+
+    #print out for debug
+    if debug==True:
+        print('Q:',question,
+              '|YES/NO TYPE:',is_yes_no_type, 
+              '||A:',answer,
+              '|COHERENCY(',weights[0],'):',coherency, 
+              '|CONCISENESS(',weights[1],'):',conciseness,
+              '|FLUENCY(',weights[2],'):', fluency, 
+              '||SYNTACTIC SCORE:',syntactic_score
+               ) 
+    
+    #return outputs
+    if extra_outputs==True:
+        return syntactic_score, is_yes_no_type, coherency, fluency, conciseness
+    else:
+        return syntactic_score
+
+def syntactic_score_for_questions(question, weights=[1,1]):
+    if question=='':
+        return 0
+    #only question is strictly required.  
+
+    conciseness=evaluate_conciseness(question)
+    fluency=evaluate_syntax_fluency(question)
+    
+    #calulate score as weighted average
+    syntactic_score=(conciseness*weights[0]+fluency*weights[1])/np.sum(weights)
+
+    return syntactic_score
+
+##################################
+
+def load_QA(file):
+    human_questions=[]
+    with open(file+'_human_questions.txt', 'r') as read:
+        # Read and print each line
+        for line in read:
+            human_questions.append(line.strip())
+    print('Human Q:',len(human_questions),human_questions)
+
+    #Human answers
+    human_answers=[]
+    with open(file+'_human_answers.txt', 'r') as read:
+        # Read and print each line
+        for line in read:
+            human_answers.append(line.strip())
+    print('Human A:',len(human_answers),human_answers)
+
+    #Machine questions
+    machine_questions=[]
+    with open(file+'_machine_questions.txt', 'r') as read:
+        # Read and print each line
+        for line in read:
+            line=line[3:] #take out first characters
+            machine_questions.append(line.strip())
+    print('Machine Q:',len(machine_questions),machine_questions)
+
+    machine_answers=[]
+    with open(file+'_machine_question_answer_pairs.txt', 'r') as read:
+        # Read and print each line
+        for line in read:
+            if line[0]=='A': #only upload answers
+                line=line[3:] #take out first characters
+                machine_answers.append(line.strip())
+    print('Machine A:',len(machine_answers),machine_answers)
+
+    return human_questions, human_answers, machine_questions, machine_answers
+
+
+def question_syntactic_analysis(article_name, human_questions, machine_questions, output_file):
+    #Human Question Analysis
+
+    with open(output_file, 'a') as file: 
+
+        header=('article_name',
+                'human/machine',
+                'question',
+                'is_yes_no_type_question',
+                'question_type',
+                'word_count', 'n_content_words', 'n_relevant_words', 'conciseness_score',
+                'has_verb', 'has_subject', 'has_reasonable_length', 'n_unique_POS','has_coherent_structure', 'fluency_score',
+                'syntactic_score_for_questions'
+                )
+
+        file.write('|'.join(header) + "\n")
+
+        for i in range(len(human_questions)):
+
+                line=(article_name, #article name
+                    'human', #human/machine,
+                    human_questions[i], #question,
+                    is_yes_no_question(human_questions[i]), #is yes/no type
+                    classify_question(human_questions[i]), #question_type
+                    *evaluate_conciseness(human_questions[i], detail=True), #word count, n content words, n relevant words, conciseness score
+                    *evaluate_syntax_fluency(human_questions[i],detail=True), #'has_verb', 'has_subject', 'has_reasonable_length', 'has_unique_POS','has_coherent_structure', 'fluency_score'
+                    syntactic_score_for_questions(human_questions[i])
+                    )
+
+                # Convert all elements to strings, converting True/False to 1/0, join them with a comma, and write to the file
+                line = [str(int(item)) if isinstance(item, bool) else str(item) for item in line]
+                file.write('|'.join(line) + "\n")
+
+    #Machine Question Analysis
+
+    with open(output_file, 'a') as file:
+
+        for i in range(len(machine_questions)):
+
+                line=(article_name, #article name
+                    'machine', #human/machine,
+                    machine_questions[i], #question,
+                    is_yes_no_question(machine_questions[i]), #is yes/no type
+                    classify_question(machine_questions[i]), #question_type
+                    *evaluate_conciseness(machine_questions[i], detail=True), #word count, n content words, n relevant words, conciseness score
+                    *evaluate_syntax_fluency(machine_questions[i],detail=True), #'has_verb', 'has_subject', 'has_reasonable_length', 'has_unique_POS','has_coherent_structure', 'fluency_score'
+                    syntactic_score_for_questions(machine_questions[i])
+                    )
+
+                # Convert all elements to strings, converting True/False to 1/0, join them with a comma, and write to the file
+                line = [str(int(item)) if isinstance(item, bool) else str(item) for item in line]
+                file.write('|'.join(line) + "\n")
+
+
+    
+def question_semantic_analysis(article_name, human_questions, machine_questions, output_file):
+    with open(output_file, 'a') as file:
+
+        header=('article_name',
+                'machine_question',
+                'human_question',
+                'is_yes_no_machine_question',
+                'type_machine_question',
+                'is_yes_no_human_question',
+                'type_human_question',
+                'match_yes_no_type_question',
+                'match_type_question',
+
+                'f1_char_score',
+                'bleu_score',
+                'jaccard_similarity',
+                'jaccard_similarity_bigrams',
+                'overlap_coefficient'
+                )
+
+        file.write('|'.join(header) + "\n")
+
+        for machine in machine_questions:
+                for human in human_questions:
+                    line=(article_name, #article name
+                            machine,      #machine questions
+                            human,         #human question
+                            is_yes_no_question(machine), #is yes/no type machine question
+                            classify_question(machine), #type machine question
+                            is_yes_no_question(human), #is yes/no human question
+                            classify_question(human), #type human question,
+                            is_yes_no_question(machine)==is_yes_no_question(human), #match yes/no type question
+                            classify_question(machine)==classify_question(human), #match type question
+
+                            calculate_f1_character_score(human,machine),
+                            calculate_bleu_score(human, machine),
+                            get_jaccard_similarity(human,machine),
+                            get_jaccard_similarity_bigrams(human,machine),
+                            get_overlap_coefficient(human,machine)
+                            )
+                                # Convert all elements to strings, converting True/False to 1/0, join them with a comma, and write to the file
+                    line = [str(int(item)) if isinstance(item, bool) else str(item) for item in line]
+                    file.write('|'.join(line) + "\n")
+
+
+def answer_syntactic_semantic_analysis(article_name, human_questions, human_answers, machine_answers, output_file):
+## Answer Analysis - Semantic and Syntactic
+
+      with open(output_file, 'a') as file:
+            header=('article_name',
+            'human_question',
+            'is_yes_no_type_question',
+            'question_type',
+            'human_answer',
+            'machine_answer',
+            'is_yes_no_type_human_answer',
+            'is_yes_no_type_machine_answer',
+            'is_coherent_type_human_answer',
+            'is_coherent_type_machine_answer',
+
+            #Semantic
+            'f1_char_score',
+            'bleu_score',
+            'jaccard_similarity',
+            'jaccard_similarity_bigrams',
+            'overlap_coefficient',
+
+            #Syntactic human
+            'word_count_human', 'n_content_words_human', 'n_relevant_words_human', 'conciseness_score_human',
+            'has_verb_human', 'has_subject_human', 'has_reasonable_length_human', 'n_unique_POS_human','has_coherent_structure_human', 'fluency_score_human',
+            'syntactic_score_for_answers_human', 
+
+            #Syntactic machine
+            'word_count_machine', 'n_content_words_machine', 'n_relevant_words_machine', 'conciseness_score_machine',
+            'has_verb_machine', 'has_subject_machine', 'has_reasonable_length_machine', 'n_unique_POS_machine','has_coherent_structure_machine', 'fluency_score_machine',
+            'syntactic_score_for_answers_machine'
+
+            )
+
+            file.write('|'.join(header) + "\n")
+
+            for i in range(len(human_questions)):
+
+                line=(article_name, #article name
+                    human_questions[i], #human question,
+                    is_yes_no_question(human_questions[i]), #is yes/no type
+                    classify_question(human_questions[i]), #question_type
+                    human_answers[i], #human answer,
+                    machine_answers[i], #machine answer,
+                    is_yes_no_answer(human_answers[i]), #is yes/no type human
+                    is_yes_no_answer(machine_answers[i]), #is yes/no type machine
+                    is_yes_no_question(human_questions[i])==is_yes_no_answer(human_answers[i]), #'is_coherent_type_human_answer',
+                    is_yes_no_question(human_questions[i])==is_yes_no_answer(machine_answers[i]), #'is_coherent_type_machine_answer',
+
+                    #Semantic
+                    calculate_f1_character_score(human_answers[i],machine_answers[i]),
+                    calculate_bleu_score(human_answers[i],machine_answers[i]),
+                    get_jaccard_similarity(human_answers[i],machine_answers[i]),
+                    get_jaccard_similarity_bigrams(human_answers[i],machine_answers[i]),
+                    get_overlap_coefficient(human_answers[i],machine_answers[i]),
+
+                    #Syntactic human
+                    *evaluate_conciseness(human_answers[i], detail=True), #word c,ount, n content words, n relevant words, conciseness score
+                    *evaluate_syntax_fluency(human_answers[i],detail=True), #'has_verb', 'has_subject', 'has_reasonable_length', 'has_unique_POS','has_coherent_structure', 'fluency_score'
+                    syntactic_score_for_answers(human_questions[i], human_answers[i]),
+
+                    #Syntactic machine
+                    *evaluate_conciseness(machine_answers[i], detail=True), #word count, n content words, n relevant words, conciseness score
+                    *evaluate_syntax_fluency(machine_answers[i],detail=True), #'has_verb', 'has_subject', 'has_reasonable_length', 'has_unique_POS','has_coherent_structure', 'fluency_score'
+                    syntactic_score_for_answers(human_questions[i], machine_answers[i])
+                
+                    )
+
+                # Convert all elements to strings, converting True/False to 1/0, join them with a comma, and write to the file
+                line = [str(int(item)) if isinstance(item, bool) else str(item) for item in line]
+                file.write('|'.join(line) + "\n")
