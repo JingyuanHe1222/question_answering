@@ -1,0 +1,66 @@
+Q: Was Grover Cleveland born in New York?
+A: NOT_GENERATED
+Q: Was Grover Cleveland born in New York?
+A: NOT_GENERATED
+Q: Did Grover Cleveland win the 1884 election?
+A: Context: He actually led in the popular vote over Benjamin Harrison (48.6% to 47.8%), but Harrison won the Electoral College by a 233-168 margin, largely by squeaking out a barely-over-1% win in Cleveland's home state of New York; in fact, had Cleveland won his home state, he would have won the electoral vote by a count of 204-197 (201 votes then needed for victory). Cleveland won the Presidency in the 1884 election with the unusual combination of support from both Democrats and reform-minded Republicans called "Mugwumps" who denounced his opponent, former Senator James G. Blaine of Maine, as corrupt. Cleveland's victory made him the first Democrat elected president since James Buchanan, who was elected in 1856. Question: Did Grover Cleveland win the 1884 election? Answer with 'Yes' or 'No'.
+Q: Did Grover Cleveland win the 1884 election?
+A: Context: He actually led in the popular vote over Benjamin Harrison (48.6% to 47.8%), but Harrison won the Electoral College by a 233-168 margin, largely by squeaking out a barely-over-1% win in Cleveland's home state of New York; in fact, had Cleveland won his home state, he would have won the electoral vote by a count of 204-197 (201 votes then needed for victory). Cleveland won the Presidency in the 1884 election with the unusual combination of support from both Democrats and reform-minded Republicans called "Mugwumps" who denounced his opponent, former Senator James G. Blaine of Maine, as corrupt. Cleveland's victory made him the first Democrat elected president since James Buchanan, who was elected in 1856. Question: Did Grover Cleveland win the 1884 election? Answer with 'Yes' or 'No'.
+Q: Did Grover Cleveland support women's suffrage?
+A: Context: "Ethno-cultural Realities in Presidential Patronage: Grover Cleveland's Choices" New York History 2000 81(2): 189-210. Letters of Grover Cleveland, 1850-1908 (1934) * Sturgis, Amy H. ed. *  Extensive essay on Grover Cleveland and shorter essays on each member of his cabinet and First Lady from the Miller Center of Public Affairs *  White House website biography of Grover Cleveland *   *  POTUS - Grover Cleveland *  Audio clips of Cleveland's speeches *  First Inaugural Address *  Second Inaugural Address *  Obituary for Grover Cleveland *  Our Libertarian President *  Cleveland's grandson, George, impersonating him on Heritage Day in Tamworth, New Hampshire. Question: Did Grover Cleveland support women's suffrage? Answer with 'Yes' or 'No'.
+Q: Did Grover Cleveland support women's suffrage?
+A: Context: "Ethno-cultural Realities in Presidential Patronage: Grover Cleveland's Choices" New York History 2000 81(2): 189-210. Letters of Grover Cleveland, 1850-1908 (1934) * Sturgis, Amy H. ed. *  Extensive essay on Grover Cleveland and shorter essays on each member of his cabinet and First Lady from the Miller Center of Public Affairs *  White House website biography of Grover Cleveland *   *  POTUS - Grover Cleveland *  Audio clips of Cleveland's speeches *  First Inaugural Address *  Second Inaugural Address *  Obituary for Grover Cleveland *  Our Libertarian President *  Cleveland's grandson, George, impersonating him on Heritage Day in Tamworth, New Hampshire. Question: Did Grover Cleveland support women's suffrage? Answer with 'Yes' or 'No'.
+Q: Where was Grover Cleveland married?
+A: Grover Cleveland was married in the Blue Room in the White House.
+Q: Where was Grover Cleveland married?
+A: Grover Cleveland was married in the Blue Room in the White House.
+Q: What did Cleveland die from?
+A: Cleveland died from a heart attack.
+Q: What did Cleveland die from?
+A: Cleveland died from a heart attack.
+Q: How many years after Cleveland left office did the U.S. win the Spanish-American War?
+A: 1 year
+Q: How many years after Cleveland left office did the U.S. win the Spanish-American War?
+A: 1 year
+Q: What did Cleveland's opponents say in 1884 to counter his innocent image?
+A: Cleveland's opponents reported that Cleveland had fathered an illegitimate child while he was a lawyer in Buffalo.
+Q: What did Cleveland's opponents say in 1884 to counter his innocent image?
+A: Cleveland's opponents reported that Cleveland had fathered an illegitimate child while he was a lawyer in Buffalo.
+Q: Who did Cleveland run against in 1884?
+A: James G. Blaine
+Q: Who did Cleveland run against in 1884?
+A: James G. Blaine
+Q: Why did Cleveland want to hide his cancer surgery from the public?
+A: Cleveland wanted to hide his cancer surgery from the public to avoid further market panic and to protect his reputation.
+Q: Why did Cleveland want to hide his cancer surgery from the public?
+A: Cleveland wanted to hide his cancer surgery from the public to avoid further market panic and to protect his reputation.
+Q: Was Grover Cleveland the twenty-seventh president of the United States?
+A: No
+Q: Was Grover Cleveland the twenty-seventh president of the United States?
+A: No
+Q: Is Grover Cleveland honest?
+A: NOT_GENERATED
+Q: Is Grover Cleveland honest?
+A: NOT_GENERATED
+Q: Was Grover Cleveland married in the whitehouse?
+A: Context: Grover Cleveland was the second President married in office, and the only President married in the White House itself  On June 2, 1886, Cleveland married Frances Cornelia Folsom, the daughter of his former law partner, in the Blue Room in the White House. He was the second President to marry while in office, and the only President to have a wedding in the White House itself. *  Extensive essay on Grover Cleveland and shorter essays on each member of his cabinet and First Lady from the Miller Center of Public Affairs *  White House website biography of Grover Cleveland *   *  POTUS - Grover Cleveland *  Audio clips of Cleveland's speeches *  First Inaugural Address *  Second Inaugural Address *  Obituary for Grover Cleveland *  Our Libertarian President *  Cleveland's grandson, George, impersonating him on Heritage Day in Tamworth, New Hampshire. Question: Was Grover Cleveland married in the whitehouse? Answer with 'Yes' or 'No'.
+Q: Was Grover Cleveland married in the whitehouse?
+A: Context: Grover Cleveland was the second President married in office, and the only President married in the White House itself  On June 2, 1886, Cleveland married Frances Cornelia Folsom, the daughter of his former law partner, in the Blue Room in the White House. He was the second President to marry while in office, and the only President to have a wedding in the White House itself. *  Extensive essay on Grover Cleveland and shorter essays on each member of his cabinet and First Lady from the Miller Center of Public Affairs *  White House website biography of Grover Cleveland *   *  POTUS - Grover Cleveland *  Audio clips of Cleveland's speeches *  First Inaugural Address *  Second Inaugural Address *  Obituary for Grover Cleveland *  Our Libertarian President *  Cleveland's grandson, George, impersonating him on Heritage Day in Tamworth, New Hampshire. Question: Was Grover Cleveland married in the whitehouse? Answer with 'Yes' or 'No'.
+Q: When was he elected sheriff of Erire County, New York?
+A: 1871
+Q: When was he elected sheriff of Erire County, New York?
+A: 1871
+Q: When did he die?
+A: 1908
+Q: When did he die?
+A: 1908
+Q: Which election did Grover Cleveland win?
+A: 1884
+Q: Who were Grover Cleveland's parents?
+A: Grover Cleveland was born in Caldwell, New Jersey to the Reverend Richard Cleveland and Anne Neal.
+Q: Who were Grover Cleveland's parents?
+A: Grover Cleveland was born in Caldwell, New Jersey to the Reverend Richard Cleveland and Anne Neal.
+Q: How many children did Grover Cleveland have?
+A: 5
+Q: How many children did Grover Cleveland have?
+A: 5

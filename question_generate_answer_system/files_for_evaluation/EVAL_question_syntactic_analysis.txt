@@ -1,0 +1,215 @@
+article_name|human/machine|question|is_yes_no_type_question|question_type|word_count|n_content_words|n_relevant_words|conciseness_score|has_verb|has_subject|has_reasonable_length|n_unique_POS|has_coherent_structure|fluency_score|syntactic_score_for_questions
+Grover_Cleveland|human|Was Grover Cleveland born in New York?|1|Yes/No|8|1|7|0.14285714285714285|1|1|1|5|0|0.8|0.4714285714285714
+Grover_Cleveland|human|Was Grover Cleveland born in New York?|1|Yes/No|8|1|7|0.14285714285714285|1|1|1|5|0|0.8|0.4714285714285714
+Grover_Cleveland|human|Did Grover Cleveland win the 1884 election?|1|Yes/No|8|2|7|0.2857142857142857|1|1|1|7|0|0.8|0.5428571428571429
+Grover_Cleveland|human|Did Grover Cleveland win the 1884 election?|1|Yes/No|8|2|7|0.2857142857142857|1|1|1|7|0|0.8|0.5428571428571429
+Grover_Cleveland|human|Did Grover Cleveland support women's suffrage?|1|Yes/No|8|3|7|0.42857142857142855|1|1|1|6|0|0.8|0.6142857142857143
+Grover_Cleveland|human|Did Grover Cleveland support women's suffrage?|1|Yes/No|8|3|7|0.42857142857142855|1|1|1|6|0|0.8|0.6142857142857143
+Grover_Cleveland|human|Where was Grover Cleveland married?|0|What/Where/Who|6|1|5|0.2|1|1|1|5|0|0.8|0.5
+Grover_Cleveland|human|Where was Grover Cleveland married?|0|What/Where/Who|6|1|5|0.2|1|1|1|5|0|0.8|0.5
+Grover_Cleveland|human|What did Cleveland die from?|0|What/Where/Who|6|1|5|0.2|1|1|1|6|0|0.8|0.5
+Grover_Cleveland|human|What did Cleveland die from?|0|What/Where/Who|6|1|5|0.2|1|1|1|6|0|0.8|0.5
+Grover_Cleveland|human|How many years after Cleveland left office did the U.S. win the Spanish-American War?|0|How|15|4|13|0.3076923076923077|1|1|1|8|0|0.8|0.5538461538461539
+Grover_Cleveland|human|How many years after Cleveland left office did the U.S. win the Spanish-American War?|0|How|15|4|13|0.3076923076923077|1|1|1|8|0|0.8|0.5538461538461539
+Grover_Cleveland|human|What did Cleveland's opponents say in 1884 to counter his innocent image?|0|What/Where/Who|14|4|13|0.3076923076923077|1|1|1|10|0|0.8|0.5538461538461539
+Grover_Cleveland|human|What did Cleveland's opponents say in 1884 to counter his innocent image?|0|What/Where/Who|14|4|13|0.3076923076923077|1|1|1|10|0|0.8|0.5538461538461539
+Grover_Cleveland|human|Who did Cleveland run against in 1884?|0|What/Where/Who|8|1|7|0.14285714285714285|1|1|1|7|0|0.8|0.4714285714285714
+Grover_Cleveland|human|Who did Cleveland run against in 1884?|0|What/Where/Who|8|1|7|0.14285714285714285|1|1|1|7|0|0.8|0.4714285714285714
+Grover_Cleveland|human|Why did Cleveland want to hide his cancer surgery from the public?|0|When/Why|13|5|12|0.4166666666666667|1|1|1|10|0|0.8|0.6083333333333334
+Grover_Cleveland|human|Why did Cleveland want to hide his cancer surgery from the public?|0|When/Why|13|5|12|0.4166666666666667|1|1|1|10|0|0.8|0.6083333333333334
+Grover_Cleveland|human|Was Grover Cleveland the twenty-seventh president of the United States?|1|Yes/No|11|1|9|0.1111111111111111|0|1|1|7|1|0.8|0.4555555555555556
+Grover_Cleveland|human|Was Grover Cleveland the twenty-seventh president of the United States?|1|Yes/No|11|1|9|0.1111111111111111|0|1|1|7|1|0.8|0.4555555555555556
+Grover_Cleveland|human|Is Grover Cleveland honest?|1|Yes/No|5|0|4|0.0|0|1|1|4|1|0.8|0.4
+Grover_Cleveland|human|Is Grover Cleveland honest?|1|Yes/No|5|0|4|0.0|0|1|1|4|1|0.8|0.4
+Grover_Cleveland|human|Was Grover Cleveland married in the whitehouse?|1|Yes/No|8|2|7|0.2857142857142857|1|1|1|7|0|0.8|0.5428571428571429
+Grover_Cleveland|human|Was Grover Cleveland married in the whitehouse?|1|Yes/No|8|2|7|0.2857142857142857|1|1|1|7|0|0.8|0.5428571428571429
+Grover_Cleveland|human|When was he elected sheriff of Erire County, New York?|0|When/Why|12|1|10|0.1|1|1|1|8|0|0.8|0.45
+Grover_Cleveland|human|When was he elected sheriff of Erire County, New York?|0|When/Why|12|1|10|0.1|1|1|1|8|0|0.8|0.45
+Grover_Cleveland|human|When did he die?|0|When/Why|5|1|4|0.25|1|1|1|5|0|0.8|0.525
+Grover_Cleveland|human|When did he die?|0|When/Why|5|1|4|0.25|1|1|1|5|0|0.8|0.525
+Grover_Cleveland|human|Which election did Grover Cleveland win?|0|Open-Ended|7|2|6|0.3333333333333333|1|1|1|6|0|0.8|0.5666666666666667
+Grover_Cleveland|human|Who were Grover Cleveland's parents?|0|What/Where/Who|7|1|6|0.16666666666666666|0|0|1|6|0|0.4|0.2833333333333333
+Grover_Cleveland|human|Who were Grover Cleveland's parents?|0|What/Where/Who|7|1|6|0.16666666666666666|0|0|1|6|0|0.4|0.2833333333333333
+Grover_Cleveland|human|How many children did Grover Cleveland have?|0|How|8|2|7|0.2857142857142857|1|1|1|7|0|0.8|0.5428571428571429
+Grover_Cleveland|human|How many children did Grover Cleveland have?|0|How|8|2|7|0.2857142857142857|1|1|1|7|0|0.8|0.5428571428571429
+Grover_Cleveland|machine|Who was the only President to serve non-consecutive terms?|0|What/Where/Who|10|2|9|0.2222222222222222|1|0|1|9|0|0.6|0.4111111111111111
+Grover_Cleveland|machine|Who was defeated for reelection in 1888?|0|What/Where/Who|8|2|7|0.2857142857142857|1|1|1|7|0|0.8|0.5428571428571429
+Grover_Cleveland|machine|Who was the only democrat elected to the Presidency between 1860 and 1912?|0|What/Where/Who|14|2|13|0.15384615384615385|1|0|1|11|0|0.6|0.3769230769230769
+Grover_Cleveland|machine|What do admirers praise about Marx?|0|What/Where/Who|7|2|6|0.3333333333333333|0|0|1|6|0|0.4|0.3666666666666667
+Grover_Cleveland|machine|Who was a leader of the Bourbon Democrats?|0|What/Where/Who|9|1|8|0.125|0|1|1|7|0|0.6|0.3625
+Grover_Cleveland|machine|What was controversial about Cleveland's actions?|0|What/Where/Who|8|1|7|0.14285714285714285|0|1|1|8|0|0.6|0.37142857142857144
+Grover_Cleveland|machine|In what year did the Pullman Strike occur?|0|Open-Ended|9|2|8|0.25|1|1|1|7|0|0.8|0.525
+Grover_Cleveland|machine|What did critics say about Bush during his second term?|0|What/Where/Who|11|3|10|0.3|1|1|1|8|0|0.8|0.55
+Grover_Cleveland|machine|When did grarians and silverites lose control of their party?|0|When/Why|11|5|10|0.5|1|1|1|8|0|0.8|0.65
+Grover_Cleveland|machine|Where are the Cleveland Family Papers located?|0|What/Where/Who|8|1|7|0.14285714285714285|1|1|1|6|0|0.8|0.4714285714285714
+article_name|human/machine|question|is_yes_no_type_question|question_type|word_count|n_content_words|n_relevant_words|conciseness_score|has_verb|has_subject|has_reasonable_length|n_unique_POS|has_coherent_structure|fluency_score|syntactic_score_for_questions
+Beijing|human|Does Beijing mean "northern capital"?|1|Yes/No|8|2|5|0.4|1|1|1|6|0|0.8|0.6000000000000001
+Beijing|human|Are the caves of Dragon Bone Hill near the village of Zhoukoudian in Fangshan District?|1|Yes/No|16|2|15|0.13333333333333333|0|1|1|6|1|0.8|0.4666666666666667
+Beijing|human|Are hutongs disappearing?|1|Yes/No|4|2|3|0.6666666666666666|1|1|1|4|0|0.8|0.7333333333333334
+Beijing|human|When did Beijing host the Olympic Games?|0|When/Why|8|1|7|0.14285714285714285|1|1|1|6|0|0.8|0.4714285714285714
+Beijing|human|When was the An Shi Rebellion launched?|0|When/Why|8|1|7|0.14285714285714285|1|1|1|6|0|0.8|0.4714285714285714
+Beijing|human|In 1949, where did Communist forces enter without a fight?|0|Open-Ended|12|3|10|0.3|1|1|1|9|0|0.8|0.55
+Beijing|human|When did Yuan Shikai die?|0|When/Why|6|1|5|0.2|1|1|1|5|0|0.8|0.5
+Beijing|human|Where does air pollution in Beijing come from?|0|What/Where/Who|9|3|8|0.375|1|1|1|7|0|0.8|0.5875
+Beijing|human|As of August 1st, 2006, how many trains stop daily at the Beijing Railway Station or the Beijing West Railway Station?|0|Choice|24|3|21|0.14285714285714285|1|1|0|11|0|0.6|0.37142857142857144
+Beijing|machine|What is another name for Beijing?|0|What/Where/Who|7|1|6|0.16666666666666666|0|1|1|7|0|0.6|0.3833333333333333
+Beijing|machine|How many municipalities does the PRC have?|0|How|8|2|7|0.2857142857142857|1|1|1|8|0|0.8|0.5428571428571429
+Beijing|machine|What is the name of the municipality that borders Beijing?|0|What/Where/Who|11|3|10|0.3|1|1|1|8|0|0.8|0.55
+Beijing|machine|What is one of the Four Great Ancient Capitals of China?|0|What/Where/Who|12|0|11|0.0|0|1|1|7|0|0.6|0.3
+Beijing|machine|What is the second largest city in China?|0|What/Where/Who|9|1|8|0.125|0|1|1|9|0|0.6|0.3625
+Beijing|machine|How many railways, roads and motorways pass through Beijing?|0|How|11|4|9|0.4444444444444444|1|1|1|8|0|0.8|0.6222222222222222
+Beijing|machine|What city is the focal point of many international flights to China?|0|What/Where/Who|13|3|12|0.25|0|0|1|7|0|0.4|0.325
+Beijing|machine|What city is recognized as the political, educational, and cultural center of China?|0|What/Where/Who|16|3|13|0.23076923076923078|1|1|1|10|0|0.8|0.5153846153846154
+Beijing|machine|What year did the city host the Olympic Games?|0|What/Where/Who|10|3|9|0.3333333333333333|0|0|1|5|0|0.4|0.3666666666666667
+Beijing|machine|How long has Beijing served as the political and cultural center of China?|0|How|14|2|13|0.15384615384615385|1|1|1|11|0|0.8|0.47692307692307695
+article_name|human/machine|question|is_yes_no_type_question|question_type|word_count|n_content_words|n_relevant_words|conciseness_score|has_verb|has_subject|has_reasonable_length|n_unique_POS|has_coherent_structure|fluency_score|syntactic_score_for_questions
+Jakarta|human|Is the Wisma building the tallest building in Indonesia?|1|Yes/No|10|2|9|0.2222222222222222|1|1|1|8|1|1.0|0.6111111111111112
+Jakarta|human|Is the Wisma building the tallest building in Indonesia?|1|Yes/No|10|2|9|0.2222222222222222|1|1|1|8|1|1.0|0.6111111111111112
+Jakarta|human|is there a chinese community in jakarta?|1|Yes/No|8|1|7|0.14285714285714285|0|0|1|8|1|0.6|0.37142857142857144
+Jakarta|human|is there a chinese community in jakarta?|1|Yes/No|8|1|7|0.14285714285714285|0|0|1|8|1|0.6|0.37142857142857144
+Jakarta|human|Is Jakarta the 12th largest city in the world?|1|Yes/No|10|2|9|0.2222222222222222|0|1|1|8|1|0.8|0.5111111111111111
+Jakarta|human|Is Jakarta the 12th largest city in the world?|1|Yes/No|10|2|9|0.2222222222222222|0|1|1|8|1|0.8|0.5111111111111111
+Jakarta|human|What is the capital of Indonesia?|0|What/Where/Who|7|1|6|0.16666666666666666|0|1|1|7|0|0.6|0.3833333333333333
+Jakarta|human|What is the capital of Indonesia?|0|What/Where/Who|7|1|6|0.16666666666666666|0|1|1|7|0|0.6|0.3833333333333333
+Jakarta|human|What is the official name of Jakarta?|0|What/Where/Who|8|1|7|0.14285714285714285|0|1|1|8|0|0.6|0.37142857142857144
+Jakarta|human|What is the official name of Jakarta?|0|What/Where/Who|8|1|7|0.14285714285714285|0|1|1|8|0|0.6|0.37142857142857144
+Jakarta|human|How is the climate in the city?|0|How|8|2|7|0.2857142857142857|0|1|1|6|0|0.6|0.44285714285714284
+Jakarta|human|How is the climate in the city?|0|How|8|2|7|0.2857142857142857|0|1|1|6|0|0.6|0.44285714285714284
+Jakarta|human|Where does the name of the city Jakarta come from?|0|What/Where/Who|11|3|10|0.3|1|1|1|8|0|0.8|0.55
+Jakarta|human|How is the city's governor chosen?|0|How|8|3|7|0.42857142857142855|1|1|1|7|0|0.8|0.6142857142857143
+Jakarta|human|How is the city's governor chosen?|0|How|8|3|7|0.42857142857142855|1|1|1|7|0|0.8|0.6142857142857143
+Jakarta|human|Why does Jakarta suffer frequent flooding?|0|When/Why|7|2|6|0.3333333333333333|1|1|1|7|0|0.8|0.5666666666666667
+Jakarta|human|Why does Jakarta suffer frequent flooding?|0|When/Why|7|2|6|0.3333333333333333|1|1|1|7|0|0.8|0.5666666666666667
+Jakarta|human|Is the the biggest university in Jakarta the University of Indonesia|1|Yes/No|11|1|11|0.09090909090909091|0|1|1|6|1|0.8|0.4454545454545455
+Jakarta|human|Is Jakarta a city|1|Yes/No|4|1|4|0.25|0|1|1|4|1|0.8|0.525
+Jakarta|human|Is Jakarta a city|1|Yes/No|4|1|4|0.25|0|1|1|4|1|0.8|0.525
+Jakarta|human|Is the most important river the Ciliwung River|1|Yes/No|8|1|8|0.125|0|1|1|6|1|0.8|0.4625
+Jakarta|human|Is the most important river the Ciliwung River|1|Yes/No|8|1|8|0.125|0|1|1|6|1|0.8|0.4625
+Jakarta|human|Where is Jakarta located|0|What/Where/Who|4|1|4|0.25|1|1|1|4|0|0.8|0.525
+Jakarta|human|Where is Jakarta located|0|What/Where/Who|4|1|4|0.25|1|1|1|4|0|0.8|0.525
+Jakarta|human|Who created Monas Park|0|What/Where/Who|4|1|4|0.25|1|1|1|3|0|0.6|0.425
+Jakarta|human|Who created Monas Park|0|What/Where/Who|4|1|4|0.25|1|1|1|3|0|0.6|0.425
+Jakarta|human|Do mikrolets travel on the main roads?|1|Yes/No|8|4|7|0.5714285714285714|1|0|1|6|1|0.8|0.6857142857142857
+Jakarta|human|Do mikrolets travel on the main roads?|1|Yes/No|8|4|7|0.5714285714285714|1|0|1|6|1|0.8|0.6857142857142857
+Jakarta|human|What contributes to frequent flooding in Jakarta|0|What/Where/Who|7|2|7|0.2857142857142857|1|1|1|6|0|0.8|0.5428571428571429
+Jakarta|human|What contributes to frequent flooding in Jakarta|0|What/Where/Who|7|2|7|0.2857142857142857|1|1|1|6|0|0.8|0.5428571428571429
+Jakarta|human|Did the economy improve in Jakarta in 2007|1|Yes/No|8|2|8|0.25|1|1|1|7|0|0.8|0.525
+Jakarta|human|Did the economy improve in Jakarta in 2007|1|Yes/No|8|2|8|0.25|1|1|1|7|0|0.8|0.525
+Jakarta|machine|What is another name for Jakarta?|0|What/Where/Who|7|1|6|0.16666666666666666|0|1|1|7|0|0.6|0.3833333333333333
+Jakarta|machine|What is the population of Java?|0|What/Where/Who|7|1|6|0.16666666666666666|0|1|1|7|0|0.6|0.3833333333333333
+Jakarta|machine|What is the name of the country's economic, cultural and political center?|0|What/Where/Who|15|3|13|0.23076923076923078|0|1|1|9|0|0.6|0.41538461538461535
+Jakarta|machine|What is the most populous city in Indonesia?|0|What/Where/Who|9|1|8|0.125|0|1|1|9|0|0.6|0.3625
+Jakarta|machine|What is the name of the second largest metropolitan area in the world?|0|What/Where/Who|14|3|13|0.23076923076923078|0|1|1|8|0|0.6|0.41538461538461535
+Jakarta|machine|When was the Globalization and World Cities Study Group and Network released?|0|When/Why|13|1|12|0.08333333333333333|1|1|1|7|0|0.8|0.4416666666666667
+Jakarta|machine|What is the Sanskrit word for victory?|0|What/Where/Who|8|2|7|0.2857142857142857|0|1|1|7|0|0.6|0.44285714285714284
+Jakarta|machine|When was the city founded?|0|When/Why|6|2|5|0.4|1|1|1|6|0|0.8|0.6000000000000001
+Jakarta|machine|What was the capital of the colonial Dutch East Indies?|0|What/Where/Who|11|1|10|0.1|0|1|1|8|0|0.6|0.35
+Jakarta|machine|When did Indonesia become independent?|0|When/Why|6|1|5|0.2|1|1|1|6|0|0.8|0.5
+article_name|human/machine|question|is_yes_no_type_question|question_type|word_count|n_content_words|n_relevant_words|conciseness_score|has_verb|has_subject|has_reasonable_length|n_unique_POS|has_coherent_structure|fluency_score|syntactic_score_for_questions
+Violin|human|Are violinists and fiddlers the same thing?|1|Yes/No|8|3|7|0.42857142857142855|0|0|1|6|1|0.6|0.5142857142857142
+Violin|human|Are violinists and fiddlers the same thing?|1|Yes/No|8|3|7|0.42857142857142855|0|0|1|6|1|0.6|0.5142857142857142
+Violin|human|Are violins a single size?|1|Yes/No|6|2|5|0.4|0|1|1|5|1|0.8|0.6000000000000001
+Violin|human|Are violins a single size?|1|Yes/No|6|2|5|0.4|0|1|1|5|1|0.8|0.6000000000000001
+Violin|human|Are violas and cellos in the same family of instruments as violins?|1|Yes/No|13|5|12|0.4166666666666667|0|1|1|7|1|0.8|0.6083333333333334
+Violin|human|Are violas and cellos in the same family of instruments as violins?|1|Yes/No|13|5|12|0.4166666666666667|0|1|1|7|1|0.8|0.6083333333333334
+Violin|human|Where does the word "violin" come from?|0|What/Where/Who|10|3|7|0.42857142857142855|1|1|1|7|0|0.8|0.6142857142857143
+Violin|human|Where does the word "violin" come from?|0|What/Where/Who|10|3|7|0.42857142857142855|1|1|1|7|0|0.8|0.6142857142857143
+Violin|human|What is someone who makes violins called?|0|What/Where/Who|8|3|7|0.42857142857142855|1|1|1|5|0|0.8|0.6142857142857143
+Violin|human|What is someone who makes violins called?|0|What/Where/Who|8|3|7|0.42857142857142855|1|1|1|5|0|0.8|0.6142857142857143
+Violin|human|How many strings does a violin usually have?|0|How|9|3|8|0.375|1|1|1|8|0|0.8|0.5875
+Violin|human|How many strings does a violin usually have?|0|How|9|3|8|0.375|1|1|1|8|0|0.8|0.5875
+Violin|human|What are violins made of?|0|What/Where/Who|6|2|5|0.4|1|1|1|6|0|0.8|0.6000000000000001
+Violin|human|What are violins made of?|0|What/Where/Who|6|2|5|0.4|1|1|1|6|0|0.8|0.6000000000000001
+Violin|human|How long have people been making instruments like violins?|0|How|10|4|9|0.4444444444444444|1|1|1|7|0|0.8|0.6222222222222222
+Violin|human|How long have people been making instruments like violins?|0|How|10|4|9|0.4444444444444444|1|1|1|7|0|0.8|0.6222222222222222
+Violin|human|Whate is the usual pitch range of a violin?|0|Open-Ended|10|3|9|0.3333333333333333|0|1|1|7|0|0.6|0.4666666666666667
+Violin|human|Whate is the usual pitch range of a violin?|0|Open-Ended|10|3|9|0.3333333333333333|0|1|1|7|0|0.6|0.4666666666666667
+Violin|human|Does a violin have four strings?|1|Yes/No|7|3|6|0.5|1|1|1|6|0|0.8|0.65
+Violin|human|Does a violin have four strings?|1|Yes/No|7|3|6|0.5|1|1|1|6|0|0.8|0.65
+Violin|human|Is the violin supported by the left shoulder?|1|Yes/No|9|3|8|0.375|1|1|1|7|1|1.0|0.6875
+Violin|human|Is the violin supported by the left shoulder?|1|Yes/No|9|3|8|0.375|1|1|1|7|1|1.0|0.6875
+Violin|human|Is the violin shaped like an hourglass?|1|Yes/No|8|3|7|0.42857142857142855|1|1|1|6|1|1.0|0.7142857142857143
+Violin|human|Is the violin shaped like an hourglass?|1|Yes/No|8|3|7|0.42857142857142855|1|1|1|6|1|1.0|0.7142857142857143
+Violin|human|What were strings first made out of?|0|What/Where/Who|8|2|7|0.2857142857142857|1|1|1|7|0|0.8|0.5428571428571429
+Violin|human|What were strings first made out of?|0|What/Where/Who|8|2|7|0.2857142857142857|1|1|1|7|0|0.8|0.5428571428571429
+Violin|human|What is a violin called informally?|0|What/Where/Who|7|2|6|0.3333333333333333|1|1|1|7|0|0.8|0.5666666666666667
+Violin|human|What is a violin called informally?|0|What/Where/Who|7|2|6|0.3333333333333333|1|1|1|7|0|0.8|0.5666666666666667
+Violin|human|What does vitula mean?|0|What/Where/Who|5|2|4|0.5|1|1|1|4|0|0.8|0.65
+Violin|human|What does vitula mean?|0|What/Where/Who|5|2|4|0.5|1|1|1|4|0|0.8|0.65
+Violin|human|What is a person that makes or repairs violins called?|0|What/Where/Who|11|5|10|0.5|1|1|1|7|0|0.8|0.65
+Violin|human|What is a person that makes or repairs violins called?|0|What/Where/Who|11|5|10|0.5|1|1|1|7|0|0.8|0.65
+Violin|human|What does the "voice" of a violin depend upon?|0|What/Where/Who|12|3|9|0.3333333333333333|1|1|1|8|0|0.8|0.5666666666666667
+Violin|human|What does the "voice" of a violin depend upon?|0|What/Where/Who|12|3|9|0.3333333333333333|1|1|1|8|0|0.8|0.5666666666666667
+Violin|human|Is the violin a percussion instrument?|1|Yes/No|7|3|6|0.5|0|1|1|4|1|0.8|0.65
+Violin|machine|How many strings does the violin have?|0|How|8|3|7|0.42857142857142855|1|1|1|7|0|0.8|0.6142857142857143
+Violin|machine|What is the smallest member of the violin family?|0|What/Where/Who|10|2|9|0.2222222222222222|0|1|1|8|0|0.6|0.4111111111111111
+Violin|machine|What is another name for violin?|0|What/Where/Who|7|2|6|0.3333333333333333|0|1|1|6|0|0.6|0.4666666666666667
+Violin|machine|What does vitula mean?|0|What/Where/Who|5|2|4|0.5|1|1|1|4|0|0.8|0.65
+Violin|machine|When did the violin acquire most of its modern characteristics?|0|When/Why|11|3|10|0.3|1|1|1|9|0|0.8|0.55
+Violin|machine|Where were the Stradivari, Guarneri and Amati families based?|0|What/Where/Who|11|2|9|0.2222222222222222|1|1|1|8|0|0.8|0.5111111111111111
+Violin|machine|What is another name for luthier?|0|What/Where/Who|7|1|6|0.16666666666666666|0|1|1|7|0|0.6|0.3833333333333333
+Violin|machine|What type of strings are used for electric violins?|0|What/Where/Who|10|4|9|0.4444444444444444|1|1|1|7|0|0.8|0.6222222222222222
+Violin|machine|Who plays the violin?|0|What/Where/Who|5|2|4|0.5|1|1|1|5|0|0.8|0.65
+Violin|machine|What does violinist do to produce sound?|0|What/Where/Who|8|4|7|0.5714285714285714|1|1|1|6|0|0.8|0.6857142857142857
+article_name|human/machine|question|is_yes_no_type_question|question_type|word_count|n_content_words|n_relevant_words|conciseness_score|has_verb|has_subject|has_reasonable_length|n_unique_POS|has_coherent_structure|fluency_score|syntactic_score_for_questions
+Flute|human|Is the flute a musical instrument?|1|Yes/No|7|2|6|0.3333333333333333|0|1|1|5|1|0.8|0.5666666666666667
+Flute|human|Is the flute a musical instrument?|1|Yes/No|7|2|6|0.3333333333333333|0|1|1|5|1|0.8|0.5666666666666667
+Flute|human|Is it possible to open flutes at one or both ends?|1|Choice|12|3|11|0.2727272727272727|1|1|1|11|1|1.0|0.6363636363636364
+Flute|human|Is it possible to open flutes at one or both ends?|1|Choice|12|3|11|0.2727272727272727|1|1|1|11|1|1.0|0.6363636363636364
+Flute|human|Are Indian concert flutes available in standard pitches?|1|Yes/No|9|3|8|0.375|0|1|1|5|1|0.8|0.5875
+Flute|human|Are Indian concert flutes available in standard pitches?|1|Yes/No|9|3|8|0.375|0|1|1|5|1|0.8|0.5875
+Flute|human|What do we refer musicians who play flute?|0|What/Where/Who|9|4|8|0.5|1|1|1|5|0|0.8|0.65
+Flute|human|What do we refer musicians who play flute?|0|What/Where/Who|9|4|8|0.5|1|1|1|5|0|0.8|0.65
+Flute|human|When was a three-holed flute made from a mammoth tusk discovered?|0|When/Why|12|4|10|0.4|1|1|1|9|0|0.8|0.6000000000000001
+Flute|human|When was a three-holed flute made from a mammoth tusk discovered?|0|When/Why|12|4|10|0.4|1|1|1|9|0|0.8|0.6000000000000001
+Flute|human|When did the tin whistle first appear?|0|When/Why|8|2|7|0.2857142857142857|1|1|1|8|0|0.8|0.5428571428571429
+Flute|human|When did the tin whistle first appear?|0|When/Why|8|2|7|0.2857142857142857|1|1|1|8|0|0.8|0.5428571428571429
+Flute|human|What are the oldest known musical instruments?|0|What/Where/Who|8|2|7|0.2857142857142857|1|1|1|8|0|0.8|0.5428571428571429
+Flute|human|What are the oldest known musical instruments?|0|What/Where/Who|8|2|7|0.2857142857142857|1|1|1|8|0|0.8|0.5428571428571429
+Flute|human|When was the pan flute spread to other parts of Europe?|0|When/Why|12|4|11|0.36363636363636365|1|1|1|9|0|0.8|0.5818181818181818
+Flute|human|When was the pan flute spread to other parts of Europe?|0|When/Why|12|4|11|0.36363636363636365|1|1|1|9|0|0.8|0.5818181818181818
+Flute|human|What does the air stream across this hole create?|0|What/Where/Who|10|4|9|0.4444444444444444|1|1|1|7|0|0.8|0.6222222222222222
+Flute|human|What is the earliest extant transverse flute?|0|What/Where/Who|8|1|7|0.14285714285714285|0|1|1|6|0|0.6|0.37142857142857144
+Flute|human|What is the earliest extant transverse flute?|0|What/Where/Who|8|1|7|0.14285714285714285|0|1|1|6|0|0.6|0.37142857142857144
+Flute|human|When does a flute produce sound?|0|When/Why|7|3|6|0.5|0|1|1|5|0|0.6|0.55
+Flute|human|When does a flute produce sound?|0|When/Why|7|3|6|0.5|0|1|1|5|0|0.6|0.55
+Flute|human|How can a flute's volume be increased?|0|How|9|3|8|0.375|1|1|1|7|0|0.8|0.5875
+Flute|human|How can a flute's volume be increased?|0|How|9|3|8|0.375|1|1|1|7|0|0.8|0.5875
+Flute|human|Do open-ended flutes have brighter timbres?|1|Yes/No|7|4|5|0.8|1|1|1|5|0|0.8|0.8
+Flute|human|Do open-ended flutes have brighter timbres?|1|Yes/No|7|4|5|0.8|1|1|1|5|0|0.8|0.8
+Flute|human|Where was the oldest flute ever discovered found?|0|What/Where/Who|9|3|8|0.375|1|1|1|8|0|0.8|0.5875
+Flute|human|Where was the oldest flute ever discovered found?|0|What/Where/Who|9|3|8|0.375|1|1|1|8|0|0.8|0.5875
+Flute|human|Are Western flutes simpler than Indian flutes?|1|Yes/No|8|2|7|0.2857142857142857|0|0|1|5|1|0.6|0.44285714285714284
+Flute|human|Are Western flutes simpler than Indian flutes?|1|Yes/No|8|2|7|0.2857142857142857|0|0|1|5|1|0.6|0.44285714285714284
+Flute|human|Why is a police whistle very wide for its pitch?|0|When/Why|11|3|10|0.3|0|1|1|9|0|0.6|0.44999999999999996
+Flute|human|Why is a police whistle very wide for its pitch?|0|When/Why|11|3|10|0.3|0|1|1|9|0|0.6|0.44999999999999996
+Flute|human|What are the two main varieties of Indian flutes?|0|What/Where/Who|10|2|9|0.2222222222222222|0|1|1|8|0|0.6|0.4111111111111111
+Flute|human|What are the two main varieties of Indian flutes?|0|What/Where/Who|10|2|9|0.2222222222222222|0|1|1|8|0|0.6|0.4111111111111111
+Flute|human|Has the flute been dated to prehistoric times?|1|Yes/No|9|3|8|0.375|1|1|1|7|0|0.8|0.5875
+Flute|human|Has the flute been dated to prehistoric times?|1|Yes/No|9|3|8|0.375|1|1|1|7|0|0.8|0.5875
+Flute|human|Was the pan flute used in Greece?|1|Yes/No|8|3|7|0.42857142857142855|1|1|1|7|1|1.0|0.7142857142857143
+Flute|human|Was the pan flute used in Greece?|1|Yes/No|8|3|7|0.42857142857142855|1|1|1|7|1|1.0|0.7142857142857143
+Flute|human|Can a flute be played with several different air sources?|1|Yes/No|11|4|10|0.4|1|1|1|7|0|0.8|0.6000000000000001
+Flute|human|Can a flute be played with several different air sources?|1|Yes/No|11|4|10|0.4|1|1|1|7|0|0.8|0.6000000000000001
+Flute|human|When was the pan flute used in Greece?|0|When/Why|9|3|8|0.375|1|1|1|8|0|0.8|0.5875
+Flute|human|When was the pan flute used in Greece?|0|When/Why|9|3|8|0.375|1|1|1|8|0|0.8|0.5875
+Flute|human|When did concert flutes begin appearing in concert ensembles?|0|When/Why|10|6|9|0.6666666666666666|1|1|1|6|0|0.8|0.7333333333333334
+Flute|human|When did concert flutes begin appearing in concert ensembles?|0|When/Why|10|6|9|0.6666666666666666|1|1|1|6|0|0.8|0.7333333333333334
+Flute|human|How many main varieties of Indian flutes are currently used?|0|How|11|3|10|0.3|1|1|1|8|0|0.8|0.55
+Flute|human|How many main varieties of Indian flutes are currently used?|0|How|11|3|10|0.3|1|1|1|8|0|0.8|0.55
+Flute|human|What material is a chi flute fashioned from?|0|What/Where/Who|9|3|8|0.375|1|0|1|7|0|0.6|0.4875
+Flute|human|What material is a chi flute fashioned from?|0|What/Where/Who|9|3|8|0.375|1|0|1|7|0|0.6|0.4875
+Flute|human|How does a flute player change the pitch of the sound?|0|How|12|5|11|0.45454545454545453|1|1|1|7|0|0.8|0.6272727272727273
+Flute|human|How does a flute player change the pitch of the sound?|0|How|12|5|11|0.45454545454545453|1|1|1|7|0|0.8|0.6272727272727273
+Flute|human|What is the most basic form of the flute?|0|What/Where/Who|10|2|9|0.2222222222222222|0|1|1|8|0|0.6|0.4111111111111111
+Flute|human|What is the most basic form of the flute?|0|What/Where/Who|10|2|9|0.2222222222222222|0|1|1|8|0|0.6|0.4111111111111111
+Flute|machine|What is the name of the family of musical instruments?|0|What/Where/Who|11|3|10|0.3|0|1|1|7|0|0.6|0.44999999999999996
+Flute|machine|What type of wind instrument is the flute?|0|What/Where/Who|9|4|8|0.5|0|0|1|5|0|0.4|0.45
+Flute|machine|What is another name for flute player?|0|What/Where/Who|8|3|7|0.42857142857142855|0|1|1|6|0|0.6|0.5142857142857142
+Flute|machine|When was the flute dated?|0|When/Why|6|2|5|0.4|1|1|1|6|0|0.8|0.6000000000000001
+Flute|machine|Where has it appeared?|0|What/Where/Who|5|1|4|0.25|1|1|1|5|0|0.8|0.525
+Flute|machine|When was the Geißenklösterle cave discovered?|0|When/Why|7|2|6|0.3333333333333333|1|1|1|7|0|0.8|0.5666666666666667
+Flute|machine|Where was the fragment of the femur of juvenile cave bear found?|0|What/Where/Who|13|3|12|0.25|1|1|1|9|0|0.8|0.525
+Flute|machine|Where can you find more information about the flute?|0|What/Where/Who|10|3|9|0.3333333333333333|1|1|1|9|0|0.8|0.5666666666666667
+Flute|machine|When did you last see this site?|0|When/Why|8|2|7|0.2857142857142857|1|1|1|8|0|0.8|0.5428571428571429
+Flute|machine|Who is the father of all those who play the ugab and the kinnor?|0|What/Where/Who|15|4|14|0.2857142857142857|1|1|1|8|0|0.8|0.5428571428571429
