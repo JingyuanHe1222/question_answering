@@ -58,7 +58,6 @@ class AnswerGeneratorWithBackup(QAGeneratorWithCache):
                 if backup_answer not in ["[CLS]", "<s>"]:
                     return backup_answer
 
-            print("All models failed to generate an answer for the given question.")
             ir_backup_output = qa_utils.extract_context_information_retrival(
                 self._load_article(), question, 1
             )
